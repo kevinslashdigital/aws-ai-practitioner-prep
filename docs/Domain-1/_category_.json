@@ -1,0 +1,8 @@
+{
+  "label": "Domain 1: Fundamentals of AI and ML",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "5 minutes to learn the most important Docusaurus concepts."
+  }
+}
