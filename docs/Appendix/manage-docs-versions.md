@@ -22,8 +22,9 @@ Your docs now have 2 versions:
 - `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
 
 ## Add a Version Dropdown
-
+// highlight-start
 To navigate seamlessly across versions, add a version dropdown.
+// highlight-end
 
 Modify the `docusaurus.config.js` file:
 

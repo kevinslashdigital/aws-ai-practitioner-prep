@@ -1,41 +1,69 @@
-# Website
+# AWS AI Practitioner Exam Review Guide 📘🤖
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the **AWS AI Practitioner Exam Review Guide** – a collaborative open-source project created to help learners, professionals, and aspiring cloud practitioners confidently prepare for the **AWS Certified AI Practitioner** exam.
 
-### Installation
+Whether you're just getting started or brushing up your AI/ML fundamentals and AWS knowledge, this project provides structured study materials, quizzes, examples, and key exam concepts.
 
-```
-$ yarn
-```
+---
 
-### Local Development
+## 📚 What is This?
 
-```
-$ yarn start
-```
+This repository provides:
+- A structured breakdown of all **exam domains**.
+- Simplified explanations of AI/ML concepts.
+- Real-world use cases and AWS service mappings.
+- Practice quizzes and flashcards.
+- Study plans and helpful resources.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## ✨ Features
 
-```
-$ yarn build
-```
+- ✅ Covers all 5 official exam domains:
+  1. Fundamentals of AI and ML
+  2. Fundamentals of Generative AI
+  3. Applications of Foundation Models
+  4. Responsible AI Guidelines
+  5. Security, Compliance, and Governance
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- ✅ Easy-to-follow learning content
+- ✅ Community-sourced insights and tips
 
-### Deployment
+---
 
-Using SSH:
+## 🧠 Who Is This For?
 
-```
-$ USE_SSH=true yarn deploy
-```
+- Students or professionals preparing for **AWS AI Practitioner**
+- Non-technical professionals interested in understanding AI/ML
+- Technical teams aligning with AWS AI/ML services
+- Anyone exploring Generative AI and foundational models
 
-Not using SSH:
+## 🤝 Contribute
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+Interested in contributing? Awesome! Start with:
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- [Contribution Guide](CONTRIBUTING.md)
+- [Installation Guide](INSTALLATION.md)
+
+### Ways to contribute:
+
+- ➕ Add new sample questions  
+- ✍️ Improve domain explanations  
+- 🛠️ Fix typos or formatting  
+- 💡 Share study strategies  
+
+This project follows a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).  
+By participating, you agree to uphold its standards.
+
+🎁 You can also join our [community rewards program](#) to get recognition for your efforts!
+
+## 💚 Current Contributors
+
+Thanks to all these amazing contributors!  
+Want to be on this list? [Join us](#) and start contributing!
+
+<a href="https://github.com/kevinslashdigital/aws-api-practitioner-prep/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kevinslashdigital/aws-api-practitioner-prep" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
