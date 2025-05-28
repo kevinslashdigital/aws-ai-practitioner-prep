@@ -1,0 +1,97 @@
+---
+sidebar_position: 3
+---
+
+# 📂 Preparing Data to Fine-Tune a Foundation Model
+
+High-quality data is the foundation of effective fine-tuning. Properly preparing and governing your dataset ensures the model learns the right patterns, improves accuracy, and reduces risk.
+
+---
+
+## 🧹 1. Data Curation
+
+### 🔍 Definition:
+- The process of **collecting, filtering, and organizing** the data needed for training.
+
+### ✅ Best Practices:
+- Remove duplicates, noise, or irrelevant entries.
+- Normalize formats (e.g., consistent punctuation, structure).
+- Ensure balance across topics, categories, or user groups.
+
+---
+
+## 🔐 2. Data Governance
+
+### 🔍 Definition:
+- Implementing **controls and policies** to ensure data usage is secure, ethical, and compliant.
+
+### ✅ Considerations:
+- Anonymize or redact Personally Identifiable Information (PII).
+- Ensure compliance with GDPR, HIPAA, or other regulations.
+- Track data lineage and versioning.
+
+---
+
+## 📦 3. Dataset Size
+
+### 🔍 Guidance:
+- More data is generally better, but **quality outweighs quantity**.
+- Start with **a few thousand high-quality examples** for narrow domains.
+- Large foundation models benefit from hundreds of thousands to millions of examples during fine-tuning.
+
+---
+
+## 🏷️ 4. Data Labeling
+
+### 🔍 Definition:
+- Tagging data with correct outputs (labels) for supervised learning.
+
+### ✅ Examples:
+- Text classification → sentiment = "positive"
+- Question answering → correct answer span
+- Chatbot → instruction/response pairings
+
+### 🧰 Tools:
+- Amazon SageMaker Ground Truth
+- Open-source labeling tools like Label Studio
+
+---
+
+## 🌍 5. Representativeness
+
+### 🔍 Importance:
+- Your dataset should **reflect the domain, language, tone, and diversity** of your real-world use case.
+
+### ✅ Tips:
+- Include examples from all user types and edge cases.
+- Balance between formal/informal, long/short, and structured/unstructured inputs.
+
+---
+
+## 🤝 6. Reinforcement Learning from Human Feedback (RLHF)
+
+### 🔍 Definition:
+- A human-in-the-loop approach where evaluators rank or score model responses, and these ratings are used to further train the model via reinforcement learning.
+
+### ✅ Benefits:
+- Aligns model output with **human preferences** like helpfulness, truthfulness, and harmlessness.
+
+### 🧪 Example:
+- Human ranks 3 generated answers → model receives reward signal → adjusts future output preferences.
+
+---
+
+## 🧩 Summary Table
+
+| Preparation Step   | Purpose                                         | Tools/Methods                      |
+| ------------------ | ----------------------------------------------- | ---------------------------------- |
+| Data Curation      | Remove noise, improve quality                   | Scripting, normalization tools     |
+| Data Governance    | Ensure privacy, compliance, traceability        | IAM, SageMaker Data Wrangler       |
+| Dataset Size       | Ensure sufficient training signals              | Data augmentation, public datasets |
+| Data Labeling      | Provide correct outputs for supervised training | Ground Truth, manual or automated  |
+| Representativeness | Reflect target users and scenarios              | Sampling, diversity review         |
+| RLHF               | Refine responses based on human judgment        | Custom review UI, reward modeling  |
+
+---
+
+Preparing high-quality, governed, and representative data is critical to achieving a fine-tuned model that is **accurate, reliable, and safe** in production environments.
