@@ -2,139 +2,65 @@
 sidebar_position: 3
 ---
 
-# AWS Types of Inferencing
+# 🧠 SageMaker AI Inference Options
 
-In AWS, inferencing refers to making predictions using trained machine learning models. AWS provides different inferencing options based on speed, cost, and infrastructure flexibility.
-
----
-
-## 🧪 1. Batch Transform (Batch Inference)
-
-**Service:** `Amazon SageMaker`
-
-**What is it?**  
-Used for generating predictions on large datasets without needing a real-time response.
-
-**Example Use Cases:**
-- Analyzing loan applications in bulk.
-- Running periodic predictions on millions of images.
-
-**Features:**
-- Asynchronous.
-- Automatically manages compute resources.
-- Input/output data stored in Amazon S3.
-
-**When to use:**  
-When you don’t need immediate results and want to process large batches efficiently.
+SageMaker AI provides multiple inference options so that you can pick the option that best suits your workload:
 
 ---
 
-## ⚡ 2. Real-Time Inference (Endpoint Inference)
+## ⚡ Real-Time Inference
+Real-time inference is ideal for **online inferences** that have **low latency** or **high throughput** requirements.  
+Use real-time inference for a **persistent and fully managed endpoint (REST API)** that can handle sustained traffic, backed by the instance type of your choice.
 
-**Service:** `Amazon SageMaker`
+- **Payload size**: up to 6 MB  
+- **Processing time**: up to 60 seconds
 
-**What is it?**  
-Deploys the model to a real-time HTTPS endpoint. You send one request and get one response instantly.
-
-**Example Use Cases:**
-- Chatbots, fraud detection, product recommendations.
-
-**Features:**
-- Low latency.
-- Auto-scaling available.
-- Can use Multi-Model Endpoints to reduce cost.
-
-**When to use:**  
-When your application needs fast, interactive responses.
+:::tip
+**Usage**: The real-time inference is ideal for inference workloads where you have real-time, interactive, low latency requirements. You can deploy your model to SageMaker hosting services and get an endpoint that can be used for inference. These endpoints are fully managed and support autoscaling.
+:::
 
 ---
 
-## 🧠 3. Serverless Inference
+## ☁️ Serverless Inference
+Serverless inference is ideal when you have **intermittent or unpredictable traffic patterns**.  
+SageMaker AI manages all of the underlying infrastructure, so there’s **no need to manage instances or scaling policies**.  
+You pay only for what you use and not for idle time.
 
-**Service:** `Amazon SageMaker`
-
-**What is it?**  
-A real-time inference option that automatically provisions compute power when needed, then scales to zero when idle.
-
-**Example Use Cases:**
-- Infrequent, bursty inference traffic (e.g., internal tools).
-
-**Features:**
-- No need to manage servers.
-- Pay only for what you use.
-- Fast cold start for smaller models.
-
-**When to use:**  
-When you want real-time inference without managing infrastructure and with occasional usage.
+- **Payload size**: up to 4 MB  
+- **Processing time**: up to 60 seconds
+:::tip
+**Usage**: Used for workloads that have idle periods between traffic spikes and can tolerate cold starts.
+:::
 
 ---
 
-## 🌐 4. SageMaker Asynchronous Inference
+## 📥 Asynchronous Inference
+Asynchronous inference is ideal when you want to **queue requests** and have **large payloads with long processing times**.  
+Asynchronous Inference allows scaling down your endpoint to 0 when there are no requests to process.
 
-**Service:** `Amazon SageMaker`
+- **Payload size**: up to 1 GB  
+- **Processing time**: up to 1 hour
 
-**What is it?**  
-Handles large payloads or long-running predictions asynchronously through a REST endpoint.
-
-**Example Use Cases:**
-- Processing video, audio, or very large documents.
-
-**Features:**
-- Queues requests.
-- Sends results to an S3 bucket when ready.
-
-**When to use:**  
-When you have slow inference workloads or big files that take time to process.
+:::tip
+**Usage**: Used for requests with large payload sizes up to 1GB, long processing times, and near real-time latency requirements.
+:::
 
 ---
 
-## 📦 5. Amazon Bedrock Inference
+## 📦 Batch Transform
+Batch transform is suitable for **offline processing** when **large amounts of data** are available upfront and you **don’t need a persistent endpoint**.  
+You can also use batch transform for **pre-processing datasets**.
 
-**Service:** `Amazon Bedrock`
+- **Payload size**: GBs of data  
+- **Processing time**: can span multiple days
 
-**What is it?**  
-Provides **serverless inference** for foundation models (like Claude, Titan, Llama) via API calls.
-
-**Example Use Cases:**
-- Text generation, summarization, chatbots, classification.
-
-**Features:**
-- Fully managed.
-- No model training needed.
-- Pay per request/token.
-
-**When to use:**  
-When using foundation models for GenAI tasks and don’t want to manage infrastructure.
-
+:::tip
+**Usage**: To get predictions for an entire dataset.
+:::
 ---
 
-## ⚙️ 6. AWS Lambda for Lightweight Inference
+## Choosing Model Deployment Options
 
-**Service:** `AWS Lambda`
-
-**What is it?**  
-Run lightweight models in short-lived serverless functions (e.g., scikit-learn or XGBoost).
-
-**Example Use Cases:**
-- Real-time prediction in webhooks or microservices.
-
-**Features:**
-- Event-driven.
-- Fully serverless.
-- 15-minute timeout limit.
-
-**When to use:**  
-For light, fast inference without long processing time.
+![Choosing Model Deployment Options](./img/choosing-model-deployment-options.png)
 
 ---
-
-## Summary Table
-
-| AWS Inference Type           | Service        | Type       | Best For                                |
-| ---------------------------- | -------------- | ---------- | --------------------------------------- |
-| Batch Transform              | SageMaker      | Batch      | Large offline predictions               |
-| Real-Time Inference Endpoint | SageMaker      | Real-Time  | Fast, online applications               |
-| Serverless Inference         | SageMaker      | Real-Time  | On-demand usage, low traffic            |
-| Asynchronous Inference       | SageMaker      | Async      | Long-running or large-payload inference |
-| Foundation Model Inference   | Amazon Bedrock | Serverless | GenAI tasks like text generation        |
-| Lightweight Inference        | AWS Lambda     | Serverless | Simple, small-scale ML predictions      |

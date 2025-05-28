@@ -62,7 +62,9 @@ It identifies hidden patterns or clusters in data.
 ## ⚖️ 3. Semi-Supervised Learning
 
 **Definition:**  
-This method combines a small amount of labeled data with a large amount of unlabeled data to train models.
+As the name suggests, this method combines supervised and unsupervised learning. The technique relies on using a small amount of labeled data and a large amount of unlabeled data to train systems. First, the labeled data is used to partially train the machine-learning algorithm. After that, the partially trained algorithm labels the unlabeled data. This process is called pseudo-labeling. The model is then re-trained on the resulting data mix without being explicitly programmed.
+
+This method's advantage is that it does not require large amounts of labeled data. This is handy when working with data like long documents that would be too time-consuming for humans to read and label.
 
 **How it works:**  
 - First, labeled data is used to train the model.
@@ -81,7 +83,9 @@ This method combines a small amount of labeled data with a large amount of unlab
 ## 🎮 4. Reinforcement Learning
 
 **Definition:**  
-Reinforcement learning teaches an agent to make decisions by rewarding it for good actions and punishing it for bad ones.
+Reinforcement learning is a method with reward values attached to the different steps that the algorithm must go through. So, the model's goal is to accumulate as many reward points as possible and eventually reach an end goal. Most of the practical application of reinforcement learning in the past decade has been in video games. Cutting-edge reinforcement learning algorithms have achieved impressive results in classic and modern games, often significantly beating their human counterparts.
+
+The challenge with reinforcement learning is that real-world environments change often, significantly, and with limited warning. It can make it harder for the algorithms to be effective in practice. Developer bias can also affect the outcomes. As the data scientist designs the rewards, they can influence the
 
 **How it works:**  
 - The agent interacts with an environment.
@@ -104,7 +108,7 @@ Reinforcement learning teaches an agent to make decisions by rewarding it for go
 ## 🧠 5. Deep Learning
 
 **Definition:**  
-Deep learning is a subset of machine learning that uses artificial neural networks with many layers (hence "deep").
+Deep learning is a type of machine learning technique that is modeled on the human brain. Deep learning algorithms analyze data with a logic structure similar to that used by humans. They use artificial neural networks to process information in layers. An artificial neural network (ANN) is made of software nodes called artificial neurons that process data collectively. Data flows from the input layer of neurons through multiple "deep" hidden neural network layers before coming to the output layer. The additional hidden layers support learning that's far more capable than that of standard machine learning models.
 
 **How it works:**  
 - Data flows through layers of neurons.
