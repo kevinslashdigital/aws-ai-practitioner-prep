@@ -5,10 +5,10 @@ sidebar_position: 4
 # Different Types of Data in AI Models
 
 AI models can work with many types of data. Some common types include:
-[**labeled**](#1-labeled-data), [**unlabeled**](#2-unlabeled-data), 
-[**tabular**](#3-tabular-data), [**time-series**](#4-time-series-data), 
-[**image**](#5-image-data), [**text**](#6-text-data), 
-[**structured**](#7-structured-data), and [**unstructured**](#8-unstructured-data) data.  
+[**labeled**](#-1-labeled-data), [**unlabeled**](#-2-unlabeled-data), 
+[**tabular**](#-3-tabular-data), [**time-series**](#-4-time-series-data), 
+[**image**](#-5-image-data), [**text**](#-6-text-data), 
+[**structured**](#-7-structured-data), and [**unstructured**](#-8-unstructured-data) data.  
 Each type is used for different AI problems and models.
 
 ---
