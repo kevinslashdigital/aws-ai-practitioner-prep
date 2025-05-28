@@ -5,8 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "✨ Welcome to AWS AI Practitioner Exam Review Guide 📘",
+  tagline:
+    "Confidently prepare for the AWS Certified AI Practitioner exam with our community-powered study hub.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -104,29 +105,33 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Website",
+              href: "https://slash.co",
             },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+            // {
+            //   label: "Stack Overflow",
+            //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
+            // },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus",
+            // },
+            // {
+            //   label: "X",
+            //   href: "https://x.com/docusaurus",
+            // },
           ],
         },
         {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Tutorial",
+              to: "/docs/intro",
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/kevinslashdigital/aws-api-practitioner-prep",
             },
           ],
         },
