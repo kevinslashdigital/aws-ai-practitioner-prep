@@ -4,141 +4,53 @@ sidebar_position: 3
 
 # Selecting the Right ML Techniques for Use Cases (Based on AWS Best Practices)
 
-AWS recommends choosing ML techniques based on your business goal and the type of data you have. Here's how to select the right approach:
+Machine learning problems are typically categorized as supervised (classification and regression), unsupervised (clustering, anomaly detection), and can involve techniques like linear/logistic regression or cluster analysis. Supervised learning uses labeled data to predict outcomes, while unsupervised learning discovers patterns in unlabeled data.
 
 ---
 
-## 🎯 1. Regression – Predicting a Number
+### Does Your Dataset Contain Target Values?
+- If **Yes** → Use **Supervised Learning**
+- If **No** → Use **Unsupervised Learning**
 
-**Technique:** Regression  
-**Goal:** Predict a continuous numeric value.
-
-**Examples:**
-- Predicting house prices based on size and location.
-- Estimating delivery times.
-- Forecasting sales or demand.
-
-**AWS Services/Tools:**
-- Amazon SageMaker Linear Learner (regression mode)
-- XGBoost
-- Forecasting tools like Amazon Forecast
+![Choosing Model Deployment Options](./img/ml-problem.png)
 
 ---
 
-## 🧾 2. Classification – Categorizing Data
+### Supervised Learning
 
-**Technique:** Classification  
-**Goal:** Predict a discrete label or category.
+Supervised learning applies when your dataset contains target values (labels) you want to predict. The type of values you want to predict determines the technique:
 
-**Examples:**
-- Classifying emails as spam or not spam.
-- Predicting whether a customer will churn (yes/no).
-- Identifying disease types from symptoms.
-
-**AWS Services/Tools:**
-- Amazon SageMaker XGBoost
-- SageMaker Autopilot
-- SageMaker Clarify (for bias/fairness in classification)
+- **Categorical Target Values:**  
+  Use **Classification** techniques.  
+  - *Example*: Predicting whether an email is spam or not spam.
+- **Continuous Target Values:**  
+  Use **Regression** techniques.  
+  - *Example*: Predicting the price of a house given its features.
 
 ---
 
-## 📊 3. Clustering – Grouping Similar Data
+### Unsupervised Learning
 
-**Technique:** Clustering  
-**Goal:** Find natural groupings in unlabeled data.
+Unsupervised learning is used when your dataset does **not** contain labeled target values. Instead, the goal is to discover patterns or structure within the data:
 
-**Examples:**
-- Customer segmentation.
-- Market basket analysis.
-- Grouping news articles by topic.
-
-**AWS Services/Tools:**
-- Amazon SageMaker K-Means
-- SageMaker Ground Truth (to label data after clustering)
+- **Discrete Groups:**  
+  Use **Clustering** techniques.  
+  - *Example*: Segmenting customers into groups based on purchasing behavior.
+- **Outliers (Anomalies):**  
+  Use **Anomaly Detection** techniques.  
+  - *Example*: Detecting unusual credit card transactions.
 
 ---
 
-## 🕒 4. Time Series Forecasting
+### Summary Table
 
-**Technique:** Time Series Forecasting  
-**Goal:** Predict future values based on historical trends.
-
-**Examples:**
-- Forecasting retail sales or inventory demand.
-- Energy usage predictions.
-- Website traffic predictions.
-
-**AWS Services/Tools:**
-- Amazon Forecast
-- Amazon SageMaker DeepAR
+| Dataset Contains Target? | Learning Type         | Value Type      | Technique         |
+| ------------------------ | --------------------- | --------------- | ----------------- |
+| Yes                      | Supervised Learning   | Categorical     | Classification    |
+| Yes                      | Supervised Learning   | Continuous      | Regression        |
+| No                       | Unsupervised Learning | Discrete Groups | Clustering        |
+| No                       | Unsupervised Learning | Outliers        | Anomaly Detection |
 
 ---
 
-## 🧠 5. Natural Language Processing (NLP)
-
-**Technique:** NLP with classification or sequence models  
-**Goal:** Understand or generate text.
-
-**Examples:**
-- Sentiment analysis of reviews.
-- Chatbot question answering.
-- Named entity recognition (e.g., extract names/locations).
-
-**AWS Services/Tools:**
-- Amazon Comprehend
-- Amazon SageMaker with Hugging Face models
-- Amazon Bedrock (for LLMs)
-
----
-
-## 🖼️ 6. Image Analysis
-
-**Technique:** Computer Vision (Classification, Detection, Segmentation)  
-**Goal:** Analyze visual content.
-
-**Examples:**
-- Detecting objects in security footage.
-- Classifying defects in manufacturing.
-- Face detection in social media apps.
-
-**AWS Services/Tools:**
-- Amazon Rekognition
-- Amazon SageMaker + image classification algorithms
-- Amazon Lookout for Vision
-
----
-
-## 🎮 7. Anomaly Detection
-
-**Technique:** Anomaly detection (unsupervised or semi-supervised)  
-**Goal:** Detect unusual behavior or patterns.
-
-**Examples:**
-- Fraud detection in banking.
-- Equipment failure prediction.
-- Intrusion detection in cybersecurity.
-
-**AWS Services/Tools:**
-- Amazon Lookout for Metrics
-- Amazon SageMaker Random Cut Forest (RCF)
-- Amazon Lookout for Equipment
-
----
-
-## ✅ Summary Table
-
-| Use Case                   | ML Technique         | AWS Tool/Service                          |
-| -------------------------- | -------------------- | ----------------------------------------- |
-| Predict house prices       | Regression           | SageMaker Linear Learner, Amazon Forecast |
-| Classify email as spam/not | Classification       | SageMaker XGBoost, Autopilot              |
-| Segment customers          | Clustering           | SageMaker K-Means                         |
-| Predict sales next month   | Time Series Forecast | Amazon Forecast, DeepAR                   |
-| Analyze customer reviews   | NLP                  | Amazon Comprehend, Bedrock                |
-| Detect objects in images   | Computer Vision      | Amazon Rekognition, SageMaker             |
-| Detect fraudulent activity | Anomaly Detection    | Lookout for Metrics, RCF                  |
-
----
-
-## 🛠 Tip from AWS
-
-Use **Amazon SageMaker Autopilot** when you're unsure which algorithm to start with. It automatically selects and tunes the best model for your data.
+**In summary**, ML techniques start with identifying whether the dataset has target labels. If so, supervised learning (classification or regression) is used. If not, unsupervised learning (clustering or anomaly detection) is appropriate, depending on whether you want to group data or find outliers.
