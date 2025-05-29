@@ -59,6 +59,10 @@ You can also use batch transform for **pre-processing datasets**.
 :::
 ---
 
+## SageMaker Inference
+
+![Choosing Model Deployment Options](./img/sagemaker-inference.png)
+
 ## Choosing Model Deployment Options
 
 ![Choosing Model Deployment Options](./img/choosing-model-deployment-options.png)

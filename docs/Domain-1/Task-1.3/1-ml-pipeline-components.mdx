@@ -1,0 +1,222 @@
+---
+sidebar_position: 1
+---
+
+# Components of a Machine Learning (ML) Pipeline
+
+A machine learning pipeline is a step-by-step process that organizes how an ML model is built, trained, tested, and deployed. It helps ensure your ML project is efficient, repeatable, and scalable.
+
+Below are the common components in an ML pipeline:
+
+---
+
+## 📥 1. Data Collection
+
+**What it is:**  
+Gathering data from various sources such as databases, files, APIs, sensors, or user input.When collecting data for machine learning, you must determine whether the data is streaming or can be loaded in batches and set up an extract, transform, and load (ETL) process to gather data from multiple sources into a central repository. Because models need to be retrained regularly, your data collection process should be repeatable. It's also important to check if your data is labeled, as creating accurate labels can be time-consuming.
+
+**Goal:**  
+Get enough relevant data to train and test your model.
+
+**Examples:**
+- Sales data from a database
+- Customer reviews from websites
+- Sensor data from IoT devices
+
+---
+
+## 🧹 2. Data Pre-processing
+
+**What it is:**  
+Data pre-processing is the set of techniques used to clean, standardize, and prepare raw data before it’s used for analysis or modeling. It's important to address missing or anomalous values and to mask or remove any personally identifiable information (PII) during preprocessing.
+
+**Goal:**  
+Convert raw data into a clean, usable format.
+
+**Tasks may include:**
+- Removing missing or duplicate values
+- Normalizing numeric features
+- Converting text to lowercase
+- Encoding categorical data (e.g., one-hot encoding)
+
+---
+
+## 📊 3. Exploratory Data Analysis (EDA)
+
+**What it is:**  
+Understanding the data by analyzing patterns, distributions, missing values, and outliers. Exploratory data analysis (EDA) using visualization and data wrangling tools helps you better understand and prepare data for model building. 
+
+**Goal:**  
+Detect problems and get insights about the structure of the data.
+
+**Examples:**
+- Viewing histograms or scatter plots
+- Checking for correlations
+- Finding missing or strange values
+
+---
+
+## 🛠️ 4. Feature Engineering
+
+**What it is:**  
+Selecting, creating, or transforming variables (features) used by the ML model.
+
+**Goal:**  
+Make the most useful data available to the model.
+
+**Examples:**
+- Combining “year” and “month” into a “season” feature
+- Extracting text length from product reviews
+- Creating a “days_since_last_purchase” column
+
+---
+
+## 🧠 5. Model Training
+
+**What it is:**  
+Feeding training data to an ML algorithm to learn patterns and create a predictive model.
+
+**Goal:**  
+Build a model that can make accurate predictions.
+
+**Example Algorithms:**
+- Linear regression
+- Decision trees
+- Neural networks
+
+---
+
+## ⚙️ 6. Hyperparameter Tuning
+
+**What it is:**  
+Adjusting the settings (hyperparameters) that control how the model learns.
+
+**Goal:**  
+Find the best configuration to improve performance.
+
+**Examples:**
+- Learning rate
+- Number of decision tree branches
+- Number of training epochs
+
+---
+
+## 📏 7. Model Evaluation
+
+**What it is:**  
+Testing the model on unseen (test) data to measure how well it performs.
+
+**Goal:**  
+Know if the model is accurate, fair, and useful.
+
+**Common Metrics:**
+- Accuracy
+- Precision and recall
+- Mean squared error (MSE)
+- Area under the ROC curve (AUC)
+
+---
+
+## 🚀 8. Model Deployment
+
+**What it is:**  
+Making the trained model available for real use in applications.
+
+**Goal:**  
+Enable others (or systems) to send data to the model and get predictions.
+
+**Deployment Methods:**
+- Real-time API (e.g., using AWS SageMaker endpoints)
+- Batch processing
+- Edge devices (mobile, IoT)
+
+---
+
+## 📡 9. Model Monitoring
+
+**What it is:**  
+Tracking the model’s performance after deployment to make sure it still works well.
+
+**Goal:**  
+Detect and fix issues like data drift, bias, or performance drops.
+
+**Monitoring Can Include:**
+- Prediction accuracy over time
+- Latency and response time
+- Alerting when something unusual happens
+
+---
+
+## 🧭 Summary Flow
+
+Data Collection → Data Pre-processing → EDA → Feature Engineering → Model Training → Hyperparameter Tuning → Model Evaluation → Deployment → Monitoring
+
+This complete cycle is often repeated as new data becomes available or business needs change.
+
+---
+
+## 🧰 AWS Tools for Each Step
+
+| Pipeline Step             | AWS Tool(s)                                      |
+| ------------------------- | ------------------------------------------------ |
+| Data Collection           | AWS Glue, Amazon S3, AWS Data Wrangler           |
+| Data Pre-processing       | AWS Glue, SageMaker Processing Jobs              |
+| Exploratory Data Analysis | Amazon SageMaker Studio, Jupyter Notebooks       |
+| Feature Engineering       | SageMaker Feature Store                          |
+| Model Training            | Amazon SageMaker Training Jobs                   |
+| Hyperparameter Tuning     | Amazon SageMaker Automatic Model Tuning          |
+| Model Evaluation          | SageMaker Experiments                            |
+| Deployment                | SageMaker Endpoints, Lambda, ECS, SageMaker Edge |
+| Monitoring                | SageMaker Model Monitor, CloudWatch              |
+
+```mermaid
+flowchart 
+    A>Identify<br/>Business Goal]:::blue
+    B[Frame<br/>ML Problem]:::darkblue
+    C[Collect Data]:::green
+    D[Pre-process<br/>Data]:::yellow
+    E[Engineer<br/>Features]:::darkgreen
+    F[Train, Tune,<br/>Evaluate]:::purple
+    G[Deploy]:::pink
+    H[Monitor]:::teal
+
+    A e1@==> B e2@==> C e3@==> D e4@==> E e5@==> F e6@==> G e7@==> H
+    e1@{ animate: true }
+    e2@{ animate: true }
+    e3@{ animate: true }
+    e4@{ animate: true }
+    e5@{ animate: true }
+    e6@{ animate: true }
+    e7@{ animate: true }
+
+    %% Prepare Data Group
+    subgraph prepare_data [prepare data]
+      direction LR
+      D
+      E
+    end
+    prepare_data:::preparedatabar;
+
+    %% Process Data Group
+    subgraph process_data [process data]
+      direction LR
+      C
+      prepare_data
+    end
+    process_data:::processdatabar;
+
+    %% Styles for each stage
+    classDef blue fill:#76c7e6,color:#222,stroke:none;
+    classDef darkblue fill:#226b99,color:#fff,stroke:none;
+    classDef green fill:#b0e8b1,color:#222,stroke:none;
+    classDef yellow fill:#f7e26b,color:#222,stroke:none;
+    classDef darkgreen fill:#2d8659,color:#fff,stroke:none;
+    classDef purple fill:#7372c5,color:#fff,stroke:none;
+    classDef pink fill:#ca5286,color:#fff,stroke:none;
+    classDef teal fill:#47d1c9,color:#222,stroke:none;
+
+    %% Prepare/Process Bar Styles (simulate colored bar)
+    classDef preparedatabar fill:#BE5B50,stroke:#85193C,color:#F5ECD5, font-size:14pt, stroke-width: 2px;
+    classDef processdatabar fill:#EEEEEE,stroke:#E9A319,font-size:14pt, stroke-width:2px,color:#E9A319;
+
+```
