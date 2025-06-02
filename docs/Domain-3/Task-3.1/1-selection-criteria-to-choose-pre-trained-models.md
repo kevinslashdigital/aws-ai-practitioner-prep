@@ -9,77 +9,97 @@ When selecting a pre-trained foundation model for your generative AI use case, i
 ---
 
 ## 💸 Cost
-- **Definition**: Pricing is often based on tokens processed (input + output).
-- **Tradeoff**: Larger models are typically more powerful but cost more per use.
-- **Example**: Claude 3 Opus is more expensive than Claude 3 Haiku.
+
+- **Why it matters**: Pre-trained models can be expensive to train and operate, especially large foundation models.
+- **Key Consideration**: Balance **model accuracy vs. cost**.
+  - Example: Choose between a model with **98% accuracy that costs $100,000** to train vs. one with **97% accuracy at $5,000**.
+- **Includes**:
+  - Training cost
+  - Inference cost
+  - Compute/storage requirements
 
 ---
 
 ## 🧠 Model Size & Complexity
-- **Definition**: Refers to the number of parameters and overall architecture depth.
-- **Impact**: 
-  - Larger models handle complex reasoning better.
-  - Smaller models are faster and more affordable.
-- **Use Case**: Use small models for classification; large models for summarization or creative writing.
+
+- **Impacts**:
+  - Compute and memory requirements
+  - Feasibility for edge deployment
+- **Trade-off**: Larger models offer better accuracy but demand more resources.
+
+---
+
+## 🧠 Model Complexity & Architecture
+
+- **Architecture depends on task**:
+  - **CNN** → Image tasks
+  - **RNN / Transformers** → Sequential or NLP tasks
+- **Complexity indicators**:
+  - Number of parameters
+  - Number of layers
+  - Computational load
 
 ---
 
 ## ⚡ Latency
-- **Definition**: The time it takes for the model to return a response.
-- **Importance**: Critical for real-time applications like chatbots or code assistants.
-- **Example**: Choose a smaller or optimized model for low-latency environments.
+
+- **Why it matters**: Some applications require **real-time results**.
+- **Key Consideration**: Inference time must match the application's responsiveness needs.
+  - Example: A **self-driving car** cannot use a slow model, even if accurate.
+- **Trade-off**: High accuracy often means slower performance due to model complexity.
 
 ---
 
 ## 🧩 Modality
-- **Definition**: The type of data the model can handle (text, image, audio, or multi-modal).
-- **Examples**:
-  - Text: Claude, LLaMA
-  - Image + Text: GPT-4 Vision, Gemini
-  - Audio + Text: Whisper, Amazon Transcribe
+
+- **Definition**: Type of input/output supported by the model:
+  - Text
+  - Image
+  - Audio
+  - Video
+  - Multimodal (e.g., image + text)
+- **Note**: Ensemble models combine modalities to enhance performance.
 
 ---
 
 ## 🌍 Multi-Lingual Capabilities
-- **Definition**: Support for generating or understanding content in multiple languages.
-- **Importance**: Essential for global or regional applications (e.g., Khmer, Japanese).
-- **Example**: Mistral and Meta models support a wide range of languages.
+
+- **Why it matters**: Global applications require support for multiple languages.
+- **Check**: Was the model trained on the **languages** relevant to your users?
 
 ---
 
-## 🎛️ Customization & Fine-Tuning
-- **Definition**: Ability to fine-tune the model on specific data or tasks.
-- **Options**:
-  - Zero-shot: no training
-  - Few-shot: a few examples in the prompt
-  - Fine-tuned: fully trained on your dataset
-- **Impact**: Improves relevance for industry-specific needs (e.g., legal, medical).
+## 🎛️ Customization Ability
+
+- Can the model be:
+  - **Prompt-engineered?**
+  - **Fine-tuned?**
+  - **Used with RAG (Retrieval-Augmented Generation)?**
+- **Importance**: Critical for domain-specific use cases.
 
 ---
 
 ## 🔁 Input/Output Length Limits
-- **Definition**: Maximum number of tokens the model can process in a single request.
-- **Use Case**: Long document summarization or conversation memory needs high token limits.
-- **Example**: Claude 3 Opus supports up to 200K tokens, suitable for large input contexts.
+
+- Each model has limits on **token length**.
+- **Important for**:
+  - Document summarization
+  - Long conversations
+- **Action**: Always check token limits in the model’s specs.
+
+## 🧩 Summary: How to Choose?
+
+Ask these questions:
+
+- What **modality** do I need (text, image, etc.)?
+- Do I need **multilingual** capabilities?
+- What are my **budget and latency** constraints?
+- What **compute resources** are available?
+- Do I need to **customize or fine-tune** the model?
+- What **metrics** define success in my use case?
 
 ---
 
-## 📈 Model Capabilities
-- **Definition**: Evaluate based on model performance for tasks like:
-  - Reasoning
-  - Summarization
-  - Code generation
-  - Safety and moderation
-- **Tip**: Use benchmarks or documentation from providers (e.g., Anthropic, Meta, AWS) to compare.
-
----
-
-## 🔌 Deployment Method
-- **Options**:
-  - API access via Amazon Bedrock
-  - Self-hosting via SageMaker or open source
-- **Impact**: Influences scalability, latency, and maintenance requirements.
-
----
-
+:::tip
 Choosing the right pre-trained model involves balancing **cost, performance, modality, and scalability** to match your application goals.
+:::

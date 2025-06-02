@@ -11,6 +11,7 @@ Below are the four primary approaches and their cost implications:
 ---
 
 ## 🧪 1. Pre-training (from scratch)
+
 - **Definition**: Train a foundation model from the ground up using massive datasets and compute.
 - **Cost**: 🚨 **Extremely High**
   - Requires thousands of GPUs, weeks/months of training
@@ -23,6 +24,7 @@ Below are the four primary approaches and their cost implications:
 ---
 
 ## 🧠 2. Fine-tuning
+
 - **Definition**: Adapt a pre-trained foundation model to your specific use case using labeled examples.
 - **Cost**: 💰 **Moderate to High**
   - Training costs vary based on model size and dataset size
@@ -35,20 +37,8 @@ Below are the four primary approaches and their cost implications:
 
 ---
 
-## 📝 3. In-Context Learning (Few-shot / Prompt Engineering)
-- **Definition**: Customize the model behavior using examples or instructions within the prompt itself.
-- **Cost**: 💵 **Low (token-based only)**
-  - Pay per token (input + output), no training required
-- **Use Case**: Great for rapid prototyping and simple task customization
-- **Tradeoffs**:
-  - ✅ Fast and flexible
-  - ✅ No infrastructure or training cost
-  - ❌ Limited long-term memory
-  - ❌ Prompt size constraints (max tokens)
+## 🔍 3. Retrieval-Augmented Generation (RAG)
 
----
-
-## 🔍 4. Retrieval-Augmented Generation (RAG)
 - **Definition**: Uses a retriever to fetch external documents, which are then passed to a generative model.
 - **Cost**: 💸 **Medium**
   - Embedding generation and vector database storage incur costs
@@ -61,14 +51,28 @@ Below are the four primary approaches and their cost implications:
 
 ---
 
+## 📝 4. In-Context Learning (Few-shot / Prompt Engineering)
+
+- **Definition**: Customize the model behavior using examples or instructions within the prompt itself.
+- **Cost**: 💵 **Low (token-based only)**
+  - Pay per token (input + output), no training required
+- **Use Case**: Great for rapid prototyping and simple task customization
+- **Tradeoffs**:
+  - ✅ Fast and flexible
+  - ✅ No infrastructure or training cost
+  - ❌ Limited long-term memory
+  - ❌ Prompt size constraints (max tokens)
+
+---
+
 ## 📊 Comparison Table
 
 | Approach               | Training Cost | Inference Cost | Customization Level | Time to Deploy | Scalability |
 |------------------------|---------------|----------------|----------------------|----------------|-------------|
 | Pre-training           | 🔴 Very High   | 🔴 High         | 🟢 Maximum            | 🔴 Months       | 🟡 Medium   |
 | Fine-tuning            | 🟠 Medium–High | 🟢 Low–Medium   | 🟢 High               | 🟠 Weeks        | 🟡 Medium   |
-| In-context learning    | 🟢 None        | 🟠 Medium       | 🟠 Moderate           | 🟢 Minutes      | 🟢 High     |
 | RAG                    | 🟠 Medium      | 🟠 Medium       | 🟢 High               | 🟠 Days         | 🟢 High     |
+| In-context learning    | 🟢 None        | 🟠 Medium       | 🟠 Moderate           | 🟢 Minutes      | 🟢 High     |
 
 ---
 

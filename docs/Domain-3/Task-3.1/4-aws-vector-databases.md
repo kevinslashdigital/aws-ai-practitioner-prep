@@ -8,72 +8,85 @@ When building Retrieval-Augmented Generation (RAG) or semantic search applicatio
 
 ---
 
-## 1. 🔍 Amazon OpenSearch Service
-- **Best For**: **Semantic search**, RAG pipelines, and real-time retrieval
-- **Capabilities**:
-  - Native support for vector embeddings using **k-NN (approximate nearest neighbor)** search
-  - Scales easily with ingestion pipelines and search APIs
-- **Use Cases**:
-  - Document Q&A
-  - Product recommendations
-  - Intelligent chatbots
+## 📌 1. Amazon OpenSearch Service
+
+- ✅ **Built-in vector support** with **KNN (k-nearest neighbors)** indexing and **ANN (approximate nearest neighbor)** algorithms.
+- ✅ Integrated **semantic search** using embeddings (e.g., from BERT or other LLMs).
+- ✅ **OpenSearch Dashboards**: Visualize and explore search results.
+- ✅ Serverless option: **OpenSearch Serverless with Vector Engine** for scalable embedding workloads.
+
+**Use Case**:
+
+- Implement RAG
+- Build recommendation systems
+- Power intelligent search for websites and apps
 
 ---
 
-## 2. 🧠 Amazon Aurora (with PostgreSQL or MySQL)
-- **Best For**: **Relational workloads** that also need vector similarity
-- **Capabilities**:
-  - Use **pgvector** extension with PostgreSQL
-  - Store and query embeddings with cosine similarity or dot product
-- **Use Cases**:
-  - Hybrid structured + unstructured data systems
-  - Embedding search combined with transactional logic
+## 📌 2. Amazon RDS for PostgreSQL (with `pgvector` extension)
+
+- ✅ Supports the **`pgvector`** extension to store, index, and search embeddings.
+- ✅ Use SQL syntax to filter, search, and rank based on vector similarity.
+- ✅ Fully managed PostgreSQL experience with automated backups and replication.
+
+**Use Case**:
+
+- Add vector search to existing relational apps.
+- Perform similarity queries alongside structured data (e.g., customer profiles + embeddings).
 
 ---
 
-## 3. 🔗 Amazon Neptune (Graph + Vector Search)
-- **Best For**: **Knowledge graphs** enriched with vector embeddings
-- **Capabilities**:
-  - Supports **semantic search** and **graph relationships**
-  - Integrates vector similarity within graph traversals
-- **Use Cases**:
-  - Recommendation systems
-  - Context-aware assistants (e.g., users + documents + relationships)
+## 3. 🔗 Amazon Aurora (PostgreSQL-compatible)
+
+- ✅ Also supports the **`pgvector`** extension.
+- ✅ Provides **higher performance and scalability** over standard PostgreSQL.
+- ✅ Ideal for applications requiring **high throughput and low latency**.
+
+**Use Case**:
+
+- Scalable semantic search within high-traffic apps.
+- Store large volumes of embeddings from documents, chat history, or logs.
 
 ---
 
 ## 4. 📄 Amazon DocumentDB (with MongoDB Compatibility)
-- **Best For**: **NoSQL use cases** and document-based architectures
-- **Capabilities**:
-  - Store and retrieve embedding arrays in JSON format
-  - Pair with external vector libraries for similarity search
-- **Use Cases**:
-  - Chatbot history + semantic memory
-  - Storing document chunks + embeddings
+
+- ✅ Document-oriented storage of embeddings in **JSON format**.
+- ✅ Supports flexible schemas, making it easy to store varied embedding payloads.
+- ✅ Can be paired with external libraries/tools for vector similarity search.
+
+**Use Case**:
+
+- Embed documents and perform vector-based search with minimal schema constraints.
+- Store content and embeddings together in the same document.
 
 ---
 
-## 5. 🗃️ Amazon RDS for PostgreSQL
-- **Best For**: Developers already using managed PostgreSQL
-- **Capabilities**:
-  - Add **pgvector** extension for native vector operations
-  - Ideal for apps needing tight integration with relational logic
-- **Use Cases**:
-  - Low-latency RAG apps with transactional requirements
-  - Personalized ranking systems
+## 5. 🗃️ Amazon Neptune
+
+- ✅ Graph database service with support for **property graphs and RDF**.
+- ✅ Integrated with **ML models for knowledge graph embeddings** (e.g., via SageMaker).
+- ✅ Stores **relationship-based embeddings** (e.g., user A → likes → product B).
+
+**Use Case**:
+
+- Graph-based recommendation engines.
+- Semantic reasoning over entity relationships (e.g., fraud detection, social graphs).
 
 ---
 
-## ✅ Summary Table
+## 🚀 Summary Table
 
-| AWS Service                  | Vector Support           | Best For                                |
-|-----------------------------|--------------------------|------------------------------------------|
-| Amazon OpenSearch Service   | ✅ Native vector engine   | Fast semantic search & RAG               |
-| Amazon Aurora (PostgreSQL)  | ✅ via pgvector          | Embedding + transactional apps           |
-| Amazon Neptune              | ✅ Graph + vector         | AI + Knowledge Graphs                    |
-| Amazon DocumentDB           | ✅ Manual implementation  | JSON-based storage + custom similarity   |
-| Amazon RDS for PostgreSQL   | ✅ via pgvector          | Hybrid GenAI + SQL systems               |
+| AWS Service        | Vector Support        | Ideal Use Case                            |
+| ------------------ | --------------------- | ----------------------------------------- |
+| OpenSearch Service | Native KNN / ANN      | Semantic search, dashboards, RAG          |
+| RDS PostgreSQL     | `pgvector` extension  | Combine SQL + vector search               |
+| Aurora PostgreSQL  | `pgvector` + scalable | High-perf apps with vector needs          |
+| Amazon Neptune     | Graph embeddings      | Entity relationships, knowledge graphs    |
+| DocumentDB (Mongo) | JSON-based embeddings | Schema-flexible, doc-centric applications |
 
 ---
 
-These services form the foundation of **vector-aware GenAI applications** on AWS — enabling search, retrieval, and reasoning over large datasets with embeddings.
+:::tip
+You can generate embeddings using **Amazon SageMaker**, store them in these vector stores, and **query them via Amazon Bedrock Knowledge Bases** to build Retrieval-Augmented Generation (RAG) applications at scale.
+:::
