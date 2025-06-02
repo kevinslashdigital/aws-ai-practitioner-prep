@@ -2,84 +2,102 @@
 sidebar_position: 1
 ---
 
-# ✅ Selection Criteria to Choose Pre-Trained Models
+# 🧾 Components of a Prompt in Prompt Engineering
 
-When selecting a pre-trained foundation model for your generative AI use case, it’s important to evaluate various factors such as performance, cost, and capabilities. Below are the key criteria to consider:
-
----
-
-## 💸 Cost
-- **Definition**: Pricing is often based on tokens processed (input + output).
-- **Tradeoff**: Larger models are typically more powerful but cost more per use.
-- **Example**: Claude 3 Opus is more expensive than Claude 3 Haiku.
+A prompt's form depends on the task you are giving to a model. When exploring prompt engineering, you will often see prompts that include some or all of the following elements:
 
 ---
 
-## 🧠 Model Size & Complexity
-- **Definition**: Refers to the number of parameters and overall architecture depth.
-- **Impact**: 
-  - Larger models handle complex reasoning better.
-  - Smaller models are faster and more affordable.
-- **Use Case**: Use small models for classification; large models for summarization or creative writing.
+## 🔹 Instructions
+
+- This is the **task** for the foundation model (FM) to perform.
+- Provides a **description** or **directive** on how the model should behave.
 
 ---
 
-## ⚡ Latency
-- **Definition**: The time it takes for the model to return a response.
-- **Importance**: Critical for real-time applications like chatbots or code assistants.
-- **Example**: Choose a smaller or optimized model for low-latency environments.
+## 🔹 Context
+
+- Offers **external information** to guide the model.
+- Helps improve relevance and accuracy.
 
 ---
 
-## 🧩 Modality
-- **Definition**: The type of data the model can handle (text, image, audio, or multi-modal).
-- **Examples**:
-  - Text: Claude, LLaMA
-  - Image + Text: GPT-4 Vision, Gemini
-  - Audio + Text: Whisper, Amazon Transcribe
+## 🔹 Input Data
+
+- The **user-provided content** that needs processing or response.
+- For example: text to summarize, a question to answer, etc.
 
 ---
 
-## 🌍 Multi-Lingual Capabilities
-- **Definition**: Support for generating or understanding content in multiple languages.
-- **Importance**: Essential for global or regional applications (e.g., Khmer, Japanese).
-- **Example**: Mistral and Meta models support a wide range of languages.
+## 🔹 Output Indicator
+
+- Specifies the **desired format or type** of output.
+- Helps the model understand how to structure the response.
 
 ---
 
-## 🎛️ Customization & Fine-Tuning
-- **Definition**: Ability to fine-tune the model on specific data or tasks.
-- **Options**:
-  - Zero-shot: no training
-  - Few-shot: a few examples in the prompt
-  - Fine-tuned: fully trained on your dataset
-- **Impact**: Improves relevance for industry-specific needs (e.g., legal, medical).
+# 🧭 Model Latent Space
+
+- Represents the **“hidden” knowledge** stored in a trained model
+- It's a **statistical database** of patterns and relationships learned during training
+- When you prompt an LLM, you're **navigating this latent space** to retrieve relevant knowledge
+
+## Example:
+
+- A scuba vacation recommendation model might encode:
+- Destinations
+- Dive depths
+- Visibility
+- Weather conditions
+- Even if a user asks, "Where can I snorkel with manatees?", the model can **infer an answer** using its latent understanding of related concepts.
 
 ---
 
-## 🔁 Input/Output Length Limits
-- **Definition**: Maximum number of tokens the model can process in a single request.
-- **Use Case**: Long document summarization or conversation memory needs high token limits.
-- **Example**: Claude 3 Opus supports up to 200K tokens, suitable for large input contexts.
+# ❌ Negative Prompting?
 
----
+**Negative prompting** is a technique in prompt engineering where you **explicitly instruct the model to avoid certain behaviors, topics, formats, or types of content** in its response.
 
-## 📈 Model Capabilities
-- **Definition**: Evaluate based on model performance for tasks like:
-  - Reasoning
-  - Summarization
-  - Code generation
-  - Safety and moderation
-- **Tip**: Use benchmarks or documentation from providers (e.g., Anthropic, Meta, AWS) to compare.
+## 🧾 Why Use Negative Prompting?
 
----
+LLMs are flexible, but sometimes they:
 
-## 🔌 Deployment Method
-- **Options**:
-  - API access via Amazon Bedrock
-  - Self-hosting via SageMaker or open source
-- **Impact**: Influences scalability, latency, and maintenance requirements.
+- Drift off-topic
+- Make assumptions
+- Include unwanted content (e.g., code, hallucinations, opinions)
 
----
+**Negative prompting** helps steer the model away from these undesired outputs.
 
-Choosing the right pre-trained model involves balancing **cost, performance, modality, and scalability** to match your application goals.
+## ✅ Examples
+
+### Content Restriction
+
+```text
+Write a summary of this article, but do NOT include any opinions or assumptions.
+```
+
+### Format Control
+
+```text
+Explain this concept in plain language. Do not use technical jargon.
+```
+
+### Avoid Hallucination
+
+```text
+Answer only based on the context provided. Do not make up facts.
+```
+
+### Prevent Repetition or Verbosity
+
+```text
+Give a short response, and do not repeat any part of the input.
+```
+
+### 🔧 Use Cases for Negative Prompting
+
+| Use Case              | Negative Prompt Example                                    |
+| --------------------- | ---------------------------------------------------------- |
+| 📱 Chatbots            | "Do not ask the user for personal data."                   |
+| ⚖️ Legal Summarization | "Avoid giving legal advice."                               |
+| 🎓 Education           | "Do not include the final answer, only explain the steps." |
+| 🏥 Healthcare          | "Do not make a diagnosis or suggest medication."           |

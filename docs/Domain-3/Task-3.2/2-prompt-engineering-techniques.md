@@ -8,23 +8,6 @@ Prompt engineering is the art and science of designing inputs to guide generativ
 
 ---
 
-## 🔗 Chain-of-Thought Prompting
-
-**Definition:**  
-Instructs the model to break down its reasoning *step by step* before providing a final answer.
-
-**Purpose:**  
-Enhances the model's logical reasoning and problem-solving, especially for complex or multi-step tasks.
-
-**Example:**  
-> **Q:** If Alice has 3 apples and buys 2 more, how many apples does she have?  
-> **A:** Let's think step by step. Alice starts with 3 apples. She buys 2 more. 3 + 2 = 5. So the answer is 5.
-
-**Tip:**  
-Add cues like “Let’s think it through step by step” to encourage this reasoning style.
-
----
-
 ## 🟡 Zero-Shot Prompting
 
 **Definition:**  
@@ -80,6 +63,23 @@ Use for specialized tasks or where precision/consistency matters.
 
 ---
 
+## 🔗 Chain-of-Thought Prompting
+
+**Definition:**  
+Instructs the model to break down its reasoning *step by step* before providing a final answer.
+
+**Purpose:**  
+Enhances the model's logical reasoning and problem-solving, especially for complex or multi-step tasks.
+
+**Example:**  
+> **Q:** If Alice has 3 apples and buys 2 more, how many apples does she have?  
+> **A:** Let's think step by step. Alice starts with 3 apples. She buys 2 more. 3 + 2 = 5. So the answer is 5.
+
+**Tip:**  
+Add cues like “Let’s think it through step by step” to encourage this reasoning style.
+
+---
+
 ## 📦 Prompt Templates
 
 **Definition:**  
@@ -89,7 +89,7 @@ Create reusable prompt structures with placeholders for dynamic content.
 Standardizes instructions and saves time, especially when automating or scaling.
 
 **Example:**  
-> **Template:** Summarize the following customer review: 
+> **Template:** Summarize the following customer review:
 
 **Tip:**  
 Integrate templates into apps or workflows for consistent results across use cases.
