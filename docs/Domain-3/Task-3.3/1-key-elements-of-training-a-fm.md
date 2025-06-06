@@ -2,80 +2,68 @@
 sidebar_position: 1
 ---
 
-# 🏗️ Key Elements of Training a Foundation Model
+# 🧠 Key Elements of Training a Foundation Model
 
-Training a foundation model involves multiple stages that help the model develop a broad understanding of language or other data types. These stages can be adapted over time to improve accuracy, generalization, and domain specificity.
+![Choosing Model Deployment Options](./img/training-process.png)
 
----
+Training a foundation model involves three main stages:
 
-## 🚀 1. Pre-Training
+## 1. Pre-training
 
-### 📖 Definition:
-- The initial phase where the model learns from a large, diverse, unlabeled dataset (e.g., books, websites, code, public documents).
-- Objective: Learn general patterns in language, structure, logic, and meaning.
-
-### 🧠 Characteristics:
-- Massive scale: billions of parameters and tokens
-- Self-supervised learning: uses masked tokens or next-word prediction
-- Trains a general-purpose "foundation" for future tasks
-
-### ⚖️ Tradeoffs:
-- Very costly in compute and data
-- Requires advanced infrastructure (TPUs, GPUs, distributed systems)
-
----
-
-## 🎯 2. Fine-Tuning
-
-### 📖 Definition:
-- The process of training a pre-trained model on a **narrower, labeled dataset** to specialize it for a specific task or domain.
-
-### 🛠️ Use Cases:
-- Sentiment analysis, legal document review, customer support chatbot
-- Adapting a general model to legal, medical, or financial terminology
-
-### 🔍 Benefits:
-- Increases accuracy and task alignment
-- Requires less compute than full pre-training
+- **Purpose**: Teach the model general capabilities and understanding of human language and multimodal data.
+- **Method**:  
+  - Uses **self-supervised learning**  
+  - Trained on vast amounts of **unstructured data** (text, images, audio, etc.)
+- **Requirements**:  
+  - Trillions of tokens  
+  - Petabytes of data  
+  - Millions of GPU compute hours  
+  - Significant trial and error
+- **Outcome**:  
+  The model learns fundamental patterns and representations but is not specialized for specific tasks or domains.
 
 ---
 
-## 🔁 3. Continuous Pre-Training
+## 2. Fine-tuning
 
-### 📖 Definition:
-- Ongoing pre-training of a model using **new data** after the initial pre-training phase, to **keep the model current** or improve generalization.
+- **Purpose**: Adapt the pre-trained model to **specific tasks** or **domains**.
+- **Method**:  
+  Uses **supervised learning** with **labeled datasets** to update the model’s weights.
 
-### 🌍 Purpose:
-- Address knowledge cutoffs (e.g., model only trained up to 2023)
-- Include emerging domains, languages, or use cases
+### Variants of Fine-tuning:
 
-### 🔄 Characteristics:
-- Uses the same learning methods as pre-training
-- Often combined with fine-tuning for more up-to-date and relevant performance
+- **Instruction-based Fine-tuning**  
+  Uses labeled examples for task-specific improvements.
 
----
+- **Domain Adaptation**  
+  Uses domain-specific data to help the model understand specialized language or terminology.
 
-## 🧪 Optional Additions
+- **Multitask Fine-tuning**  
+  Trains on examples from multiple tasks (e.g., summarization, translation, reviews).  
+  Helps the model generalize and **mitigates catastrophic forgetting**.
 
-### 🔄 Reinforcement Learning with Human Feedback (RLHF)
-- Used to align model behavior with human values and reduce harmful outputs
-- Human reviewers rate responses to guide future behavior
+- **Parameter-Efficient Fine-Tuning (PEFT)**  
+  Updates only small, task-specific layers, preserving original weights.  
+  - Example: **LoRA (Low-Rank Adaptation)** – Inserts low-rank matrices into transformer layers.
 
-### 📋 Instruction Tuning
-- Teach the model to follow natural-language commands across many formats (e.g., summaries, classification, answers)
+- **Representation Fine-Tuning (ReFT)**  
+  Keeps the base model frozen and learns task-specific interventions on hidden representations.
 
----
+### Considerations:
 
-## 📊 Summary Table
-
-| Training Stage          | Purpose                          | Data Type         | Cost Level | Use Case                             |
-| ----------------------- | -------------------------------- | ----------------- | ---------- | ------------------------------------ |
-| Pre-training            | Learn general language patterns  | Unlabeled, large  | 🔴 High     | General-purpose foundation model     |
-| Fine-tuning             | Specialize model to task/domain  | Labeled, specific | 🟠 Medium   | Domain adaptation (e.g., healthcare) |
-| Continuous pre-training | Keep model up to date            | Fresh unlabeled   | 🟠 Medium   | Model refresh or domain expansion    |
-| RLHF                    | Align with human preferences     | Human-labeled     | 🟠 Medium   | Improve safety and tone              |
-| Instruction tuning      | Improve command-following skills | Labeled commands  | 🟢 Low–Med  | General usability improvement        |
+- **Catastrophic Forgetting**:  
+  Fine-tuning on a single task may degrade performance on other tasks.
 
 ---
 
-By understanding these phases, organizations can choose the **right model training strategy** to meet their accuracy, performance, and business needs.
+## 3. Continuous Pre-training
+
+- **Purpose**: Extend the model’s training with **new general data** to improve generalization or keep it up to date.
+- **Method**:  
+  Continues the original pre-training process, often on a broader or refreshed dataset.
+- **Benefit**:  
+  Enhances the model’s foundational knowledge without focusing on a specific task or domain.
+
+---
+
+Each stage builds upon the previous one — from general understanding (**Pre-training**) to task specialization (**Fine-tuning**) to refinement and updates (**Continuous Pre-training**).
