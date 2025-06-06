@@ -1,0 +1,174 @@
+---
+sidebar_position: 1
+---
+# In-scope AWS services and features
+
+The following list contains AWS services and features that are in scope for the exam.
+This list is non-exhaustive and is subject to change. AWS offerings appear in
+categories that align with the offerings’ primary functions: 
+
+## Analytics
+- [AWS Data Exchange](https://aws.amazon.com/data-exchange/)
+- [Amazon EMR](https://aws.amazon.com/emr/)
+- [AWS Glue](https://aws.amazon.com/glue/)
+- [AWS Glue DataBrew](https://aws.amazon.com/glue/features/databrew/)
+- [AWS Lake Formation](https://aws.amazon.com/lake-formation/)
+- [Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/)
+- [Amazon QuickSight](https://aws.amazon.com/quicksight/)
+- [Amazon Redshift](https://aws.amazon.com/redshift/)
+
+## Cloud Financial Management
+- [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/)
+- [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
+
+## Compute
+- [Amazon EC2](https://aws.amazon.com/ec2/)
+
+## Containers
+- [Amazon ECS](https://aws.amazon.com/ecs/)
+- [Amazon EKS](https://aws.amazon.com/eks/)
+
+## Database
+<details>
+    <summary> **Amazon DocumentDB** (NoSQL document-oriented database) </summary>
+  
+    **Type:** NoSQL (document-oriented), MongoDB-compatible.
+
+    **Use Cases:** Content management, catalogs, user profiles, flexible JSON data storage.
+
+    **AI Context:** Useful for storing semi-structured data (JSON) used by AI applications.
+
+    **Vector DB Suitability:** ❌ **Not ideal** 
+
+    [Learn more](https://aws.amazon.com/documentdb/)
+</details>
+<details>
+    <summary> **Amazon DynamoDB** (NoSQL key-value store) </summary>
+  
+    **Type:** Serverless NoSQL (key-value store), providing high availability and low latency.
+
+    **Use Cases:** High-traffic apps, session management, metadata storage.
+
+    **AI Context:** Suitable for real-time AI workloads like metadata management or recommendation engines.
+
+    **Vector DB Suitability:** ❌ **Not ideal** 
+  
+    [Learn more](https://aws.amazon.com/dynamodb/)
+</details>
+<details>
+    <summary> **Amazon ElastiCache** (in-memory data store) </summary>
+  
+    **Type:** Managed in-memory data store (Redis/Memcached).
+
+    **Use Cases:** Real-time caching, session storage, leaderboards, real-time analytics.
+    
+    **AI Context:** Ideal for caching model inference outputs and providing rapid data retrieval.
+    
+    **Vector DB Suitability:** ❌ **Not ideal**
+
+    [Learn more](https://aws.amazon.com/elasticache/)
+</details>
+<details>
+    <summary> **Amazon MemoryDB** (in-memory Redis-compatible database) </summary>
+  
+    **Type:** Durable, in-memory Redis-compatible database.
+    
+    **Use Cases:** Real-time transactional workloads requiring high performance and durability.
+    
+    **AI Context:** Excellent for real-time AI applications with stringent speed and durability requirements.
+    
+    **Vector DB Suitability:** ❌ **Not ideal**
+
+    [Learn more](https://aws.amazon.com/memorydb/)
+</details>
+<details>
+    <summary> **Amazon Neptune** (Managed graph database) ✅ Support VectorDB</summary>
+  
+    **Type:** Managed graph database (supports Gremlin, SPARQL).
+    
+    **Use Cases:** Fraud detection, recommendation systems, knowledge graphs, relationship analysis.
+    
+    **AI Context:** Powerful for AI scenarios involving connected data, semantic searches, and graph analytics.
+    
+    **Vector DB Suitability:** ✅ **Possible** (Graph-based vector search).
+
+    [Learn more](https://aws.amazon.com/neptune/)
+</details>
+<details>
+    <summary> **Amazon RDS** (Managed relational databases) ✅ Support VectorDB</summary>
+    
+    **Type:** Managed relational databases (MySQL, PostgreSQL, Oracle, SQL Server).
+    
+    **Use Cases:** Traditional applications, structured transactional systems (ERP, CRM), structured data analytics.
+    
+    **AI Context:** Ideal for structured, relational data usage in AI contexts.
+    
+    **Vector DB Suitability:** ✅ **Possible** (via PostgreSQL with `pgvector` extension, moderate-scale recommended).
+
+    [Learn more](https://aws.amazon.com/rds/)
+</details>
+<details>
+    <summary> **Amazon Aurora** (Managed relational databases) ✅ Support VectorDB</summary>
+    
+    **Type:** High-performance managed relational database compatible with MySQL and PostgreSQL.
+    
+    **Use Cases:** Enterprise-grade applications, highly scalable transactional workloads, analytics.
+    
+    **AI Context:** Good choice for structured relational data requiring high throughput, performance, and reliability in AI workloads.
+    
+    **Vector DB Suitability:** ✅ **Possible** (using PostgreSQL-compatible Aurora with the `pgvector` extension), suitable for moderate vector-search scenarios but not optimized for extensive vector workloads.
+
+    [Learn more](https://aws.amazon.com/rds/aurora/)
+</details>
+:::tip 
+[Vector database options](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-an-aws-vector-database-for-rag-use-cases/vector-db-options.html)
+:::
+## Machine Learning
+<details>
+    <summary> ** Amazon A2I (Augmented AI)** </summary>
+    
+    **Type:** Human-in-the-loop AI
+    
+    **Purpose:** Integrate human review into ML workflows (e.g. moderation, form extraction).
+    
+    **Use Cases:** Document review, image moderation, sensitive content validation.
+
+    [Learn more](https://aws.amazon.com/augmented-ai/)
+</details>
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- [Amazon Comprehend](https://aws.amazon.com/comprehend/)
+- [Amazon Fraud Detector](https://aws.amazon.com/fraud-detector/)
+- [Amazon Kendra](https://aws.amazon.com/kendra/)
+- [Amazon Lex](https://aws.amazon.com/lex/)
+- [Amazon Personalize](https://aws.amazon.com/personalize/)
+- [Amazon Polly](https://aws.amazon.com/polly/)
+- [Amazon Q](https://aws.amazon.com/q/)
+- [Amazon Rekognition](https://aws.amazon.com/rekognition/)
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+- [Amazon Textract](https://aws.amazon.com/textract/)
+- [Amazon Transcribe](https://aws.amazon.com/transcribe/)
+- [Amazon Translate](https://aws.amazon.com/translate/)
+
+## Management and Governance
+- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+- [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
+- [AWS Config](https://aws.amazon.com/config/)
+- [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+- [AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/)
+
+## Networking and Content Delivery
+- [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+- [Amazon VPC](https://aws.amazon.com/vpc/)
+
+## Security, Identity, and Compliance
+- [AWS Artifact](https://aws.amazon.com/artifact/)
+- [AWS Audit Manager](https://aws.amazon.com/audit-manager/)
+- [AWS IAM](https://aws.amazon.com/iam/)
+- [Amazon Inspector](https://aws.amazon.com/inspector/)
+- [AWS KMS](https://aws.amazon.com/kms/)
+- [Amazon Macie](https://aws.amazon.com/macie/)
+- [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
+
+## Storage
+- [Amazon S3](https://aws.amazon.com/s3/)
+- [Amazon S3 Glacier](https://aws.amazon.com/glacier/)
