@@ -1,3 +1,10 @@
+---
+sidebar_position: 2
+sidebar_label: Machine Learning Services
+title: Machine Learning Services
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <details>
     <summary> **Amazon Textract** </summary>
@@ -106,13 +113,15 @@
 <details>
     <summary> **Amazon Rekognition** </summary>
     
-    **What it is:**  
-    Amazon Q is a generative AI assistant embedded within the AWS ecosystem. It helps developers and IT teams understand AWS services, generate code, and troubleshoot infrastructure using natural language.
+    <strong>What it is:</strong>  
+    Amazon Rekognition is a computer vision service that uses deep learning to analyze images and videos. It can detect objects, scenes, faces, text, and inappropriate content, and also supports facial analysis and facial recognition.
 
-    **Typical Use Cases:**
-    - Explaining AWS concepts and CLI commands
-    - Generating infrastructure-as-code (e.g., CloudFormation)
-    - Helping users navigate AWS Console faster
+    <strong>Typical Use Cases:</strong>
+    - Facial recognition for user verification or security
+    - Content moderation for images and videos
+    - Detecting objects and scenes in media assets
+    - Analyzing sentiment or demographics from facial attributes
+
 
     [Learn more](https://aws.amazon.com/rekognition/) 
 </details>
@@ -140,44 +149,48 @@
     - Generating infrastructure-as-code (e.g., CloudFormation)
     - Helping users navigate AWS Console faster
 
-    <details>
-        <summary> **Amazon Q Business** </summary>
+    <Tabs>
+        <TabItem value="business" label="AWS Q Business">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary> **Amazon Q Business allows employees to **ask natural language questions** and receive accurate answers based on internal company data.** </summary>
 
-        **What it is:**  
-        Amazon Q Business allows employees to **ask natural language questions** and receive accurate answers based on internal company data.
+                **Key Features:**
+                - Connects to data sources such as **SharePoint, Confluence, Salesforce, Slack, S3**, and more.
+                - Uses **Retrieval-Augmented Generation (RAG)** to ground answers in your organization’s documents.
+                - Maintains **enterprise security** by respecting identity and access permissions.
 
-        **Key Features:**
-        - Connects to data sources such as **SharePoint, Confluence, Salesforce, Slack, S3**, and more.
-        - Uses **Retrieval-Augmented Generation (RAG)** to ground answers in your organization’s documents.
-        - Maintains **enterprise security** by respecting identity and access permissions.
+                **Typical Use Cases:**
+                - Ask: “What is our company’s refund policy?” and get a direct answer from internal PDFs or wikis.
+                - Help HR, finance, and operations teams self-serve without IT intervention.
+                - Analyze and summarize knowledge spread across internal systems.
 
-        **Typical Use Cases:**
-        - Ask: “What is our company’s refund policy?” and get a direct answer from internal PDFs or wikis.
-        - Help HR, finance, and operations teams self-serve without IT intervention.
-        - Analyze and summarize knowledge spread across internal systems.
+                **Why it matters:**  
+                It enables **secure, company-specific knowledge access** for non-technical employees without needing custom AI development.
+            </details>
+        </TabItem>
+        <TabItem value="developer" label="AWS Q Developer">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>  Amazon Q Developer is optimized for **technical users** like developers, DevOps engineers, and data scientists. It enables **natural language interaction with AWS services**.</summary>
+                
+                **Key Features:**
+                - Embedded in the **AWS Console**, **IDE (via Amazon CodeWhisperer)**, and **CLI**.
+                - Generates and explains **Infrastructure as Code** (CloudFormation, Terraform, CDK).
+                - Understands your AWS environment and offers **context-aware** suggestions.
 
-        **Why it matters:**  
-        It enables **secure, company-specific knowledge access** for non-technical employees without needing custom AI development.
-    </details>
-    <details>
-        <summary> **Amazon Q Developer** </summary>
-        
-        **What it is:**  
-        Amazon Q Developer is optimized for **technical users** like developers, DevOps engineers, and data scientists. It enables **natural language interaction with AWS services**.
+                **Typical Use Cases:**
+                - Ask: “How do I create an S3 bucket with versioning using CloudFormation?”
+                - Troubleshoot: “Why is my Lambda function failing with a 502 error?”
+                - Generate code snippets for APIs, AWS SDK calls, SageMaker notebooks, etc.
 
-        **Key Features:**
-        - Embedded in the **AWS Console**, **IDE (via Amazon CodeWhisperer)**, and **CLI**.
-        - Generates and explains **Infrastructure as Code** (CloudFormation, Terraform, CDK).
-        - Understands your AWS environment and offers **context-aware** suggestions.
-
-        **Typical Use Cases:**
-        - Ask: “How do I create an S3 bucket with versioning using CloudFormation?”
-        - Troubleshoot: “Why is my Lambda function failing with a 502 error?”
-        - Generate code snippets for APIs, AWS SDK calls, SageMaker notebooks, etc.
-
-        **Why it matters:**  
-        It significantly **accelerates development and operations workflows**, helping teams build and manage AWS infrastructure more efficiently.
-    </details>
+                **Why it matters:**  
+                It significantly **accelerates development and operations workflows**, helping teams build and manage AWS infrastructure more efficiently.
+            </details>
+        </TabItem>
+    </Tabs>
+    
+    
     [Learn more](https://aws.amazon.com/q/)
 </details>
 
