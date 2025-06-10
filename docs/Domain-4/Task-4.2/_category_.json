@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Building explainable and transparent AI requires balancing performance, safety, and human understanding. Tools like SageMaker Model Cards and open-source model documentation promote visibility into how models work, what data they use, and how decisions are made. While transparent models enhance interpretability and auditability, opaque models often offer stronger safety controls through built-in guardrails. Human-centered design further improves explainability by focusing on clarity, relevance, interactivity, and accessibility, ensuring explanations are understandable and useful to diverse users. Striking this balance is key to deploying responsible AI systems that are both effective and trustworthy."
   }
 }

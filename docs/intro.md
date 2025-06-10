@@ -11,11 +11,11 @@ for the exam.
 
 The exam has the following content domains and weightings:
 
-- **Domain 1**: Fundamentals of AI and ML (20% of scored content)
-- **Domain 2**: Fundamentals of Generative AI (24% of scored content)
-- **Domain 3**: Applications of Foundation Models (28% of scored content)
-- **Domain 4**: Guidelines for Responsible AI (14% of scored content)
-- **Domain 5**: Security, Compliance, and Governance for AI Solutions (14% of
+- [**Domain 1**](/docs/category/domain-1-fundamentals-of-ai-and-ml): Fundamentals of AI and ML (**20%** of scored content)
+- [**Domain 2**](/docs/category/domain-2-fundamentals-of-generative-ai): Fundamentals of Generative AI (**24%** of scored content)
+- [**Domain 3**](/docs/category/domain-3-applications-of-foundation-models): Applications of Foundation Models (**28%** of scored content)
+- [**Domain 4**](/docs/category/domain-4-guidelines-for-responsible-ai): Guidelines for Responsible AI (**14%** of scored content)
+- [**Domain 5**](/docs/category/domain-5-security-compliance-and-governance-for-ai-solutions): Security, Compliance, and Governance for AI Solutions (**14%** of
 scored content)
 
 Let’s dive into **these 5 domains**.

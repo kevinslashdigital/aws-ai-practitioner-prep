@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Ensuring regulatory compliance and governance in AI systems involves adhering to international standards (like GDPR, ISO 27001), enforcing structured data governance strategies, and institutionalizing clear protocols for ethical AI use. Effective data governance includes managing data lifecycles, enforcing logging and auditing, maintaining data residency, and setting retention rules. Governance processes encompass defining policies, setting review cadences, using frameworks like the AWS AI Lens and GenAI Security Matrix, and ensuring transparency through tools like model cards. Ongoing team training is essential to promote awareness and compliance. Altogether, these efforts ensure that AI systems are secure, fair, transparent, and aligned with legal and ethical standards."
   }
 }

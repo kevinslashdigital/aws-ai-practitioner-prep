@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "AWS provides a robust, secure, and scalable ecosystem for building generative AI applications through services like Amazon Bedrock, SageMaker, and Kendra. These services lower the barrier to entry with no-code tools, pre-trained models, and seamless integration into the broader AWS infrastructure. Businesses benefit from faster development cycles, cost-effective scaling, enterprise-grade security, and built-in compliance. However, cost-performance tradeoffs must be carefully managed—factors like responsiveness, regional deployment, and token-based pricing impact total cost. Overall, AWS enables rapid, responsible innovation in GenAI while offering the flexibility and control needed for production-grade applications."
   }
 }

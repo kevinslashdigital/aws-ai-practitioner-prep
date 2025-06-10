@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "The collection of content provides a comprehensive overview of prompt engineering — the practice of crafting effective inputs for generative AI models to guide their behavior. It explains the key components of a prompt (instructions, context, input, and output format) and explores techniques such as zero-shot, one-shot, few-shot, and chain-of-thought prompting. The benefits include improved output quality, reduced hallucinations, and enhanced control over model behavior. Best practices emphasize clarity, specificity, experimentation, and understanding the model’s limitations. However, the approach also carries risks like data poisoning, prompt injection, exposure of sensitive data, and jailbreaking, underscoring the need for robust guardrails and responsible usage."
   }
 }

@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "This collection of content introduces key AI concepts, showing how artificial intelligence (AI), machine learning (ML), and deep learning are interconnected — with AI as the broad goal of simulating human intelligence, ML as a method that enables systems to learn from data, and deep learning as a powerful ML technique using neural networks. It explains the types of learning (supervised, unsupervised, semi-supervised, reinforcement, and deep learning), various data types used in AI (structured, unstructured, labeled, etc.), and SageMaker’s model deployment options for different inference needs (real-time, serverless, asynchronous, and batch). Core AI terms like bias, fairness, fit, and LLMs are also clarified. Together, these insights build a foundational understanding of how AI systems are trained, deployed, and used across diverse applications."
   }
 }

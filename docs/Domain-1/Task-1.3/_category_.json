@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "This set of content outlines the end-to-end journey of machine learning in practice—from sourcing models (either pre-trained or custom-built) to deploying, operating, and evaluating them in production. It emphasizes choosing the right deployment method (managed vs. self-hosted), using AWS services to support each ML pipeline stage (from data collection to model monitoring), and applying MLOps principles to ensure repeatability, scalability, and maintainability. It also highlights the importance of measuring both technical performance (e.g., accuracy, precision) and business impact (e.g., ROI, cost per user), underscoring that a successful ML system must deliver real-world value, not just high accuracy."
   }
 }

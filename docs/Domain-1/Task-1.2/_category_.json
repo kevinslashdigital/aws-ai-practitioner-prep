@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "AI and ML offer significant value by automating repetitive tasks, enhancing decision-making, detecting fraud, forecasting demand, and personalizing user experiences—especially in data-rich scenarios across industries like finance, healthcare, and retail. However, they are not always the right fit; simpler rule-based solutions may be better when data is poor, transparency is critical, or deterministic outcomes are required. Choosing the right ML technique—supervised or unsupervised—depends on whether labeled data is available. Real-world applications show how companies use AI for fraud detection, predictive maintenance, customer service, and personalized recommendations. AWS accelerates AI adoption through a broad range of managed services—like SageMaker, Rekognition, Lex, and Bedrock—making it easier and faster to build intelligent solutions without managing complex infrastructure."
   }
 }

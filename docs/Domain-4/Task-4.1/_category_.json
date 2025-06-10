@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Building responsible AI systems requires a foundation of ethical data practices, model transparency, and continuous monitoring. High-quality datasets should be inclusive, diverse, curated, balanced, and privacy-compliant to mitigate systemic bias and support fair outcomes. Managing bias and variance is essential for achieving accuracy and generalization across diverse user groups, while avoiding discrimination or overfitting. Tools such as SageMaker Clarify, Model Monitor, and Augmented AI enable organizations to detect, explain, and correct bias or drift, and integrate human oversight where necessary. Together, these practices ensure AI systems are trustworthy, accountable, and aligned with both ethical standards and business goals."
   }
 }

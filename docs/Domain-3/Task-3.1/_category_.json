@@ -3,6 +3,6 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "This content provides a comprehensive overview of how to effectively build, customize, and deploy generative AI applications using AWS tools and modern AI techniques. It covers selecting the right pre-trained models based on modality, cost, latency, and customization needs; optimizing model responses with inference parameters like temperature and top-k/p; enhancing accuracy with Retrieval-Augmented Generation (RAG) powered by AWS vector databases; and choosing the right customization approach—from low-cost prompt engineering to high-cost fine-tuning. Additionally, it highlights the role of intelligent agents in orchestrating multi-step tasks by integrating LLMs with APIs and real-time data, enabling scalable, domain-specific automation without retraining models."
   }
 }
