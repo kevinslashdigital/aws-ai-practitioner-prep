@@ -1,0 +1,128 @@
+<details>
+    <summary> **AWS CloudTrail** </summary>
+    
+    **What it is:**  
+    CloudTrail is a service that **records all API calls and actions** made in your AWS account, including who made the call, what services were affected, and when.
+
+    **Why it matters:**  
+    - Provides an **audit trail** for all changes and activities
+    - Helps you **detect suspicious behavior** or unauthorized access
+    - Useful for **compliance reporting** and forensic analysis
+
+    **Typical Use Cases:**
+    - Investigating security incidents (e.g., who deleted a resource?)
+    - Monitoring access to sensitive services (e.g., S3, IAM, SageMaker)
+    - Setting up alarms on critical changes
+
+    [Learn more](https://aws.amazon.com/cloudtrail/) 
+</details>
+<details>
+    <summary> **AWS CloudWatch** </summary>
+    
+   **What it is:**  
+    CloudWatch is AWS’s **central monitoring service** for metrics, logs, and alarms. It collects and tracks data from AWS services and custom sources.
+
+    **Why it matters:**  
+    - Helps you **visualize performance** (CPU, memory, latency, etc.)
+    - Allows you to **set alarms** and get notified when something goes wrong
+    - Enables **automated actions** (e.g., restarting instances)
+
+    **Typical Use Cases:**
+    - Monitoring model performance or resource usage in SageMaker
+    - Setting alerts on Lambda failures or high error rates
+    - Creating dashboards for your application’s health
+
+    [Learn more](https://aws.amazon.com/cloudwatch/)
+</details>
+<details>  
+    <summary> **AWS Config** </summary>
+    
+    **What it is:**  
+    AWS Config is a **resource compliance and configuration tracking service**. It monitors changes to AWS resources and evaluates them against predefined rules.
+
+    **Why it matters:**  
+    - Provides a **timeline of resource changes**
+    - Ensures your environment adheres to **security and compliance policies**
+    - Supports **automatic remediation** of non-compliant resources
+
+    **Typical Use Cases:**
+    - Checking if S3 buckets are publicly accessible
+    - Tracking IAM policy changes
+    - Auditing the history of ML model versions or endpoints    
+
+    [Learn more](https://aws.amazon.com/config/)
+</details>
+<details>
+    <summary> **AWS Trusted Advisor** </summary>
+    
+    **What it is:**  
+    Trusted Advisor is a service that **scans your AWS environment** and gives **recommendations** to help improve performance, security, fault tolerance, and cost optimization.
+
+    **Why it matters:**  
+    - Highlights **security vulnerabilities** (e.g., open ports, weak IAM policies)
+    - Identifies **unused resources** to reduce cost
+    - Suggests **best-practice improvements**
+
+    **Typical Use Cases:**
+    - Checking for over-provisioned EC2/SageMaker instances
+    - Ensuring MFA is enabled for root accounts
+    - Finding unused EBS volumes or idle load balancers
+
+    [Learn more](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+</details>
+<details>
+    <summary> **AWS Well-Architected Tool** </summary>
+    
+    **What it is:**  
+    This is a **self-assessment tool** that helps you review and improve your architecture based on the **AWS Well-Architected Framework**, which includes 6 pillars (Operational Excellence, Security,Reliability, Cost Optimization, Performance Efficiency, Sustainability).
+
+    **Why it matters:**  
+    - Provides a **structured review** of your architecture
+    - Helps you identify **risks and improvement areas**
+    - Guides you in building **resilient and efficient** applications
+
+    **Typical Use Cases:**
+    - Assessing your ML/AI solution before production
+    - Aligning your architecture with AWS best practices
+    - Comparing designs across multiple workloads or teams
+
+    [Learn more](https://aws.amazon.com/well-architected-tool/)
+</details>
+
+## Networking and Content Delivery
+<details>
+  <summary> <strong>Amazon CloudFront</strong> </summary>
+
+  **What it is:**  
+  Amazon CloudFront is a **content delivery network (CDN)** service that securely delivers data, videos, APIs, and web applications to users globally with low latency.
+
+  **Why it matters:**  
+  - Accelerates access to AI model results and dashboards globally  
+  - Supports **secure delivery of ML APIs or data hosted in S3 or EC2**  
+  - Helps reduce load on origin servers using edge caching
+
+  **Typical Use Cases:**  
+  - Serving ML dashboards or visualizations to global users  
+  - Caching results from AI APIs  
+  - Securing public endpoints with AWS WAF and HTTPS
+
+  [Learn more](https://aws.amazon.com/cloudfront/)
+</details>
+<details>
+  <summary> <strong>Amazon VPC (Virtual Private Cloud)</strong> </summary>
+
+  **What it is:**  
+  Amazon VPC lets you **create a logically isolated network** within AWS to launch and manage resources with full control over IP ranges, subnets, route tables, and security.
+
+  **Why it matters:**  
+  - Provides **network-level isolation and security** for AI/ML systems  
+  - Supports **private access to services like SageMaker, RDS, or Lambda**  
+  - Enables setup of **secure hybrid cloud environments**
+
+  **Typical Use Cases:**  
+  - Hosting ML training infrastructure in a private subnet  
+  - Connecting on-premise data centers to AWS for AI workloads  
+  - Isolating staging and production environments for AI services
+
+  [Learn more](https://aws.amazon.com/vpc/)
+</details>
