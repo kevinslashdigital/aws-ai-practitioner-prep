@@ -7,10 +7,9 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import quizStyles from "./quiz.css";
 import Quiz from "react-quiz-component";
 import React, { useState } from "react";
-import { quiz } from "./quiz.5.domains";
+import { quiz } from "../data/quiz.5.domains";
 
 // https://github.com/wingkwong/react-quiz-component
 
