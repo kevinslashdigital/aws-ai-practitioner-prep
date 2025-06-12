@@ -1,7 +1,7 @@
 export const quiz = {
-  quizTitle: "AWS AI Practitioner Quiz from 5 domains",
+  quizTitle: "AWS AI Practitioner Quiz",
   quizSynopsis:
-    "have fun with this sample quiz. It is designed to demonstrate the AWS AI Practitioner.",
+    "Test your knowledge with this sample quiz covering all 5 domains of the AWS AI Practitioner exam. Each question is designed to reflect real exam topics, helping you identify your strengths and focus your study efforts. Take the quiz to boost your confidence and get one step closer to certification success!",
   progressBarColor: "#9de1f6",
   nrOfQuestions: "5",
   questions: [
@@ -110,7 +110,8 @@ export const quiz = {
       point: "1",
     },
     {
-      question: "A company is exploring generative Al foundation models (FMs) to build a domain-specific text-based solution. The solution will be used internally to generate blog posts and marketing content that will be published on the company's external website.",
+      question:
+        "A company is exploring generative Al foundation models (FMs) to build a domain-specific text-based solution. The solution will be used internally to generate blog posts and marketing content that will be published on the company's external website.",
       questionType: "text",
       questionPic: "", // if you need to display Picture in Question
       answerSelectionType: "single",
