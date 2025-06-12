@@ -3,7 +3,7 @@ export const quiz = {
   quizSynopsis:
     "have fun with this sample quiz. It is designed to demonstrate the AWS AI Practitioner.",
   progressBarColor: "#9de1f6",
-  nrOfQuestions: "4",
+  nrOfQuestions: "5",
   questions: [
     {
       question:
