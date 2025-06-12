@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import QuizFeatures from '@site/src/components/QuizFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -24,11 +24,14 @@ function HomepageHeader({
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          Welcome to AWS AI Practitioner Quiz
+          Welcome to the AWS AI Practitioner Quiz!
         </Heading>
         <p className="hero__subtitle">
-          Take this quiz to assess your understanding and discover areas to
-          improve before the real exam.
+          Challenge yourself with this set of questions covering all 5 core
+          domains of the AWS AI Practitioner exam. This quiz is designed to help
+          you assess your current understanding, identify knowledge gaps, and
+          boost your confidence as you prepare for the real certification. Let’s
+          test your skills and get exam-ready!
         </p>
         <div className={styles.buttons}>
           <button
@@ -56,16 +59,25 @@ export default function Home(): ReactNode {
       {!showQuiz && (
         <HomepageHeader showQuiz={showQuiz} toggleQuiz={toggleQuiz} />
       )}
+      {!showQuiz && <QuizFeatures />}
       <main>
         {showQuiz && (
-          <Quiz
-            quiz={quiz}
-            shuffle={true}
-            shuffleAnswer={true}
-            showInstantFeedback={false}
-            showDefaultResult={true}
-            enableProgressBar={true}
-          />
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <Quiz
+              quiz={quiz}
+              shuffle={true}
+              shuffleAnswer={true}
+              showInstantFeedback={false}
+              showDefaultResult={true}
+              enableProgressBar={true}
+            />
+          </div>
         )}
       </main>
     </Layout>
