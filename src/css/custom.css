@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.filter-dropdown-select {
+  height: 40px !important;
+}
+
+.explanation {
+  white-space: pre-line;
+}
+
+.questionModal{
+  white-space: pre-line;
+}

@@ -87,7 +87,7 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/quiz', label: 'Quiz', position: 'left'},
         {
           href: "https://github.com/kevinslashdigital/aws-api-practitioner-prep",
           label: "GitHub",
