@@ -4,6 +4,9 @@ sidebar_label: Compute Services
 title: Compute Services
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <details>
   <summary> <strong>Amazon EC2 (Elastic Compute Cloud)</strong> </summary>
 
@@ -19,6 +22,93 @@ title: Compute Services
   - Running deep learning frameworks like TensorFlow or PyTorch on GPU instances  
   - Hosting custom-trained ML models for inference  
   - Performing large-scale simulations or model training
+
+  <Tabs>
+
+    <TabItem value="trainium" label="AWS Trainium Instances (Trn1)">
+        <strong>What is it?</strong><br />
+        <details>
+            <summary>
+                AWS Trainium instances use a custom-designed machine learning chip engineered for high performance with low power consumption, reducing the carbon footprint of training large-scale models.
+            </summary>
+
+            **Key Features:**
+            - Up to **25% more energy efficient** than comparable accelerated computing EC2 instances.
+            - Specifically designed for optimal **performance per watt** for deep learning workloads.
+            - Lowers environmental impact compared to other instance types.
+
+            **Typical Use Cases:**
+            - Large-scale deep learning training.
+            - Organizations prioritizing sustainability and energy efficiency in AI workloads.
+
+            **Why it matters:**  
+            They are the **most environmentally friendly choice**, helping companies meet sustainability goals while training complex models.
+        </details>
+    </TabItem>
+
+    <TabItem value="p-type" label="Accelerated Computing P Type Instances">
+        <strong>What is it?</strong><br />
+        <details>
+            <summary>
+                Accelerated Computing P type instances are powered by high-end GPUs like NVIDIA Tesla and are optimized for maximum computational throughput.
+            </summary>
+
+            **Key Features:**
+            - Delivers high GPU performance for ML and HPC tasks.
+            - Not designed with energy efficiency as the primary goal.
+            - Consumes significant power.
+
+            **Typical Use Cases:**
+            - Heavy ML model training and inference.
+            - High-performance computing (HPC) workloads.
+
+            **Why it matters:**  
+            Best when raw GPU power is needed — **less suitable for energy-conscious workloads**.
+        </details>
+    </TabItem>
+
+    <TabItem value="g-type" label="Accelerated Computing G Type Instances">
+        <strong>What is it?</strong><br />
+        <details>
+            <summary>
+                Accelerated Computing G type instances use NVIDIA GPUs for graphics-heavy applications like gaming, rendering, and video processing.
+            </summary>
+
+            **Key Features:**
+            - High computational power for visual workloads.
+            - Not optimized for ML training or energy efficiency.
+
+            **Typical Use Cases:**
+            - Real-time rendering, video processing, game streaming.
+            - Graphics-intensive applications.
+
+            **Why it matters:**  
+            Excellent for graphics tasks but **not the best choice for minimizing environmental impact**.
+        </details>
+    </TabItem>
+
+    <TabItem value="c-type" label="Compute Optimized C Type Instances">
+        <strong>What is it?</strong><br />
+        <details>
+            <summary>
+                Compute Optimized C type instances provide high CPU performance for compute-intensive applications.
+            </summary>
+
+            **Key Features:**
+            - Maximizes raw compute power for CPU-bound workloads.
+            - Not specifically designed for energy efficiency like Trainium.
+            - Suitable for high-throughput applications.
+
+            **Typical Use Cases:**
+            - Web servers, gaming backends, scientific modeling.
+            - Applications needing maximum CPU power.
+
+            **Why it matters:**  
+            Ideal for compute-heavy tasks but **less ideal for organizations focused on lowering carbon footprint**.
+        </details>
+    </TabItem>
+
+  </Tabs>
 
   [Learn more](https://aws.amazon.com/ec2/)
 </details>

@@ -1,104 +1,85 @@
 ---
 sidebar_position: 1
 ---
+# AWS Services and Features to Secure AI Systems
 
-# 🔐 Securing AI Systems on AWS: Services & Features
+## AWS Shared Responsibility Model
 
-Securing AI systems involves protecting sensitive data, controlling access, and ensuring safe deployment and operation. AWS offers a comprehensive set of **security services** and follows a **shared responsibility model** to help you build secure, compliant, and trustworthy AI applications.
+**What it is:**  
+A core principle that defines **who secures what** in the cloud.
 
----
+- **AWS responsibilities:** Protect **the cloud** — data centers, physical hardware, networking, and the global infrastructure (Regions, Availability Zones, buildings).
+- **Customer responsibilities:** Secure **what’s in the cloud** — properly configure services, manage data privacy, control access, use encryption, and follow best practices.
 
-## 🔑 1. AWS Identity and Access Management (IAM)
+**Why it matters for AI:**  
+When deploying AI models, you must handle your **application-level security** (e.g., patch models, secure training data) while AWS protects the underlying infrastructure.
 
-### ✅ Features:
-- Fine-grained control over **who can access** AI resources (e.g., Amazon SageMaker, Amazon Bedrock).
-- Supports **IAM roles, users, groups, and policies**.
-- Enforces **least privilege** access design.
-
-### 📌 Example:
-- Assign an IAM role to a SageMaker notebook that allows access only to specific S3 buckets and no internet.
+![AWS Shared Responsibility Model](./img/aws-share-responsbility-model.png)
 
 ---
 
-## 🧾 2. IAM Policies and Permissions
+## IAM (Identity and Access Management)
 
-### ✅ Purpose:
-- Define **precise access rules** for AWS services and resources.
-- Can be used to **allow/deny actions** like `bedrock:InvokeModel`, `s3:GetObject`, or `kms:Encrypt`.
+**What it is:**  
+A **web service** to manage **who can access your AWS AI resources** and **what actions they can perform**.
 
-### 🔐 Use Case:
-- Deny Bedrock model access for users in a non-compliant region.
-- Allow only encrypted S3 access for training data.
+**Key features:**
 
----
+- **IAM Users:** Individual identities (name + credentials) to access AWS.
+- **IAM Roles:** Identities you assign to apps or AWS services (e.g., SageMaker notebooks can assume a role to access S3 securely).
+- **Policies & Permissions:** Rules to allow or deny actions for users, roles, or groups.
+- **MFA (Multifactor Authentication):** Extra security layer beyond passwords.
 
-## 🔐 3. Encryption
+**Best practice:**  
 
-### ✅ Services Involved:
-- **AWS Key Management Service (KMS)**: Manage encryption keys.
-- **S3 Encryption**: Protect data at rest.
-- **TLS/HTTPS**: Encrypt data in transit.
-
-### 📦 Applied To:
-- AI training data in S3
-- Model outputs
-- Inter-service communication
+- Use **roles** for AI workloads instead of hard-coded keys.
+- Follow **least privilege** — only grant permissions needed to run or train your AI.
 
 ---
 
-## 🕵️ 4. Amazon Macie
+## Encryption
 
-### 🔍 What It Does:
-- Automatically discovers and classifies **sensitive data** (e.g., PII, financial data) in Amazon S3.
+**What it is:**  
+Protect your AI training data, model artifacts, and predictions by encrypting them.
 
-### ✅ Use Case:
-- Alert if training data contains personal information that should not be used.
+**How AWS helps:**  
 
----
+- Tools to encrypt data **in transit** and **at rest**.
+- Option to manage your own keys or use AWS-managed keys.
 
-## 🔒 5. AWS PrivateLink
-
-### 🔍 What It Does:
-- Provides **private connectivity** between VPCs and AWS services without exposing traffic to the public internet.
-
-### ✅ Benefit:
-- Secure access to AI services like SageMaker or Bedrock from **internal apps or enterprise networks**.
+**Example:**  
+Encrypt S3 buckets storing training data, or use SageMaker’s built-in encryption.
 
 ---
 
-## 🤝 6. AWS Shared Responsibility Model
+## Amazon Macie
 
-### 🧠 Key Idea:
-- AWS secures the **cloud infrastructure**, while **you secure your AI workloads**.
+**What it is:**  
+A **security service** that uses ML to **discover, classify, and protect sensitive data** stored in AWS.
 
-| AWS Responsibility             | Customer Responsibility                      |
-| ------------------------------ | -------------------------------------------- |
-| Data center, network, hardware | Model access control, training data security |
-| Physical security              | IAM, encryption, monitoring                  |
-| Underlying AWS services        | Secure usage and compliance policies         |
+**Use for AI:**  
+If you store customer data for training, Macie helps detect **Personally Identifiable Information (PII)** and alerts you so you can enforce tighter controls or encryption.
 
 ---
 
-## 🧩 Summary Table
+## AWS PrivateLink
 
-| Security Feature            | Purpose                                | AWS Tool/Service                |
-| --------------------------- | -------------------------------------- | ------------------------------- |
-| Identity & Access Control   | Manage who can do what                 | IAM, IAM Policies, STS          |
-| Data Encryption             | Protect data at rest and in transit    | KMS, S3 encryption, TLS         |
-| Data Classification         | Discover and secure sensitive data     | Amazon Macie                    |
-| Private Networking          | Isolate AI services from public access | AWS PrivateLink, VPC endpoints  |
-| Governance & Responsibility | Understand security boundaries         | AWS Shared Responsibility Model |
+**What it is:**  
+A service to **securely access AWS services over private network connections**, avoiding the public internet.
+
+**Use for AI:**  
+Deploy models (e.g., on SageMaker) and serve predictions **privately within your VPC**, reducing exposure to external threats.
 
 ---
 
-## ✅ Best Practices
+## Key Takeaway
 
-- Use **least privilege IAM policies** for AI access.
-- Always **encrypt training data** and model artifacts.
-- Monitor access and data movement using **CloudTrail** and **Amazon Macie**.
-- Prefer **PrivateLink endpoints** for Bedrock and SageMaker in production.
-- Understand your role in securing the AI stack under the **shared responsibility model**.
+To secure an AI system on AWS:
 
----
+- **Rely on AWS to protect the cloud infrastructure.**
+- **Use IAM for secure access control.**
+- **Encrypt data and models.**
+- **Monitor and classify sensitive info with Macie.**
+- **Use PrivateLink for private connections.**
 
-Using these AWS services and features helps you enforce **robust security, compliance, and governance** across your AI lifecycle.
+Together, these help you **fulfill your responsibilities under the Shared Responsibility Model** while benefiting from AWS’s robust security foundation.

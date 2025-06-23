@@ -136,6 +136,180 @@ import TabItem from '@theme/TabItem';
     - Hosting and serving models at scale
     - Creating MLOps pipelines
 
+    <Tabs>
+        <TabItem value="canvas" label="Canvas">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Canvas is a no-code tool that enables users to build accurate ML models without any ML expertise.
+                </summary>
+
+                **Key Features:**
+                - Drag-and-drop interface with no coding required.
+                - Access ready-to-use foundation models from Amazon Bedrock and SageMaker JumpStart.
+                - Build custom ML models using AutoML powered by SageMaker AutoPilot.
+
+                **Typical Use Cases:**
+                - Empower business analysts to create predictive models.
+                - Rapidly prototype and test ML use cases without engineering help.
+                - Automate model building and deployment workflows.
+
+                **Why it matters:**  
+                It democratizes ML by making model creation accessible to non-technical users.
+            </details>
+        </TabItem>
+        <TabItem value="jumpstart" label="JumpStart">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker JumpStart is a hub for quick access to pretrained models and solutions to accelerate ML adoption.
+                </summary>
+
+                **Key Features:**
+                - Browse, evaluate, and deploy Foundation Models (FMs).
+                - Customize pretrained models with your own data.
+                - Perform tasks like text summarization, image generation, and more with minimal setup.
+
+                **Typical Use Cases:**
+                - Kickstart new ML projects using pretrained models.
+                - Rapidly test generative AI use cases.
+                - Deploy production-ready models with minimal effort.
+
+                **Why it matters:**  
+                It accelerates the ML journey by providing reusable assets and templates for fast experimentation and deployment.
+            </details>
+        </TabItem>
+        <TabItem value="ground-truth" label="Ground Truth">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Ground Truth is a fully managed data labeling service with human-in-the-loop capabilities.
+                </summary>
+
+                **Key Features:**
+                - Manage data generation, annotation, and model review.
+                - Use Amazon Augmented AI (A2I) for custom human review workflows.
+                - Supports both self-service and AWS-managed labeling options.
+
+                **Typical Use Cases:**
+                - Create high-quality labeled training datasets.
+                - Improve model accuracy with human feedback.
+                - Add human validation for sensitive or ambiguous predictions.
+
+                **Why it matters:**  
+                It ensures labeled data is accurate and relevant, improving ML model performance and trustworthiness.
+            </details>
+        </TabItem>
+        <TabItem value="data-wrangler" label="Data Wrangler">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Data Wrangler simplifies data preparation and feature engineering for ML.
+                </summary>
+
+                **Key Features:**
+                - Visual interface for data selection, cleaning, exploration, and processing.
+                - Reduces weeks of data prep to minutes.
+                - Scales to handle large tabular and image datasets.
+
+                **Typical Use Cases:**
+                - Prepare raw data for training.
+                - Automate feature engineering tasks.
+                - Quickly visualize and clean datasets.
+
+                **Why it matters:**  
+                It saves time and effort, streamlining the often time-consuming data preparation stage in the ML workflow.
+            </details>
+        </TabItem>
+         <TabItem value="clarify" label="Clarify">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Clarify detects bias, explains model predictions, and provides fairness and explainability tools for your ML models.
+                </summary>
+
+                **Key Features:**
+                - Analyze data for bias during preparation.
+                - Evaluate foundation models for accuracy, robustness, and toxicity.
+                - Explain input feature importance during development and inference.
+                - Integrates with SageMaker Experiments to show feature importance graphs.
+
+                **Typical Use Cases:**
+                - Detect unintended bias in datasets and models.
+                - Understand why a model made a certain prediction.
+                - Support responsible AI by ensuring transparency in ML workflows.
+
+                **Why it matters:**  
+                It strengthens fairness, accountability, and trust in AI systems by making models more explainable and bias-aware.
+            </details>
+        </TabItem>
+        <TabItem value="feature-store" label="Feature Store">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Feature Store is a fully managed repository for storing, sharing, and managing ML features.
+                </summary>
+
+                **Key Features:**
+                - Centralized store for features and metadata.
+                - Supports point-in-time queries to retrieve feature values historically.
+                - Tracks feature lineage and processing workflows.
+
+                **Typical Use Cases:**
+                - Reuse features across multiple ML projects.
+                - Reduce repetitive data processing.
+                - Ensure consistency between training and inference data.
+
+                **Why it matters:**  
+                It improves efficiency and consistency in feature engineering, boosting model performance and reproducibility.
+            </details>
+        </TabItem>
+        <TabItem value="model-monitor" label="Model Monitor">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Model Monitor tracks the quality and performance of deployed ML models in production.
+                </summary>
+
+                **Key Features:**
+                - Continuous monitoring with real-time endpoints.
+                - Schedule monitoring for batch transform jobs.
+                - Detects issues in data quality, model quality, bias drift, and feature attribution drift.
+
+                **Typical Use Cases:**
+                - Ensure that deployed models maintain expected performance.
+                - Detect data drift and model degradation.
+                - Automate alerts for compliance and model retraining.
+
+                **Why it matters:**  
+                It provides continuous assurance that models perform accurately and fairly after deployment.
+            </details>
+        </TabItem>
+        <TabItem value="model-cards" label="Model Cards">
+            <strong>What is it?</strong><br />
+            <details>
+                <summary>
+                    Amazon SageMaker Model Cards provide a single place to document, catalog, and share critical details about your machine learning models for governance and reporting.
+                </summary>
+
+                **Key Features:**
+                - Capture intended use, risk rating, training details, metrics, evaluation results, and observations.
+                - Include considerations, recommendations, and custom information.
+                - Create an immutable record for responsible model deployment and compliance.
+                - Export model cards to PDF for sharing with stakeholders.
+
+                **Typical Use Cases:**
+                - Document model purpose, assumptions, and usage constraints.
+                - Facilitate model review and approval workflows.
+                - Support governance and audit requirements.
+
+                **Why it matters:**  
+                It helps standardize model documentation, ensuring models are used responsibly and meet compliance and governance standards.
+            </details>
+        </TabItem>
+    </Tabs>
+
+
     [Learn more](https://aws.amazon.com/sagemaker/) 
 </details>
 <details>

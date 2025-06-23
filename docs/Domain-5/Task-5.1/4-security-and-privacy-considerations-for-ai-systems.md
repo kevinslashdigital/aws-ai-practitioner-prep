@@ -10,10 +10,12 @@ AI systems must be built with **security and privacy** in mind across the entire
 
 ## 🛡️ 1. Application Security
 
-### 🔍 Focus:
+### 🔍 Focus
+
 - Protect AI-powered applications from being exploited via insecure code, APIs, or endpoints.
 
-### ✅ Best Practices:
+### ✅ Best Practices
+
 - Validate all input/output (especially for GenAI models).
 - Use **API Gateway** + **WAF (Web Application Firewall)** to prevent abuse.
 - Apply **least privilege** policies on APIs and model endpoints.
@@ -22,10 +24,12 @@ AI systems must be built with **security and privacy** in mind across the entire
 
 ## 🔍 2. Threat Detection
 
-### 🔍 Purpose:
+### 🔍 Purpose
+
 - Identify unauthorized access, malicious behavior, or anomalous activity in AI environments.
 
-### ✅ AWS Tools:
+### ✅ AWS Tools
+
 - **Amazon GuardDuty**: Monitors AWS accounts for threats.
 - **Amazon CloudWatch + CloudTrail**: Monitor logs and detect anomalies.
 - **Amazon Detective**: Investigate potential breaches or suspicious activity.
@@ -34,10 +38,12 @@ AI systems must be built with **security and privacy** in mind across the entire
 
 ## 🕳️ 3. Vulnerability Management
 
-### 🔍 Goal:
+### 🔍 Goal
+
 - Identify and patch weaknesses in ML environments and dependencies (e.g., outdated Python packages, unpatched libraries).
 
-### ✅ Best Practices:
+### ✅ Best Practices
+
 - Use **AWS Inspector** to scan EC2, Lambda, and containers.
 - Regularly update SageMaker notebooks and container images.
 - Scan ML containers before deployment using CI/CD pipeline tools.
@@ -46,10 +52,12 @@ AI systems must be built with **security and privacy** in mind across the entire
 
 ## 🧠 4. Prompt Injection (LLMs/Generative AI)
 
-### 🔍 Threat:
+### 🔍 Threat
+
 - Malicious input is crafted to manipulate an AI model’s output, bypass safeguards, or leak confidential instructions.
 
-### ✅ Mitigation:
+### ✅ Mitigation
+
 - Sanitize user inputs (e.g., escaping, filtering).
 - Use **Guardrails for Amazon Bedrock** to block toxic or unsafe outputs.
 - Apply **role-based context switching** and separation between system/human prompts.
@@ -58,22 +66,66 @@ AI systems must be built with **security and privacy** in mind across the entire
 
 ## 🗄️ 5. Encryption (At Rest & In Transit)
 
-### 🔐 Objective:
+### 🔐 Objective
+
 - Prevent data exposure in case of breach or misconfiguration.
 
-### ✅ Best Practices:
-- Encrypt training data and models with **AWS KMS**.
-- Enforce **TLS** for all API and model communication.
-- Enable **S3 encryption**, **EBS volume encryption**, and **RDS encryption** by default.
+### Encryption at Rest
+
+**What it is:**  
+
+- **Encryption at rest** means that your data is **encrypted while stored** on disks, storage volumes, or databases.  
+- If someone gains access to the physical storage, they **cannot read the raw data** without the proper decryption keys.
+
+**How AWS does it:**  
+
+- **All AWS services offer the option to encrypt data at rest.**
+- Some services, like **Amazon S3**, **Amazon DynamoDB**, and **Amazon SageMaker**, **encrypt your data by default**.
+  - **Example:** SageMaker encrypts all data on ML storage volumes used by **notebook instances, training jobs, and endpoints**.
+
+**Keys and management:**  
+
+- **Encryption keys** are used with algorithms to encrypt (lock) and decrypt (unlock) data.
+- You can:
+  - Let AWS manage the keys (**service-owned keys**).
+  - Or, use **AWS Key Management Service (AWS KMS)** to create and manage your own **customer-managed keys**.
+- Using **IAM policies** with KMS keys adds another layer of protection.  
+  - Example: If someone has read access to an S3 bucket but not permission to use the KMS key, they **cannot decrypt the files**.
+
+**Best practice:**  
+
+- Use **customer-managed keys** if you want full control over key policies, rotation, and to enable or disable keys as needed.
+
+---
+
+### Encryption in Transit
+
+**What it is:**  
+
+- **Encryption in transit** protects your data **while it’s moving** between your systems and AWS services, or between AWS services themselves.
+
+**How AWS does it:**  
+
+- **All AWS service endpoints support TLS (Transport Layer Security)** to create **secure HTTPS connections** for API requests.
+  - For example, all calls to **Amazon S3** and **SageMaker** APIs and consoles **are made over encrypted connections**.
+- This ensures that **data cannot be intercepted or read** while being transferred over networks.
+
+**Additional considerations:**  
+
+- In **SageMaker distributed training** (when training uses multiple compute nodes in a cluster), **inter-node traffic is not encrypted by default**.
+  - You can **enable inter-node encryption** for very sensitive workloads.
+  - Note: This can **increase training times** for some algorithms, especially deep learning.
 
 ---
 
 ## 🏗️ 6. Infrastructure Protection
 
-### 🔍 Goal:
+### 🔍 Goal
+
 - Secure cloud-based compute, storage, and networking resources used for AI workloads.
 
-### ✅ Techniques:
+### ✅ Techniques
+
 - Use **Amazon VPC** to isolate ML workloads.
 - Configure **Security Groups** and **NACLs** for fine-grained control.
 - Restrict model access using **VPC endpoints** (e.g., SageMaker, Bedrock, S3).

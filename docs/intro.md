@@ -24,16 +24,14 @@ Let’s dive into **these 5 domains**.
 
 ### Courses
 
-- [Standard Exam Prep Plan: AWS Certified AI Practitioner (AIF-C01)](https://explore.skillbuilder.aws/learn/learning-plans/2193/standard-exam-prep-plan-aws-certified-ai-practitioner-aif-c01)
-- [Exam Prep Standard Course: AWS Certified AI Practitioner (AIF-C01)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19554/exam-prep-standard-course-aws-certified-ai-practitioner-aif-c01)
+- [AWS Certified AI Practitioner](https://skillbuilder.aws/category/exam-prep/ai-practitioner)
 - [Ultimate AWS Certified AI Practitioner (Udemy)](https://www.udemy.com/share/10bvGH3@dMEoXyQMr8TyOxq_GvmzW5-dxijo3kQwIIQ50aPL1SdVM5iRMLN2rJOc1NQZXTRwTw==/)
 
 ### Practice Exam
-
-- [Exam Prep Official Practice Question Set: AWS Certified AI Practitioner (AIF-C01)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19790/exam-prep-official-practice-question-set-aws-certified-ai-practitioner-aif-c01-english)
-- [Exam Prep Official Pretest: AWS Certified AI Practitioner (AIF-C01)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/20274/exam-prep-official-pretest-aws-certified-ai-practitioner-aif-c01-english) *(need paid account)*
+- [Quiz](/quiz)
+- [Official Practice Question Set: AWS Certified AI Practitioner (AIF-C01 - English)](https://skillbuilder.aws/learn/4URFGY63KV/official-practice-question-set-aws-certified-ai-practitioner--aifc01--english/FVG43Y1PAX)
 - [Practice Exams (Udemy)](https://www.udemy.com/share/10bvxV3@Zya8zlCVA1fNdyLQjhf2GgpJFi2fyg7-lVdo8uz8CoTvrxqB4V3VIk82dmbs8-hz-A==/)
 
 ### Review Exam Guide
-- [AWS Certified AI Practitioner Exam Guide (PDF)](https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/ap[…]ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
+- [AWS Certified AI Practitioner Exam Guide (PDF)](https://d1.awsstatic.com/training-and-certification/docs-ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
 - [Complete Exam Review](https://aws-api-practitioner-prep.vercel.app/)
