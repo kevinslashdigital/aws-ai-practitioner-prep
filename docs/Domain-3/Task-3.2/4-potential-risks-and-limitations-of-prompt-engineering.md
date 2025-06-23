@@ -13,7 +13,7 @@ Understanding these risks helps ensure safer, more responsible AI deployment.
 ## 1. **Poisoning**
 
 **Definition**:  
-Poisoning involves the intentional insertion of malicious or biased data into the training dataset of a model.
+Poisoning refers to the intentional introduction of malicious or biased data into the training dataset of a model. This can lead to the model producing biased, offensive, or harmful outputs, either intentionally or unintentionally.
 
 **Risk**:  
 This can cause the model to produce harmful, biased, or offensive outputs, either knowingly or unknowingly.
@@ -46,13 +46,15 @@ This is **data poisoning**, not user error.
 ## 2. **Hijacking and Prompt Injection**
 
 **Definition**:  
-These are techniques that influence a model’s behavior by embedding malicious instructions within input prompts.
+Hijacking and prompt injection refer to the technique of influencing the outputs of generative models by embedding specific instructions within the prompts themselves.
 
 **How it works**:
+
 - An attacker may craft a prompt containing biased or unethical instructions.
 - The model, unable to detect the manipulation, generates outputs reflecting these harmful instructions.
 
 **Risk**:
+
 - Generation of disinformation or fake news.
 - Manipulation of outputs for malicious use cases.
 - Compromised integrity of the generative AI system.
@@ -82,10 +84,11 @@ The model followed the malicious input — this is **prompt injection/hijacking*
 ## 3. **Exposure**
 
 **Definition**:  
-Exposure is the unintentional leakage of private or sensitive information during training or inference.
+Exposure refers to the risk of exposing sensitive or confidential information to a generative model during training or inference. An FM can then inadvertently reveal this sensitive data from their training corpus, leading to potential data leaks or privacy violations.
 
 **Scenario**:  
-A model trained on private customer data may inadvertently disclose personal details when generating content.
+Consider a scenario where a system is trained on private customer data to generate personalized product recommendations. In such a case, there is a possibility that the system might
+unintentionally disclose details about individual customers' purchases or browsing histories within the recommendations that it generates for new customers. This potential exposure of private user information could undermine customers' privacy and erode their trust in the system.
 
 **Risk**:
 
@@ -114,9 +117,10 @@ The model leaked **personal purchase history**, likely from training data — th
 ## 4. **Prompt Leaking**
 
 **Definition**:  
-This refers to the accidental disclosure of prompts or input data (even if not protected).
+Prompt leaking refers to the unintentional disclosure or leakage of the prompts or inputs (regardless of whether these are protected data or not) used within a model. Prompt leaking does not necessarily expose protected data. But it can expose other data used by the model, which can reveal information of how the model works and this can be used against it.
 
 **Risk**:
+
 - It may expose internal prompt structures, strategies, or sensitive use-case data.
 - Can reveal how the model functions, opening avenues for abuse or adversarial attacks.
 
