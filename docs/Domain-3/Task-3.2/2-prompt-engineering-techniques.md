@@ -63,6 +63,50 @@ Use for specialized tasks or where precision/consistency matters.
 
 ---
 
+## ❌ Negative Prompting
+
+**Definition:**  
+**Negative prompting** is a technique in prompt engineering where you **explicitly instruct the model to avoid certain behaviors, topics, formats, or types of content** in its response.
+
+**Purpose:**  
+LLMs are flexible, but sometimes they:
+
+- Drift off-topic
+- Make assumptions
+- Include unwanted content (e.g., code, hallucinations, opinions)
+
+**Negative prompting** helps steer the model away from these undesired outputs.
+
+**Examples:**
+
+### Content Restriction
+
+```text
+Write a summary of this article, but do NOT include any opinions or assumptions.
+```
+
+### Format Control
+
+```text
+Explain this concept in plain language. Do not use technical jargon.
+```
+
+### Avoid Hallucination
+
+```text
+Answer only based on the context provided. Do not make up facts.
+```
+
+### Prevent Repetition or Verbosity
+
+```text
+Give a short response, and do not repeat any part of the input.
+```
+
+**Tip:**  
+Use clear, explicit "do not" statements to guide the model away from unwanted behaviors.
+
+
 ## 🔗 Chain-of-Thought Prompting
 
 **Definition:**  
@@ -115,6 +159,7 @@ Prompt engineering is not “one size fits all.” Combine techniques for even b
 | One-shot         | 1             | Format guidance                    | Quick adaptation to new tasks         |
 | Few-shot         | 2–5+          | Better accuracy & clarity          | Structured, ambiguous, or niche tasks |
 | Chain-of-thought | N/A           | Logical reasoning, stepwise output | Math, logic, complex explanations     |
+| Negative prompting | N/A         | Content control, avoiding unwanted outputs | Preventing hallucinations, staying on-topic |
 | Prompt templates | Variable      | Reusability, automation            | Scalable, repeatable prompting        |
 
 ---
