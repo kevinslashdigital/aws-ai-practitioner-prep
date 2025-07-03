@@ -47,11 +47,11 @@ Asynchronous Inference allows scaling down your endpoint to 0 when there are no 
 
 ---
 
-## 📦 Batch Transform
+## 📦 Batch Transform (for inference)
 Batch transform is suitable for **offline processing** when **large amounts of data** are available upfront and you **don’t need a persistent endpoint**.  
 You can also use batch transform for **pre-processing datasets**.
 
-- **Payload size**: GBs of data  
+- **Payload size**: 100MB of data  
 - **Processing time**: can span multiple days
 
 :::tip
