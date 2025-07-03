@@ -63,7 +63,92 @@ LLMs can hallucinate—generate factually incorrect but confident-sounding answe
 
 ---
 
-## 🛠️ Beyond RAG: Agents in Amazon Bedrock
+## 🔧 Amazon Bedrock Knowledge Bases
+
+**Amazon Bedrock Knowledge Bases** is AWS's fully managed RAG solution that provides end-to-end workflow support for connecting foundation models and agents to your company's private data sources.
+
+### 🎯 Key Features
+
+#### **1. Fully Managed RAG Workflow**
+- **Complete end-to-end solution** from data ingestion to retrieval and prompt augmentation
+- **Built-in session context management** and source attribution
+- **No custom integrations** needed - handles all data flows automatically
+- **Single document support** - ask questions without setting up vector databases
+
+#### **2. Secure Data Source Connections**
+
+**Unstructured Data Sources:**
+- Amazon S3, Confluence, Salesforce, SharePoint, Web Crawler
+- **Programmatic document ingestion** for streaming data or unsupported sources
+- **Automatic processing**: text extraction → embeddings → vector database storage
+
+**Structured Data Sources:**
+- **Natural Language to SQL** conversion for data warehouses and data lakes
+- Query transactional details without moving data from source systems
+- Direct connection to structured data stores for grounded responses
+
+#### **3. Supported Vector Stores**
+- Amazon Aurora
+- Amazon OpenSearch Serverless
+- Amazon Neptune Analytics (with GraphRAG)
+- MongoDB
+- Pinecone
+- Redis Enterprise Cloud
+- Amazon Kendra (hybrid search index)
+
+#### **4. Advanced Customization Options**
+
+**Multimodal Data Processing:**
+- Parse images and visually rich documents (tables, charts, diagrams)
+- Choose between **Bedrock Data Automation** or **foundation models** as parsers
+- Extract meaningful insights from complex layouts
+
+**Advanced Chunking Strategies:**
+- **Semantic chunking** - content-aware splitting
+- **Hierarchical chunking** - nested document structure
+- **Fixed size chunking** - traditional approach
+- **Custom chunking** - write your own Lambda functions
+- **Framework integration** - LangChain and LlamaIndex support
+
+**GraphRAG with Neptune Analytics:**
+- Automatically creates **embeddings and graphs** linking related content
+- Leverages content relationships for improved retrieval accuracy
+- Provides more **comprehensive and explainable responses**
+
+#### **5. Retrieval and Generation APIs**
+
+**Retrieve API:**
+- Fetch relevant results including **visual elements** (images, diagrams, charts, tables)
+- Support for structured data from databases
+- Apply **filters** to restrict results to relevant content
+
+**RetrieveAndGenerate API:**
+- Directly augments FM prompts with retrieved results
+- Returns complete responses with context
+- **Built-in reranker models** to improve document chunk relevance
+
+#### **6. Source Attribution and Transparency**
+- **Citations provided** for all retrieved information (including visuals)
+- **Improves transparency** and minimizes hallucinations
+- Full traceability from response back to source documents
+
+### 💡 Business Benefits
+
+- **Faster Time-to-Market**: Fully managed service eliminates infrastructure setup
+- **Enhanced Accuracy**: Advanced retrieval techniques reduce hallucinations
+- **Scalable Architecture**: Supports both small documents and enterprise data lakes
+- **Security & Compliance**: Data stays within your AWS environment
+- **Cost Effective**: Pay-per-use model with no infrastructure overhead
+
+### 🔗 Integration with Bedrock Ecosystem
+
+- **Seamless integration** with Amazon Bedrock Agents
+- **Multiple foundation models** supported (Claude, Llama, Titan, etc.)
+- **API-driven approach** for easy application integration
+- **Workshop and training resources** available for hands-on learning
+
+
+### 🛠️ Beyond RAG: Agents in Amazon Bedrock
 
 - **Agents** extend RAG by orchestrating multi-step tasks (e.g., booking, data updates).
 - Can **call APIs**, **ingest structured data**, and **generate custom logic**.
@@ -73,10 +158,11 @@ LLMs can hallucinate—generate factually incorrect but confident-sounding answe
 
 ## 🚀 Summary
 
-| Concept          | Description                                                     |
-| ---------------- | --------------------------------------------------------------- |
-| **RAG**          | Combines retrieval + generation to enhance accuracy and context |
-| **Retriever**    | Finds relevant knowledge using vector similarity                |
-| **Generator**    | LLM produces output using retrieved knowledge                   |
-| **Business Use** | Improves chatbots, search, Q&A, and automated workflows         |
-| **AWS Tools**    | Amazon Bedrock, OpenSearch, pgvector, RDS, Redis, Agents        |
+| Concept            | Description                                                     |
+| ------------------ | --------------------------------------------------------------- |
+| **RAG**            | Combines retrieval + generation to enhance accuracy and context |
+| **Retriever**      | Finds relevant knowledge using vector similarity                |
+| **Generator**      | LLM produces output using retrieved knowledge                   |
+| **Business Use**   | Improves chatbots, search, Q&A, and automated workflows         |
+| **AWS Tools**      | Amazon Bedrock, OpenSearch, pgvector, RDS, Redis, Agents        |
+| **Bedrock KB**     | Fully managed RAG solution with end-to-end workflow support     |
