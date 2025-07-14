@@ -27,32 +27,9 @@ Training a foundation model involves three main stages:
 ## 2. Fine-tuning
 
 - **Purpose**: Adapt the pre-trained model to **specific tasks** or **domains**.
-- **Method**:  
-  Uses **supervised learning** with **labeled datasets** to update the model’s weights.
-
-### Variants of Fine-tuning:
-
-- **Instruction-based Fine-tuning**  
-  Uses labeled examples for task-specific improvements.
-
-- **Domain Adaptation**  
-  Uses domain-specific data to help the model understand specialized language or terminology.
-
-- **Multitask Fine-tuning**  
-  Trains on examples from multiple tasks (e.g., summarization, translation, reviews).  
-  Helps the model generalize and **mitigates catastrophic forgetting**.
-
-- **Parameter-Efficient Fine-Tuning (PEFT)**  
-  Updates only small, task-specific layers, preserving original weights.  
-  - Example: **LoRA (Low-Rank Adaptation)** – Inserts low-rank matrices into transformer layers.
-
-- **Representation Fine-Tuning (ReFT)**  
-  Keeps the base model frozen and learns task-specific interventions on hidden representations.
-
-### Considerations:
-
-- **Catastrophic Forgetting**:  
-  Fine-tuning on a single task may degrade performance on other tasks.
+- **Method**: Uses **supervised learning** with **labeled datasets** to update the model's weights.
+- **Key Variants**: Instruction tuning, domain adaptation, parameter-efficient fine-tuning (PEFT)
+- **Consideration**: Risk of **catastrophic forgetting** when training on single tasks.
 
 ---
 
