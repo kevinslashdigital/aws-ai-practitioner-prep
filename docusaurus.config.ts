@@ -104,6 +104,11 @@ const config: Config = {
         },
         {to: '/quiz', label: 'Quiz', position: 'left'},
         {
+          label: "About Slash",
+          to: "/slash",
+          position: "right",
+        },
+        {
           href: "https://github.com/kevinslashdigital/aws-ai-practitioner-prep",
           label: "GitHub",
           position: "right",
@@ -123,10 +128,10 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "Sponsors",
           items: [
             {
-              label: "Website",
+              label: "Slash",
               href: "https://slash.co",
             },
             // {
@@ -151,13 +156,17 @@ const config: Config = {
               to: "/docs/intro",
             },
             {
+              label: "About Slash",
+              to: "/slash",
+            },
+            {
               label: "GitHub",
               href: "https://github.com/kevinslashdigital/aws-ai-practitioner-prep",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AWS AI Practitioner Community. Sponsored by Slash.`,
     },
     prism: {
       theme: prismThemes.github,
