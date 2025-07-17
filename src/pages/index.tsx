@@ -34,8 +34,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Confidently Prepare for the AWS Certified AI Practitioner Exam"
+      description="A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam. Access curated resources, quizzes, and guides to boost your cloud AI knowledge.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

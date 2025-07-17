@@ -53,9 +53,9 @@ export default function Home(): ReactNode {
   const toggleQuiz = () => setShowQuiz((prev) => !prev);
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+      title="AWS AI Practitioner Exam Quiz"
+      description="Challenge yourself with our AWS AI Practitioner Exam Quiz! Test your knowledge across all 5 domains and get exam-ready with instant feedback and explanations.">
+
       {!showQuiz && (
         <HomepageHeader showQuiz={showQuiz} toggleQuiz={toggleQuiz} />
       )}

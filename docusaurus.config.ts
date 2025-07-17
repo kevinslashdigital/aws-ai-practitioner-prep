@@ -5,21 +5,22 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  
   title: "✨ Welcome to AWS AI Practitioner Exam Review Guide 📘",
   tagline:
     "Confidently prepare for the AWS Certified AI Practitioner exam with our community-powered study hub.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://aws-ai-practitioner-prep.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Slash", // Usually your GitHub org/user name.
+  projectName: "aws-ai-practitioner-prep", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -37,41 +38,55 @@ const config: Config = {
   },
 
   themes: ["@docusaurus/theme-mermaid"],
-
   presets: [
     [
-      "classic",
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          sidebarPath: require.resolve('./sidebars.ts'),
+          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ["rss", "atom"],
+            type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
+          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      } satisfies Preset.Options,
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          filename: 'sitemap.xml',
+        },
+      },
     ],
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'description', content: 'A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam. Access curated resources, quizzes, and guides to boost your cloud AI knowledge.' },
+      { name: 'keywords', content: 'aws, ai, artificial intelligence, practitioner, exam, certification, study guide, cloud, machine learning, quiz, resources, aws certification' },
+      { name: 'author', content: 'AWS AI Practitioner Community' },
+      // Open Graph
+      { property: 'og:title', content: 'Confidently Prepare for the AWS Certified AI Practitioner Exam' },
+      { property: 'og:description', content: 'A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam.' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://aws-ai-practitioner-prep.vercel.app' },
+      { property: 'og:image', content: '/img/og-image.png' },
+      // Twitter Card
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Confidently Prepare for the AWS Certified AI Practitioner Exam' },
+      { name: 'twitter:description', content: 'A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam.' },
+      { name: 'twitter:image', content: '/img/og-image.png' },
+      // { name: 'twitter:site', content: '@your_twitter_handle' }, // Uncomment and set if available
+    ],
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
@@ -89,7 +104,7 @@ const config: Config = {
         },
         {to: '/quiz', label: 'Quiz', position: 'left'},
         {
-          href: "https://github.com/kevinslashdigital/aws-api-practitioner-prep",
+          href: "https://github.com/kevinslashdigital/aws-ai-practitioner-prep",
           label: "GitHub",
           position: "right",
         },
@@ -137,7 +152,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/kevinslashdigital/aws-api-practitioner-prep",
+              href: "https://github.com/kevinslashdigital/aws-ai-practitioner-prep",
             },
           ],
         },
