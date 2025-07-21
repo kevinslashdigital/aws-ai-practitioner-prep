@@ -3,7 +3,6 @@ title: About Slash
 description: Learn about Slash, the main sponsor of the AWS AI Practitioner Exam Review Guide. Discover their mission, expertise, and how they empower innovation in the tech industry.
 keywords:
   - Slash
-  - sponsor
   - AWS AI Practitioner
   - cloud
   - technology
@@ -18,9 +17,11 @@ slug: /slash
 
 ## Who is Slash?
 
-Slash is a global technology company specializing in building and scaling digital products, platforms, and ventures. With a diverse team of engineers, designers, and strategists, Slash partners with startups, scale-ups, and enterprises to deliver impactful solutions across industries.
+Slash is a global technology company specializing in building and scaling digital products, platforms, and ventures. With a diverse team of engineers, designers, and strategists, Slash partners with startups, scale-ups, and enterprises to deliver impactful solutions across industries. 
 
 ## What Does Slash Do?
+
+From our digital solutions boutique to our venture-building agency, we harness the power of technology to create a positive legacy. We have been building meaningful digital products that people love and that the world needs since 2016.
 
 - **Product Development:** End-to-end design and engineering of web, mobile, and cloud solutions.
 - **AI & Data:** Expertise in artificial intelligence, machine learning, and data-driven innovation.
@@ -33,7 +34,7 @@ Slash is passionate about empowering the next generation of cloud and AI profess
 
 ## Learn More
 
-Visit [slash.co](https://slash.co) to discover how Slash can help you innovate and grow in the digital age.
+Visit [slash.co](https://slash.co/about-slash) to discover how Slash can help you innovate and grow in the digital age.
 
 ---
 
