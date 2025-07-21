@@ -1,4 +1,15 @@
 ---
+title: Legal Risks of Working with Generative AI
+description: Understand the legal and regulatory risks of using generative AI, including IP infringement and bias, for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - Legal Risks
+  - IP Infringement
+  - Bias
+  - Regulation
+  - Compliance
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

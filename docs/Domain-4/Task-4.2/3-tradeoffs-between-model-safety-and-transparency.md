@@ -1,4 +1,14 @@
 ---
+title: Tradeoffs Between Model Safety and Transparency
+description: Learn about the tradeoffs between model safety and transparency in AI systems, including interpretability and risk, for the AWS AI Practitioner exam.
+keywords:
+  - Model Safety
+  - Transparency
+  - Interpretability
+  - Risk
+  - Responsible AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

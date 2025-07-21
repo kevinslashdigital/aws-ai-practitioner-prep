@@ -1,4 +1,13 @@
 ---
+title: Selecting the Right ML Techniques for Use Cases
+description: Understand how to select appropriate machine learning techniques, including supervised and unsupervised learning, for different use cases in the AWS AI Practitioner exam.
+keywords:
+  - Machine Learning
+  - ML Techniques
+  - Supervised Learning
+  - Unsupervised Learning
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

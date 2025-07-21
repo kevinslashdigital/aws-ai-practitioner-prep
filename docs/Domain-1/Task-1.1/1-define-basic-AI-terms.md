@@ -1,4 +1,14 @@
 ---
+title: Basic AI Terms
+description: Learn the fundamental terms and definitions in artificial intelligence, machine learning, deep learning, and neural networks for the AWS AI Practitioner exam.
+keywords:
+  - AI
+  - Artificial Intelligence
+  - Machine Learning
+  - Deep Learning
+  - Neural Networks
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

@@ -1,4 +1,13 @@
 ---
+title: Methods to Use a Machine Learning Model in Production
+description: Explore various methods for deploying and using machine learning models in production environments for the AWS AI Practitioner exam.
+keywords:
+  - Machine Learning
+  - Model Deployment
+  - Production
+  - API Service
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

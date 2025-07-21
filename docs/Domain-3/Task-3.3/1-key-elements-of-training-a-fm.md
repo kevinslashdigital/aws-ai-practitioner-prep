@@ -1,4 +1,15 @@
 ---
+title: Key Elements of Training a Foundation Model
+description: Understand the main stages and best practices for training a foundation model, including pre-training, fine-tuning, and continuous pre-training, for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Training
+  - Pre-training
+  - Fine-tuning
+  - Continuous Pre-training
+  - Best Practices
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

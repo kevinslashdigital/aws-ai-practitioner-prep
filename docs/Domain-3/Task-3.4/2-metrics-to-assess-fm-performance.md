@@ -1,4 +1,15 @@
 ---
+title: Relevant Metrics to Assess Foundation Model Performance
+description: Learn about key metrics such as ROUGE and BLEU for assessing foundation model performance in various tasks, for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Metrics
+  - ROUGE
+  - BLEU
+  - Performance Assessment
+  - Evaluation
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

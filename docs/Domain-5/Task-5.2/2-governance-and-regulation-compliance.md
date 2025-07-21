@@ -1,4 +1,15 @@
 ---
+title: AWS Services for Governance and Regulatory Compliance
+description: Explore AWS services for governance and regulatory compliance in AI systems, including AWS Config, Inspector, and Audit Manager, for the AWS AI Practitioner exam.
+keywords:
+  - Governance
+  - Regulatory Compliance
+  - AWS Config
+  - Inspector
+  - Audit Manager
+  - AI Systems
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

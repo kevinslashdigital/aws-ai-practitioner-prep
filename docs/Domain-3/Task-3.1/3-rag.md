@@ -1,4 +1,15 @@
 ---
+title: Retrieval-Augmented Generation (RAG)
+description: Explore the concept of Retrieval-Augmented Generation (RAG), its architecture, benefits, and use cases for the AWS AI Practitioner exam.
+keywords:
+  - Retrieval-Augmented Generation
+  - RAG
+  - LLM
+  - Knowledge Base
+  - Semantic Search
+  - Vector Database
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

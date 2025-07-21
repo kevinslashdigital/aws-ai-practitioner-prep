@@ -1,4 +1,13 @@
 ---
+title: Sources of Machine Learning (ML) Models
+description: Understand the different sources of machine learning models, including open source pre-trained models and custom-trained models, for the AWS AI Practitioner exam.
+keywords:
+  - Machine Learning
+  - ML Models
+  - Pre-trained Models
+  - Custom Models
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

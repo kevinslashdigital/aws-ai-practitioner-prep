@@ -1,4 +1,15 @@
 ---
+title: Data Governance Strategies for AI Systems
+description: Learn about data governance strategies for AI systems, including lifecycle management, logging, and residency, for the AWS AI Practitioner exam.
+keywords:
+  - Data Governance
+  - Lifecycle Management
+  - Logging
+  - Data Residency
+  - Compliance
+  - AI Systems
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

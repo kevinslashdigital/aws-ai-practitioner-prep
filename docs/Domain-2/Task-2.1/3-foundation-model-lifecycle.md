@@ -1,4 +1,14 @@
 ---
+title: Foundation Model Lifecycle
+description: Understand the lifecycle of foundation models, including data selection, model selection, pre-training, fine-tuning, and deployment, for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Model Lifecycle
+  - Pre-training
+  - Fine-tuning
+  - Deployment
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

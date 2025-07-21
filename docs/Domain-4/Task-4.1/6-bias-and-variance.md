@@ -1,4 +1,15 @@
 ---
+title: Understanding the Effects of Bias and Variance in AI Models
+description: Learn how bias and variance impact AI model performance, fairness, and generalization, for the AWS AI Practitioner exam.
+keywords:
+  - Bias
+  - Variance
+  - AI Models
+  - Underfitting
+  - Overfitting
+  - Fairness
+  - AWS
+  - AI Practitioner
 sidebar_position: 6
 ---
 

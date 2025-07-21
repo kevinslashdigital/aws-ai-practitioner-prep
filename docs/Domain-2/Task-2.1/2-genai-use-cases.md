@@ -1,4 +1,15 @@
 ---
+title: Potential Use Cases for Generative AI Models
+description: Explore real-world use cases for generative AI, such as image, video, audio generation, and summarization, for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - Use Cases
+  - Image Generation
+  - Video Generation
+  - Audio Generation
+  - Summarization
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

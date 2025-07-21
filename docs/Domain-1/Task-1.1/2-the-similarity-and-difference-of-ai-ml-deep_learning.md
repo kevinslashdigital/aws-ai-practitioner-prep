@@ -1,4 +1,14 @@
 ---
+title: Similarities and Differences of AI, ML, and Deep Learning
+description: Compare and contrast artificial intelligence, machine learning, and deep learning for the AWS AI Practitioner exam. Understand their definitions, relationships, and real-world applications.
+keywords:
+  - AI
+  - Machine Learning
+  - Deep Learning
+  - Differences
+  - Similarities
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

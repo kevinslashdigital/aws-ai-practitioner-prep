@@ -1,4 +1,15 @@
 ---
+title: Foundational Generative AI Concepts
+description: Learn the core concepts and terminology of generative AI, including tokens, chunking, embeddings, and vectors, for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - AI Concepts
+  - Tokens
+  - Embeddings
+  - Vectors
+  - Chunking
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

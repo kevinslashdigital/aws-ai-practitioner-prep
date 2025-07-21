@@ -1,4 +1,16 @@
 ---
+title: Risks and Limitations of Prompt Engineering
+description: Understand the risks and limitations of prompt engineering, including poisoning, bias, and security issues, for the AWS AI Practitioner exam.
+keywords:
+  - Prompt Engineering
+  - Risks
+  - Limitations
+  - Poisoning
+  - Bias
+  - Security
+  - Generative AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

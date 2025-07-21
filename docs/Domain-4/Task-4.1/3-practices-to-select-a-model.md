@@ -1,4 +1,15 @@
 ---
+title: Responsible Practices for Selecting a Foundation Model
+description: Learn responsible practices for selecting foundation models, including environmental, privacy, and fairness considerations, for the AWS AI Practitioner exam.
+keywords:
+  - Responsible AI
+  - Foundation Model
+  - Model Selection
+  - Environmental Impact
+  - Privacy
+  - Fairness
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

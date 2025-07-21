@@ -1,4 +1,15 @@
 ---
+title: Preparing Data to Fine-Tune a Foundation Model
+description: Learn best practices for preparing and governing data for fine-tuning foundation models, including curation, governance, and dataset size, for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Fine-Tuning
+  - Data Preparation
+  - Data Curation
+  - Data Governance
+  - Dataset Size
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

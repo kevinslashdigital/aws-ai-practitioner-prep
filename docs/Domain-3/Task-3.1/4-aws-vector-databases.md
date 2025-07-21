@@ -1,4 +1,15 @@
 ---
+title: AWS Services for Storing Embeddings in Vector Databases
+description: Learn about AWS services for storing and searching embeddings in vector databases, including OpenSearch and RDS with pgvector, for the AWS AI Practitioner exam.
+keywords:
+  - AWS
+  - Vector Database
+  - Embeddings
+  - OpenSearch
+  - RDS
+  - pgvector
+  - Semantic Search
+  - AI Practitioner
 sidebar_position: 4
 ---
 

@@ -1,4 +1,16 @@
 ---
+title: Cost Tradeoffs of Foundation Model Customization Approaches
+description: Discover the cost, complexity, and flexibility tradeoffs of different foundation model customization methods for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Customization
+  - Cost Tradeoffs
+  - Pre-training
+  - Fine-tuning
+  - RAG
+  - Prompt Engineering
+  - AWS
+  - AI Practitioner
 sidebar_position: 5
 ---
 

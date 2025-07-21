@@ -1,4 +1,15 @@
 ---
+title: Effect of Inference Parameters on Model Responses
+description: Understand how inference parameters like temperature, top-k, and top-p affect generative AI model responses for the AWS AI Practitioner exam.
+keywords:
+  - Inference Parameters
+  - Temperature
+  - Top-k
+  - Top-p
+  - Generative AI
+  - Model Responses
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

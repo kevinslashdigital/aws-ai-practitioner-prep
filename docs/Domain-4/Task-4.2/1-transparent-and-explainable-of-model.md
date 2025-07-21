@@ -1,4 +1,14 @@
 ---
+title: Transparent vs. Non-Transparent AI Models
+description: Understand the differences between transparent and non-transparent AI models, and their importance for explainability and trust, for the AWS AI Practitioner exam.
+keywords:
+  - Transparent Models
+  - Explainability
+  - Trust
+  - Black-Box Models
+  - Responsible AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

@@ -1,4 +1,17 @@
 ---
+title: Capabilities of AWS Managed AI/ML Services
+description: Review the capabilities of AWS managed artificial intelligence and machine learning services, including Rekognition, Textract, Comprehend, Lex, and SageMaker for the AWS AI Practitioner exam.
+keywords:
+  - AWS
+  - Managed Services
+  - AI
+  - Machine Learning
+  - SageMaker
+  - Rekognition
+  - Textract
+  - Comprehend
+  - Lex
+  - AI Practitioner
 sidebar_position: 5
 ---
 

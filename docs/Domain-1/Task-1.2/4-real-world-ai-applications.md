@@ -1,4 +1,16 @@
 ---
+title: Real-World AI Applications
+description: Explore real-world examples of artificial intelligence applications in finance, customer service, energy, travel, and e-commerce for the AWS AI Practitioner exam.
+keywords:
+  - AI Applications
+  - Real-World Examples
+  - Finance
+  - Customer Service
+  - Energy
+  - Travel
+  - E-commerce
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

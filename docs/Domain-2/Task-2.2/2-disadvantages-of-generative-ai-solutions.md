@@ -1,4 +1,16 @@
 ---
+title: Disadvantages of Generative AI Solutions
+description: Learn about the disadvantages and risks of generative AI, including hallucinations, interpretability, inaccuracy, nondeterminism, and ethical risks, for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - Disadvantages
+  - Hallucinations
+  - Interpretability
+  - Inaccuracy
+  - Nondeterminism
+  - Ethical Risks
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

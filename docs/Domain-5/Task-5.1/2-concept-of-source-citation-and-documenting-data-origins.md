@@ -1,4 +1,14 @@
 ---
+title: Source Citation and Documenting Data Origins
+description: Learn about source citation, data lineage, and cataloging for trustworthy and compliant AI systems, for the AWS AI Practitioner exam.
+keywords:
+  - Source Citation
+  - Data Lineage
+  - Data Cataloging
+  - Data Provenance
+  - Compliance
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

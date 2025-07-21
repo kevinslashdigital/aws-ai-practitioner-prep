@@ -1,4 +1,14 @@
 ---
+title: Tools to Identify Transparent and Explainable Models
+description: Explore tools and resources for identifying transparent and explainable AI models, including Amazon SageMaker Model Cards, for the AWS AI Practitioner exam.
+keywords:
+  - Transparent Models
+  - Explainable AI
+  - Model Cards
+  - Documentation
+  - Responsible AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

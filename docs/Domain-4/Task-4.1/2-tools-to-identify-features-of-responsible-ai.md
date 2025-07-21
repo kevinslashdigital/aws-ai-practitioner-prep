@@ -1,4 +1,14 @@
 ---
+title: Tools to Identify and Enforce Features of Responsible AI
+description: Explore AWS tools for identifying and enforcing responsible AI features, including Guardrails for Amazon Bedrock and SageMaker Clarify, for the AWS AI Practitioner exam.
+keywords:
+  - Responsible AI
+  - Tools
+  - Guardrails
+  - SageMaker Clarify
+  - Model Monitoring
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

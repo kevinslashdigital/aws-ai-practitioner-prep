@@ -1,4 +1,13 @@
 ---
+title: Best Practices for Secure Data Engineering in AI
+description: Discover best practices for secure data engineering in AI, including privacy-enhancing technologies and access control, for the AWS AI Practitioner exam.
+keywords:
+  - Secure Data Engineering
+  - Privacy
+  - Data Access Control
+  - Compliance
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

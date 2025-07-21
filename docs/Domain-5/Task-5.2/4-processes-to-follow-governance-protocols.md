@@ -1,4 +1,14 @@
 ---
+title: Processes to Follow Governance Protocols in AI Systems
+description: Discover processes to follow governance protocols in AI systems, including policy creation, reviews, and risk assessment, for the AWS AI Practitioner exam.
+keywords:
+  - Governance Protocols
+  - Policy Creation
+  - Risk Assessment
+  - Compliance
+  - AI Systems
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

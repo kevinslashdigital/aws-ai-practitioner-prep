@@ -1,4 +1,15 @@
 ---
+title: Factors for Selecting Appropriate Generative AI Models
+description: Learn the key factors for selecting the right generative AI model, including model types, performance, capabilities, and constraints, for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - Model Selection
+  - Model Types
+  - Performance
+  - Capabilities
+  - Constraints
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

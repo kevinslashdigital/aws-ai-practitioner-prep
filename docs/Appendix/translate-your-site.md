@@ -1,4 +1,8 @@
 ---
+title: Translate Your Site
+description: Learn how to translate your documentation site using Docusaurus i18n features, including configuration and localization steps for the AWS AI Practitioner project.
+keywords:
+  - AWS AI Practitioner
 sidebar_position: 21
 ---
 

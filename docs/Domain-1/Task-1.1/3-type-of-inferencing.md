@@ -1,4 +1,14 @@
 ---
+title: Types of Inferencing in SageMaker
+description: Explore SageMaker inference options including real-time, serverless, and asynchronous inference for the AWS AI Practitioner exam.
+keywords:
+  - SageMaker
+  - Inference
+  - Real-Time
+  - Serverless
+  - Asynchronous
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

@@ -1,4 +1,15 @@
 ---
+title: Benefits and Best Practices for Prompt Engineering
+description: Learn the benefits and best practices for prompt engineering to improve generative AI model outputs for the AWS AI Practitioner exam.
+keywords:
+  - Prompt Engineering
+  - Best Practices
+  - Benefits
+  - Generative AI
+  - Output Quality
+  - Safety
+  - AWS
+  - AI Practitioner
 sidebar_position: 3
 ---
 

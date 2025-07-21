@@ -1,4 +1,15 @@
 ---
+title: Essential Techniques for Prompt Engineering
+description: Explore essential techniques for prompt engineering, including zero-shot, one-shot, and chain-of-thought prompting, for the AWS AI Practitioner exam.
+keywords:
+  - Prompt Engineering
+  - Techniques
+  - Zero-Shot
+  - One-Shot
+  - Chain-of-Thought
+  - Generative AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

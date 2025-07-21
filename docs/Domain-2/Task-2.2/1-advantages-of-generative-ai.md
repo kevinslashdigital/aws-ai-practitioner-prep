@@ -1,4 +1,16 @@
 ---
+title: Advantages of Generative AI
+description: Discover the key advantages of generative AI, such as adaptability, responsiveness, simplicity, speed, and creativity, for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - Advantages
+  - Adaptability
+  - Responsiveness
+  - Simplicity
+  - Speed
+  - Creativity
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

@@ -1,4 +1,14 @@
 ---
+title: Security and Privacy Considerations for AI Systems
+description: Understand security and privacy considerations for AI systems, including application security, threat detection, and compliance, for the AWS AI Practitioner exam.
+keywords:
+  - Security
+  - Privacy
+  - AI Systems
+  - Threat Detection
+  - Compliance
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

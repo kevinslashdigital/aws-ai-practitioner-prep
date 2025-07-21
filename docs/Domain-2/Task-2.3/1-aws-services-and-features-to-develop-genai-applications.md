@@ -1,4 +1,14 @@
 ---
+title: AWS Services for Developing Generative AI Applications
+description: Explore AWS services for building, customizing, and deploying generative AI applications, including Amazon Bedrock, SageMaker JumpStart, and PartyRock, for the AWS AI Practitioner exam.
+keywords:
+  - AWS
+  - Generative AI
+  - Bedrock
+  - SageMaker
+  - JumpStart
+  - PartyRock
+  - AI Practitioner
 sidebar_position: 1
 ---
 

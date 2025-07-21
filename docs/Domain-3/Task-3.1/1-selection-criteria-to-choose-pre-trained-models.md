@@ -1,4 +1,15 @@
 ---
+title: Selection Criteria to Choose Pre-Trained Models
+description: Learn the key criteria for selecting pre-trained foundation models, including performance, cost, size, and architecture, for the AWS AI Practitioner exam.
+keywords:
+  - Pre-trained Models
+  - Model Selection
+  - Foundation Models
+  - Criteria
+  - Performance
+  - Cost
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

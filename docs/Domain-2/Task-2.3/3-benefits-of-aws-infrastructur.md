@@ -1,4 +1,14 @@
 ---
+title: Benefits of AWS Infrastructure for Generative AI Applications
+description: Learn about the benefits of AWS infrastructure for generative AI, including security, compliance, shared responsibility, and AI safety for the AWS AI Practitioner exam.
+keywords:
+  - AWS
+  - Generative AI
+  - Infrastructure
+  - Security
+  - Compliance
+  - AI Safety
+  - AI Practitioner
 sidebar_position: 3
 ---
 

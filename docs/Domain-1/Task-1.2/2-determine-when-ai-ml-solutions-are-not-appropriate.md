@@ -1,4 +1,15 @@
 ---
+title: When AI/ML Solutions Are Not Appropriate
+description: Learn when artificial intelligence and machine learning are not the right fit, including cases with high costs, transparency needs, or limited data, for the AWS AI Practitioner exam.
+keywords:
+  - AI
+  - Machine Learning
+  - Limitations
+  - Transparency
+  - Data Quality
+  - Costs
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

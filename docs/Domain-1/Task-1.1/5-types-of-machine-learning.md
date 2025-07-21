@@ -1,4 +1,15 @@
 ---
+title: Types of Machine Learning
+description: Understand supervised, unsupervised, semi-supervised, reinforcement learning, and deep learning for the AWS AI Practitioner exam.
+keywords:
+  - Machine Learning
+  - Supervised Learning
+  - Unsupervised Learning
+  - Semi-Supervised
+  - Reinforcement Learning
+  - Deep Learning
+  - AWS
+  - AI Practitioner
 sidebar_position: 5
 ---
 

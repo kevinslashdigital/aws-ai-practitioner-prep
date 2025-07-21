@@ -1,4 +1,14 @@
 ---
+title: Recognize Applications Where AI/ML Can Provide Value
+description: Discover key business applications where artificial intelligence and machine learning deliver value through automation, pattern recognition, and data-driven decision-making for the AWS AI Practitioner exam.
+keywords:
+  - AI
+  - Machine Learning
+  - Business Applications
+  - Automation
+  - Pattern Recognition
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

@@ -1,4 +1,15 @@
 ---
+title: Characteristics of Datasets in Responsible AI
+description: Learn the characteristics of datasets important for responsible AI, such as inclusivity, diversity, and curation, for the AWS AI Practitioner exam.
+keywords:
+  - Responsible AI
+  - Datasets
+  - Inclusivity
+  - Diversity
+  - Data Curation
+  - Ethics
+  - AWS
+  - AI Practitioner
 sidebar_position: 5
 ---
 

@@ -1,4 +1,19 @@
 ---
+title: Different Types of Data in AI Models
+description: Learn about labeled, unlabeled, tabular, time-series, image, text, structured, and unstructured data for AI/ML models in the AWS AI Practitioner exam.
+keywords:
+  - Data Types
+  - Labeled Data
+  - Unlabeled Data
+  - Tabular
+  - Time-Series
+  - Image
+  - Text
+  - Structured
+  - Unstructured
+  - AI Models
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

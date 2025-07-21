@@ -1,4 +1,14 @@
 ---
+title: Understanding the Role of Agents in Multi-Step Tasks
+description: Learn what agents are, their role in multi-step tasks, and how they interact with LLMs, APIs, and data sources for the AWS AI Practitioner exam.
+keywords:
+  - Agents
+  - Multi-Step Tasks
+  - LLMs
+  - Orchestration
+  - API Integration
+  - AWS
+  - AI Practitioner
 sidebar_position: 6
 ---
 

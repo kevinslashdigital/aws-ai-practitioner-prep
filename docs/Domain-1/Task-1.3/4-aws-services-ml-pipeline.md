@@ -1,4 +1,16 @@
 ---
+title: AWS Services for Each Stage of the Machine Learning (ML) Pipeline
+description: Discover AWS services that support each stage of the machine learning pipeline, from data collection to deployment, for the AWS AI Practitioner exam.
+keywords:
+  - AWS
+  - Machine Learning
+  - ML Pipeline
+  - Data Collection
+  - Model Training
+  - Deployment
+  - SageMaker
+  - Glue
+  - AI Practitioner
 sidebar_position: 4
 ---
 

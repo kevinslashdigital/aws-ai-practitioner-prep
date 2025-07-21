@@ -1,4 +1,14 @@
 ---
+title: Regulatory Compliance Standards for AI Systems
+description: Learn about regulatory compliance standards for AI systems, including ISO, SOC 2, and algorithm accountability, for the AWS AI Practitioner exam.
+keywords:
+  - Regulatory Compliance
+  - ISO
+  - SOC 2
+  - Algorithm Accountability
+  - AI Standards
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

@@ -1,4 +1,14 @@
 ---
+title: Approaches to Evaluate Foundation Model Performance
+description: Explore approaches to evaluate foundation model performance, including human evaluation and benchmark datasets, for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Performance Evaluation
+  - Human Evaluation
+  - Benchmark Datasets
+  - Metrics
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

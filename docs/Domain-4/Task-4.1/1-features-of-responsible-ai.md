@@ -1,4 +1,15 @@
 ---
+title: Features of Responsible AI
+description: Discover the core features of responsible AI, including fairness, bias mitigation, and inclusivity, for the AWS AI Practitioner exam.
+keywords:
+  - Responsible AI
+  - Fairness
+  - Bias Mitigation
+  - Inclusivity
+  - Trustworthy AI
+  - Ethics
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

@@ -1,4 +1,15 @@
 ---
+title: Tools to Detect and Monitor Bias, Trustworthiness, and Truthfulness
+description: Explore AWS tools and best practices for detecting and monitoring bias, trustworthiness, and truthfulness in AI models, for the AWS AI Practitioner exam.
+keywords:
+  - Bias Detection
+  - Trustworthiness
+  - Truthfulness
+  - Model Monitoring
+  - SageMaker
+  - Ground Truth
+  - AWS
+  - AI Practitioner
 sidebar_position: 7
 ---
 

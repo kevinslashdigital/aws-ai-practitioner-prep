@@ -1,4 +1,14 @@
 ---
+title: Understanding the Fundamentals of MLOps
+description: Learn the fundamentals of MLOps, including experimentation, repeatable processes, and productionization for the AWS AI Practitioner exam.
+keywords:
+  - MLOps
+  - Machine Learning
+  - ML Operations
+  - DevOps
+  - Production
+  - AWS
+  - AI Practitioner
 sidebar_position: 5
 ---
 

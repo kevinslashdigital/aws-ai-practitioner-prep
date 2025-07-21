@@ -1,4 +1,14 @@
 ---
+title: AWS Certified AI Practitioner Exam Guide
+description: Explore the official guide, content outline, and resources for the AWS Certified AI Practitioner exam, including domains, tasks, and learning steps.
+keywords:
+  - AWS
+  - AI Practitioner
+  - Exam Guide
+  - Certification
+  - Content Outline
+  - Learning Steps
+  - Study Resources
 sidebar_position: 1
 ---
 

@@ -1,4 +1,15 @@
 ---
+title: Components of a Prompt in Prompt Engineering
+description: Understand the essential components and constructs of prompts in prompt engineering for generative AI, for the AWS AI Practitioner exam.
+keywords:
+  - Prompt Engineering
+  - Prompt Components
+  - Instructions
+  - Context
+  - Output Indicator
+  - Generative AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 1
 ---
 

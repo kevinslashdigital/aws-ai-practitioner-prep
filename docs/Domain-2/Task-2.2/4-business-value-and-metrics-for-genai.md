@@ -1,4 +1,16 @@
 ---
+title: Business Value and Metrics for Generative AI Applications
+description: Understand how to measure business value and key metrics for generative AI applications, including innovation, efficiency, personalization, and accuracy for the AWS AI Practitioner exam.
+keywords:
+  - Generative AI
+  - Business Value
+  - Metrics
+  - Innovation
+  - Efficiency
+  - Personalization
+  - Accuracy
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

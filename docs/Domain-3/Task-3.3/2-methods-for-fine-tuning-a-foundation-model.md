@@ -1,4 +1,15 @@
 ---
+title: Methods for Fine-Tuning a Foundation Model
+description: Explore various methods for fine-tuning foundation models, including instruction tuning, domain adaptation, and RLHF, for the AWS AI Practitioner exam.
+keywords:
+  - Foundation Model
+  - Fine-Tuning
+  - Instruction Tuning
+  - Domain Adaptation
+  - RLHF
+  - Generative AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 2
 ---
 

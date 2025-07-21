@@ -1,4 +1,15 @@
 ---
+title: Advantages of Using AWS Generative AI Services
+description: Discover the advantages of AWS generative AI services, including accessibility, efficiency, cost-effectiveness, and speed to market for the AWS AI Practitioner exam.
+keywords:
+  - AWS
+  - Generative AI
+  - Advantages
+  - Accessibility
+  - Efficiency
+  - Cost-Effectiveness
+  - Speed to Market
+  - AI Practitioner
 sidebar_position: 2
 ---
 

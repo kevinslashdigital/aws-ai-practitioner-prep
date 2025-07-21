@@ -1,4 +1,14 @@
 ---
+title: Principles of Human-Centered Design for Explainable AI
+description: Learn the principles of human-centered design for explainable AI, focusing on clarity, relevance, and trust for the AWS AI Practitioner exam.
+keywords:
+  - Explainable AI
+  - Human-Centered Design
+  - Clarity
+  - User Trust
+  - Responsible AI
+  - AWS
+  - AI Practitioner
 sidebar_position: 4
 ---
 

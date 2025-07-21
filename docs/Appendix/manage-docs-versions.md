@@ -1,4 +1,12 @@
 ---
+title: Manage Docs Versions
+description: Learn how to manage multiple documentation versions in Docusaurus, including versioning, navigation, and configuration for the AWS AI Practitioner project.
+keywords:
+  - Docusaurus
+  - Documentation
+  - Versioning
+  - Docs Management
+  - AWS AI Practitioner
 sidebar_position: 3
 ---
 

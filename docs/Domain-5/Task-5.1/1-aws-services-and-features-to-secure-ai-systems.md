@@ -1,4 +1,14 @@
 ---
+title: AWS Services and Features to Secure AI Systems
+description: Explore AWS services and features for securing AI systems, including IAM, encryption, and the shared responsibility model, for the AWS AI Practitioner exam.
+keywords:
+  - AWS Security
+  - IAM
+  - Encryption
+  - Shared Responsibility Model
+  - AI Systems
+  - Cloud Security
+  - AI Practitioner
 sidebar_position: 1
 ---
 # AWS Services and Features to Secure AI Systems
