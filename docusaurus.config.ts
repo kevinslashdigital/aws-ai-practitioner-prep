@@ -65,7 +65,11 @@ const config: Config = {
           priority: 0.5,
           filename: 'sitemap.xml',
         },
-      },
+        gtag: {
+          trackingID: 'G-L2NNHVH4G6',
+          anonymizeIP: true,
+        },
+      } satisfies Preset.Options,
     ],
   ],
 
