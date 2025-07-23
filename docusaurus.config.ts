@@ -9,7 +9,7 @@ const config: Config = {
   title: "✨ Welcome to AWS AI Practitioner Exam Review Guide 📘",
   tagline:
     "Confidently prepare for the AWS Certified AI Practitioner exam with our community-powered study hub.",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // Set the production url of your site here
   url: "https://aws-ai-practitioner-prep.vercel.app/",
@@ -97,7 +97,7 @@ const config: Config = {
       title: "AWS AI Practitioner Prep",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/logo.png",
       },
       items: [
         {

@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Png: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: "Simple and Intuitive",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Png: require("@site/static/img/simple_and_intuitive.png").default,
     description: (
       <>
         Our quiz platform is built with simplicity in mind, allowing you to
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Targeted Exam Preparation",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Png: require("@site/static/img/targeted_exam_preparation.png").default,
     description: (
       <>
         All questions are mapped to the official AWS AI Practitioner exam
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Open Source and Always Improving",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Png: require("@site/static/img/open_source.png").default,
     description: (
       <>
         This project leverages the power of React and Docusaurus, making it
@@ -46,11 +46,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Png, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Png} className={styles.featureSvg} role="img" alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

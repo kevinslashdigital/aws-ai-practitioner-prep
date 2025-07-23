@@ -1,4 +1,4 @@
-# 🚀 AWS AI Practitioner Roadmap
+ # 🚀 AWS AI Practitioner Roadmap
 
 Welcome to the roadmap for building a collaborative and interactive platform to help users prepare for AWS AI/ML exams.
 
