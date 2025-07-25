@@ -20,7 +20,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! GenAI projects are probabilistic and experimental, requiring a different mindset.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Traditional projects focus on logic and rules; GenAI is probabilistic and experimental.",
       explanation:
-        "Unlike traditional software, GenAI projects involve experimentation, iteration, and probabilistic outputs."
+        "Unlike traditional software, GenAI projects involve experimentation, iteration, and probabilistic outputs.",
+      point: "10"
     },
     {
       question:
@@ -37,7 +38,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Tokens are chunks of text that LLMs process.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: A chunk of characters that models use to process text.",
       explanation:
-        "LLMs read and generate text in tokens, not words. Token limits affect cost and model performance."
+        "LLMs read and generate text in tokens, not words. Token limits affect cost and model performance.",
+      point: "10"
     },
     {
       question:
@@ -54,7 +56,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Prompt engineering is about crafting effective prompts to guide the model.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Designing the input instructions to guide model outputs.",
       explanation:
-        "Prompt engineering is a key part of GenAI product UX and helps get better results from LLMs."
+        "Prompt engineering is a key part of GenAI product UX and helps get better results from LLMs.",
+      point: "10"           
     },
     {
       question:
@@ -71,7 +74,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Embeddings and vector DBs enable RAG and context-aware answers.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: To store mathematical representations of content for retrieval and context.",
       explanation:
-        "Embeddings let GenAI systems search and use relevant company data to generate better answers."
+        "Embeddings let GenAI systems search and use relevant company data to generate better answers.",
+      point: "10"
     },
     {
       question:
@@ -88,7 +92,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! These parameters affect how creative or predictable the model's responses are.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: They control the creativity and consistency of model outputs.",
       explanation:
-        "Understanding these helps POs set expectations for output style and quality."
+        "Understanding these helps POs set expectations for output style and quality.",
+      point: "10"
     },
     {
       question:
@@ -105,7 +110,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! POs add value by aligning GenAI with user needs and business goals.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Defining user scenarios, evaluation criteria, and aligning GenAI capabilities with user value.",
       explanation:
-        "POs don't need to code, but must ensure GenAI delivers value, is evaluated well, and meets user needs."
+        "POs don't need to code, but must ensure GenAI delivers value, is evaluated well, and meets user needs.",
+      point: "10"
     },
     {
       question:
@@ -122,7 +128,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Experimentation and iteration are key to GenAI project success.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Treat early stages as a discovery phase and experiment with prompts and outputs.",
       explanation:
-        "GenAI projects require experimentation, feedback, and iteration to succeed."
+        "GenAI projects require experimentation, feedback, and iteration to succeed.",
+      point: "10"
     },
     {
       question:
@@ -139,7 +146,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Amazon SageMaker is AWS’s primary service for machine learning and GenAI.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon SageMaker.",
       explanation:
-        "Amazon SageMaker provides tools for building, training, and deploying GenAI and ML models at scale."
+        "Amazon SageMaker provides tools for building, training, and deploying GenAI and ML models at scale.",
+      point: "10"
     },
     {
       question:
@@ -156,7 +164,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! POs must ensure GenAI models are evaluated against business needs and user value.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Defining clear evaluation criteria and collecting user feedback.",
       explanation:
-        "POs guide the evaluation process by focusing on user value, business goals, and actionable feedback."
+        "POs guide the evaluation process by focusing on user value, business goals, and actionable feedback.",
+      point: "10"
     },
     {
       question:
@@ -173,7 +182,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! HITL ensures quality and accountability by involving humans in the loop.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: To allow humans to review and improve AI outputs.",
       explanation:
-        "HITL processes let humans validate, correct, or approve GenAI outputs, improving reliability and trust."
+        "HITL processes let humans validate, correct, or approve GenAI outputs, improving reliability and trust.",
+      point: "10"
     },
     {
       question:
@@ -190,7 +200,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Sensitive data can be exposed if not handled properly.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Potential data leakage or privacy breaches.",
       explanation:
-        "POs must ensure data privacy and compliance when using GenAI with sensitive information."
+        "POs must ensure data privacy and compliance when using GenAI with sensitive information.",
+      point: "10"
     },
     {
       question:
@@ -207,7 +218,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Hallucination means the model produces convincing but false outputs.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: The model generates plausible but incorrect or fabricated information.",
       explanation:
-        "POs need to be aware of hallucinations and validate GenAI outputs for accuracy."
+        "POs need to be aware of hallucinations and validate GenAI outputs for accuracy.",
+      point: "10"
     },
     {
       question:
@@ -224,7 +236,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! RAG allows GenAI to use up-to-date or proprietary data.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Combining LLMs with external data sources for more accurate answers.",
       explanation:
-        "RAG architectures improve relevance and accuracy by retrieving context from external databases."
+        "RAG architectures improve relevance and accuracy by retrieving context from external databases.",
+      point: "10"
     },
     {
       question:
@@ -241,7 +254,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Early stakeholder involvement leads to better outcomes and fewer surprises.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: To gather feedback and align expectations.",
       explanation:
-        "Frequent stakeholder input helps ensure GenAI projects deliver business value."
+        "Frequent stakeholder input helps ensure GenAI projects deliver business value.",
+      point: "10"
     },
     {
       question:
@@ -258,7 +272,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Model bias can result in harmful or non-inclusive outputs.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: It can lead to unfair or inappropriate outputs.",
       explanation:
-        "POs must be aware of bias and work to mitigate it in GenAI applications."
+        "POs must be aware of bias and work to mitigate it in GenAI applications.",
+      point: "10"
     },
     {
       question:
@@ -275,7 +290,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! User satisfaction is a key indicator of chatbot success.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: User satisfaction score.",
       explanation:
-        "User-centric metrics should guide GenAI product evaluation."
+        "User-centric metrics should guide GenAI product evaluation.",
+      point: "10"
     },
     {
       question:
@@ -292,7 +308,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Narrow scope increases MVP success in GenAI projects.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Trying to solve too many use cases at once.",
       explanation:
-        "POs should define clear, focused MVPs to maximize learning and reduce risk."
+        "POs should define clear, focused MVPs to maximize learning and reduce risk.",
+      point: "10"
     },
     {
       question:
@@ -309,7 +326,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Explainability builds trust and supports responsible AI.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: It helps users and stakeholders trust and understand model outputs.",
       explanation:
-        "POs should prioritize explainable GenAI solutions for transparency and adoption."
+        "POs should prioritize explainable GenAI solutions for transparency and adoption.",
+      point: "10"
     },
     {
       question:
@@ -326,7 +344,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Generative AI creates new content, not just analyzes data.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: AI that can generate new content such as text, images, or code.",
       explanation:
-        "GenAI models like GPT-4 can create text, images, music, and more."
+        "GenAI models like GPT-4 can create text, images, music, and more.",
+      point: "10"
     },
     {
       question:
@@ -343,7 +362,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! GenAI is widely used for content generation, such as marketing copy.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Creating marketing copy automatically.",
       explanation:
-        "GenAI excels at generating human-like text for various business needs."
+        "GenAI excels at generating human-like text for various business needs.",
+      point: "10"
     },
     {
       question:
@@ -360,7 +380,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! A prompt is the input or instruction provided to the model.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: The input or instruction given to a GenAI model.",
       explanation:
-        "Prompts guide the model to generate relevant responses."
+        "Prompts guide the model to generate relevant responses.",
+      point: "10"
     },
     {
       question:
@@ -377,7 +398,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! User feedback guides improvements and ensures outputs meet needs.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: It helps improve prompt design and model outputs.",
       explanation:
-        "Iterative feedback helps tailor GenAI solutions to users."
+        "Iterative feedback helps tailor GenAI solutions to users.",
+      point: "10"
     },
     {
       question:
@@ -394,7 +416,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Training data consists of examples that help the model learn.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: The examples used to teach the model how to generate outputs.",
       explanation:
-        "Quality training data is critical for effective model performance."
+        "Quality training data is critical for effective model performance.",
+      point: "10"
     },
     {
       question:
@@ -411,7 +434,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Temperature controls how creative or predictable the model's outputs are.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: A parameter that controls randomness and creativity of outputs.",
       explanation:
-        "Higher temperature = more creative, lower = more predictable."
+        "Higher temperature = more creative, lower = more predictable.",
+      point: "10"
     },
     {
       question:
@@ -428,7 +452,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! GenAI can sometimes generate incorrect or biased content.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Generating inaccurate or biased information.",
       explanation:
-        "POs must validate outputs and be aware of risks."
+        "POs must validate outputs and be aware of risks.",
+      point: "10"
     },
     {
       question:
@@ -445,7 +470,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Fine-tuning adapts a model to specific needs using extra data.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: Adjusting a pre-trained model with additional data to improve performance.",
       explanation:
-        "Fine-tuning customizes GenAI models for particular use cases."
+        "Fine-tuning customizes GenAI models for particular use cases.",
+      point: "10"
     },
     {
       question:
@@ -462,7 +488,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Understanding costs helps POs plan and manage resources.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: To manage project budgets and avoid unexpected expenses.",
       explanation:
-        "GenAI costs can scale with usage; POs must plan accordingly."
+        "GenAI costs can scale with usage; POs must plan accordingly.",
+      point: "10"
     },
     {
       question:
@@ -479,7 +506,8 @@ export const quiz = {
       messageForCorrectAnswer: "Correct! Token limits define the maximum input/output size for the model.",
       messageForIncorrectAnswer: "Incorrect. The correct answer is: The maximum amount of text the model can process at once.",
       explanation:
-        "Token limits affect prompt size, response length, and cost."
+        "Token limits affect prompt size, response length, and cost.",
+      point: "10"
     }
   ]
 };
