@@ -3,10 +3,7 @@ title: About Slash
 description: Learn about Slash, the main sponsor of the AWS AI Practitioner Exam Review Guide. Discover their mission, expertise, and how they empower innovation in the tech industry.
 keywords:
   - Slash
-  - AWS AI Practitioner
-  - cloud
-  - technology
-  - innovation
+  - Slash Services
 image: /img/slash-og.png
 slug: /slash
 ---
@@ -23,10 +20,15 @@ Slash is a global technology company specializing in building and scaling digita
 
 From our digital solutions boutique to our venture-building agency, we harness the power of technology to create a positive legacy. We have been building meaningful digital products that people love and that the world needs since 2016.
 
-- **Digital products & solutions (from concept to deployment):** Slash acts as a full-cycle tech partner ("digital product foundry"), working with clients to ideate, prototype, develop, and launch scalable software and digital systems. Whether it's AR/VR tools or enterprise-grade applications, they manage the entire journeyBeyond coding, Slash helps define innovation roadmaps with vision workshops, product strategy sessions, and design-led exploration. They guide organizations in identifying opportunities, validating ideas, and setting strategic direction.
-- **Strategic product growth & marketing:** Once a product is in market, Slash supports scaling it through go‑to‑market planning, adoption strategies, and digital growth tactics—backed by their in‑house marketing and product-expertise teams.
-- **Senior staff augmentation & recruitment:** Slash offers high-level technical and leadership resources—like senior engineers, product managers, or UX experts—to clients needing to scale up their in‑house teams quickly. They also support recruitment for longer-term placements.
-- **Venture Building:** Operating as a venture studio, Slash doesn’t just serve external clients. They launch their own internal startups focused on emerging tech such as AI, blockchain, and fintech. This service includes ideation, MVP creation, funding support, and spin‑out management
+- **[GenAI](https://slash.co/capabilities/gen-ai-services):** GenAI Services at Slash focus on helping companies achieve transformative business outcomes by leveraging advanced AI technologies and generative models. Slash supports end-to-end GenAI adoption—from business strategy and model development to evaluation, deployment, and third-party integration, ensuring robust and scalable AI solutions.
+- **[Prototyping in 3 Weeks](https://slash.co/capabilities/prototyping-services):** Prototyping in 3 Weeks is another service Slash offers, enabling businesses to quickly test and validate product ideas. 
+- **[Design](https://slash.co/capabilities/design-services):** focuses on creating innovative and user-centric digital products by balancing user experience (UX) and interface design (UI). The goal is to produce solutions that are both visually appealing and highly functional, tailored to meet user needs and drive business success.
+- **[Tech Architecture](https://slash.co/capabilities/tech-architecture-services):** focuses on creating scalable, secure, and efficient technology systems that align with business goals and drive innovation. By emphasizing system design, data management, security, and performance, Slash ensures a robust and future-ready infrastructure.
+- **[Web & Mobile](https://slash.co/capabilities/web-and-mobile-services):** designed to enable digital transformation and seamless connectivity. By utilizing cutting-edge technologies, Slash helps businesses enhance user engagement, optimize operations, and drive growth with efficient and innovative web and mobile applications.
+- **[AWS](https://slash.co/capabilities/aws-services):** empowers businesses with unmatched scalability, security, and innovation by leveraging the comprehensive suite of AWS cloud services. This helps companies drive efficiency, accelerate growth, and remain competitive in the rapidly evolving digital landscape.
+- **[Staff Augmentation](https://slash.co/capabilities/staff-augmentation-services):** helps businesses scale their workforce quickly, access specialized skills, and enhance project outcomes without the long-term commitments of traditional hiring. By leveraging Slash’s talent pool, companies can fill critical roles, improve operational efficiency, and drive innovation.
+- **[Senior Recruitment](https://slash.co/capabilities/senior-recruitment-services):** focuses on attracting top-tier talent to drive innovation and long-term business growth. By prioritizing strategic hiring, Slash helps companies fill leadership roles with experienced professionals who align with their business goals and culture.
+- **[Venture Studio](https://slash.co/venture-studio):** focused on creating impactful digital ventures from A to Z. Slash partners with innovators worldwide to craft digital products that drive meaningful change in people’s lives and communities.
 
 ## Why Slash Sponsors This Guide
 
