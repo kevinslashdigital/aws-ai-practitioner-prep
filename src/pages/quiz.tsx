@@ -10,7 +10,10 @@ import styles from './index.module.css';
 import Quiz from "react-quiz-component";
 import React, { useState } from "react";
 import { quiz as starterQuiz } from "../data/quiz.5.domains";
-import { quiz as poQuiz } from "../data/quiz.po.data";
+import { quiz as poQuiz } from "../data/quiz.po";
+import { quiz as fullsetQuiz } from "../data/quiz.fullset";
+import Certificate from "../components/Certificate"; // Certificate component for download
+
 
 // https://github.com/wingkwong/react-quiz-component
 
@@ -65,11 +68,23 @@ function HomepageHeader({
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   const [selectedQuiz, setSelectedQuiz] = useState<QuizType | null>(null);
+  const [quizResult, setQuizResult] = useState<any | null>(null);
+  const [showCertificate, setShowCertificate] = useState(false);
 
   let quizData;
   if (selectedQuiz === "starter") quizData = starterQuiz;
   else if (selectedQuiz === "po") quizData = poQuiz;
-  else if (selectedQuiz === "full") quizData = starterQuiz;
+  else if (selectedQuiz === "full") quizData = fullsetQuiz;
+
+  // Handler for quiz completion
+  function handleQuizComplete(result: any) {
+    setQuizResult(result);
+    // Calculate pass: 70% of total points or more
+    const totalPoints = result.totalPoints || (result.numberOfQuestions * 10) || 100;
+    const userPoints = result.correctPoints || result.correctPoints || 0;
+    const passed = userPoints / totalPoints >= 0.7;
+    setShowCertificate(passed);
+  }
 
   return (
     <Layout
@@ -96,11 +111,49 @@ export default function Home(): ReactNode {
               showInstantFeedback={false}
               showDefaultResult={true}
               enableProgressBar={true}
+              onComplete={handleQuizComplete}
             />
+            {/* Username prompt and download button */}
+            {/* {quizResult && ((quizResult.correctPoints || quizResult.correctAnswers || 0) / (quizResult.totalPoints || (quizResult.numberOfQuestions * 10) || 100)) >= 0.7 && !showCertificate && (
+              <div style={{ textAlign: "center", marginTop: 24 }}>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  value={userNameInput}
+                  onChange={e => setUserNameInput(e.target.value)}
+                  style={{ padding: 8, fontSize: 16, marginRight: 12, borderRadius: 4, border: "1px solid #ccc" }}
+                />
+                hello
+                <button
+                  className="button button--primary button--sm"
+                  onClick={() => {
+                    if (userNameInput.trim()) setShowCertificate(true);
+                  }}
+                  disabled={!userNameInput.trim()}
+                >
+                  Download Certificate s
+                </button>
+              </div>
+            )} */}
+            {/* Show certificate if requested */}
+            {showCertificate && quizResult && (
+              <Certificate
+                userName={""}
+                date={new Date().toLocaleDateString()}
+                quizTitle={quizData.quizTitle}
+                score={quizResult.correctPoints || quizResult.correctAnswers || 0}
+                total={quizResult.totalPoints || (quizResult.numberOfQuestions * 10) || 100}
+              />
+            )}
             <button
               className="button button--secondary button--sm"
-              style={{  marginBottom: 24 }}
-              onClick={() => setSelectedQuiz(null)}
+              style={{ margin: 24 }}
+              onClick={() => {
+                setQuizResult(null);
+                setShowCertificate(false);
+                setUserNameInput("");
+                setSelectedQuiz(null);
+              }}
             >
               Back to Quiz Menu
             </button>
