@@ -151,7 +151,6 @@ export default function Home(): ReactNode {
               onClick={() => {
                 setQuizResult(null);
                 setShowCertificate(false);
-                setUserNameInput("");
                 setSelectedQuiz(null);
               }}
             >
