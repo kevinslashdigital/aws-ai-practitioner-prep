@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -71,10 +71,17 @@ export default function Home(): ReactNode {
   const [quizResult, setQuizResult] = useState<any | null>(null);
   const [showCertificate, setShowCertificate] = useState(false);
 
-  let quizData;
-  if (selectedQuiz === "starter") quizData = starterQuiz;
-  else if (selectedQuiz === "po") quizData = poQuiz;
-  else if (selectedQuiz === "full") quizData = fullsetQuiz;
+  let quizData, quizDuration;
+  if (selectedQuiz === "starter") { 
+    quizData = starterQuiz; 
+    quizDuration = 3600/2; 
+  } else if (selectedQuiz === "po") { 
+    quizData = poQuiz; 
+    quizDuration = 3600; 
+  } else if (selectedQuiz === "full") { 
+    quizData = fullsetQuiz; 
+    quizDuration = 3600*2; 
+  }
 
   // Handler for quiz completion
   function handleQuizComplete(result: any) {
@@ -104,7 +111,7 @@ export default function Home(): ReactNode {
           >
             <Quiz
               quiz={quizData}
-              timer={3600}
+              timer={quizDuration}
               allowPauseTimer={true}
               shuffle={true}
               shuffleAnswer={true}
@@ -113,29 +120,6 @@ export default function Home(): ReactNode {
               enableProgressBar={true}
               onComplete={handleQuizComplete}
             />
-            {/* Username prompt and download button */}
-            {/* {quizResult && ((quizResult.correctPoints || quizResult.correctAnswers || 0) / (quizResult.totalPoints || (quizResult.numberOfQuestions * 10) || 100)) >= 0.7 && !showCertificate && (
-              <div style={{ textAlign: "center", marginTop: 24 }}>
-                <input
-                  type="text"
-                  placeholder="Enter your name"
-                  value={userNameInput}
-                  onChange={e => setUserNameInput(e.target.value)}
-                  style={{ padding: 8, fontSize: 16, marginRight: 12, borderRadius: 4, border: "1px solid #ccc" }}
-                />
-                hello
-                <button
-                  className="button button--primary button--sm"
-                  onClick={() => {
-                    if (userNameInput.trim()) setShowCertificate(true);
-                  }}
-                  disabled={!userNameInput.trim()}
-                >
-                  Download Certificate s
-                </button>
-              </div>
-            )} */}
-            {/* Show certificate if requested */}
             {showCertificate && quizResult && (
               <Certificate
                 userName={""}
