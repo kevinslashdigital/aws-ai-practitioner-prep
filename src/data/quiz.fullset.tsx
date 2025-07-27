@@ -27,9 +27,9 @@ export const quiz = {
       answerSelectionType: "single",
       answers: [
         "A field focused on solving cognitive problems and deriving meaning from data",
-        "A type of hardware device",
-        "A method for data storage",
-        "A set of rules hard-coded by humans"
+        "A branch of computer science that automates repetitive business processes",
+        "A methodology for organizing and storing large datasets efficiently",
+        "A framework for creating deterministic rule-based decision systems"
       ],
       correctAnswer: "1",
       messageForCorrectAnswer: "Correct! AI is about solving cognitive problems and deriving meaning from data.",
@@ -42,15 +42,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "A type of database",
-        "A group of connected nodes that process data, inspired by the human brain",
-        "A hardware device",
-        "A programming language"
+        "A distributed database system that stores interconnected data relationships",
+        "A computational model with interconnected nodes that process information",
+        "A network protocol designed for high-speed data transmission between servers",
+        "A cloud infrastructure pattern that connects multiple processing units"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Neural networks are groups of connected nodes inspired by the human brain.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: A group of connected nodes that process data, inspired by the human brain.",
-      explanation: "Neural networks are used for tasks like image recognition and language translation.",
+      messageForCorrectAnswer: "Correct! Neural networks are computational models with interconnected nodes.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: A computational model with interconnected nodes that process information.",
+      explanation: "Neural networks are inspired by biological neurons and used for pattern recognition.",
       point: "10"
     },
     {
@@ -58,14 +58,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Data storage",
-        "Machine learning that uses neural networks with many layers",
-        "Cloud computing",
-        "Programming paradigm"
+        "Distributed computing framework for processing large-scale datasets",
+        "Machine learning approach using multi-layered neural network architectures",
+        "Data mining technique for extracting patterns from unstructured databases",
+        "Statistical modeling method for analyzing time-series financial data"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Deep learning uses neural networks with multiple layers.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Machine learning that uses neural networks with many layers.",
+      messageForCorrectAnswer: "Correct! Deep learning uses multi-layered neural network architectures.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Machine learning approach using multi-layered neural network architectures.",
       explanation: "Deep learning is a subset of ML that uses neural networks with many layers.",
       point: "10"
     },
@@ -74,14 +74,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Writing code",
-        "Helping machines 'see' and understand images or videos",
-        "Storing images",
-        "Encrypting data"
+        "Automating code generation and software development workflows",
+        "Enabling machines to analyze and interpret visual information from images",
+        "Optimizing database storage and retrieval of multimedia content",
+        "Securing data transmission through advanced cryptographic algorithms"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Computer vision enables machines to interpret images and videos.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Helping machines 'see' and understand images or videos.",
+      messageForCorrectAnswer: "Correct! Computer vision enables machines to analyze and interpret visual information.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Enabling machines to analyze and interpret visual information from images.",
       explanation: "Computer vision is used in facial recognition, security cameras, and self-driving cars.",
       point: "10"
     },
@@ -90,14 +90,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "A type of machine learning that deals with human language",
-        "A type of computer vision",
-        "A type of data storage",
-        "A type of programming language"
+        "A machine learning field focused on understanding and processing human language",
+        "A computer vision technique for analyzing textual elements in images",
+        "A data management system for organizing multilingual content repositories",
+        "A programming framework for developing cross-platform language applications"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! NLP is a type of machine learning that processes human language.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: A type of machine learning that deals with human language.",
+      messageForCorrectAnswer: "Correct! NLP is a machine learning field focused on processing human language.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: A machine learning field focused on understanding and processing human language.",
       explanation: "NLP enables machines to understand, interpret, and generate human language.",
       point: "10"
     },
@@ -106,14 +106,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Deep Learning",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Data Labeling"
+        "Deep Learning algorithms and neural network architectures",
+        "Machine Learning models and statistical pattern recognition",
+        "Artificial Intelligence systems and cognitive computing",
+        "Data Science analytics and predictive modeling techniques"
       ],
       correctAnswer: "3",
-      messageForCorrectAnswer: "Correct! AI is the broadest, with ML as a subset, and Deep Learning as a subset of ML.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Artificial Intelligence.",
+      messageForCorrectAnswer: "Correct! AI is the broadest field encompassing multiple subdomains.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Artificial Intelligence systems and cognitive computing.",
       explanation: "AI encompasses ML and Deep Learning as subfields.",
       point: "10"
     },
@@ -122,14 +122,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "ML is always rule-based",
-        "Deep Learning uses neural networks with many layers",
-        "ML does not use data",
-        "Deep Learning does not require training"
+        "ML relies primarily on deterministic rule-based algorithmic approaches",
+        "Deep Learning employs multi-layered neural networks for feature extraction",
+        "ML requires minimal data preprocessing and feature engineering steps",
+        "Deep Learning operates without requiring supervised training methodologies"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Deep Learning is a subset of ML that uses neural networks with many layers.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Deep Learning uses neural networks with many layers.",
+      messageForCorrectAnswer: "Correct! Deep Learning employs multi-layered neural networks for feature extraction.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Deep Learning employs multi-layered neural networks for feature extraction.",
       explanation: "Deep Learning is a specialized area within ML that uses multi-layered neural networks.",
       point: "10"
     },
@@ -138,15 +138,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Batch Inference",
-        "Real-Time Inference",
-        "Serverless Inference",
-        "Asynchronous Inference"
+        "Batch Inference for processing large datasets in scheduled intervals",
+        "Real-Time Inference for immediate responses with persistent endpoints",
+        "Serverless Inference for automatic scaling with pay-per-request pricing",
+        "Asynchronous Inference for handling long-running prediction workflows"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Real-time inference is ideal for online, low-latency requirements.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Real-Time Inference.",
-      explanation: "Real-time inference is used for immediate prediction needs.",
+      messageForCorrectAnswer: "Correct! Real-Time Inference provides immediate responses with persistent endpoints.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Real-Time Inference for immediate responses with persistent endpoints.",
+      explanation: "Real-time inference is used for immediate prediction needs with low latency.",
       point: "10"
     },
     {
@@ -154,15 +154,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Unlabeled Data",
-        "Tabular Data",
-        "Labeled Data",
-        "Unstructured Data"
+        "Unlabeled Data containing raw observations without target classifications",
+        "Tabular Data organized in structured rows and columns format",
+        "Labeled Data with ground truth annotations for each sample",
+        "Unstructured Data lacking predefined organizational schema or format"
       ],
       correctAnswer: "3",
-      messageForCorrectAnswer: "Correct! Labeled data means each data point has an answer or tag.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Labeled Data.",
-      explanation: "Labeled data is essential for supervised learning.",
+      messageForCorrectAnswer: "Correct! Labeled Data contains ground truth annotations for each sample.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Labeled Data with ground truth annotations for each sample.",
+      explanation: "Labeled data is essential for supervised learning algorithms.",
       point: "10"
     },
     {
@@ -170,15 +170,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Reinforcement Learning",
-        "Unsupervised Learning",
-        "Supervised Learning",
-        "Deep Learning"
+        "Reinforcement Learning using reward-based feedback optimization systems",
+        "Unsupervised Learning discovering hidden patterns in unlabeled datasets",
+        "Supervised Learning training models with input-output example pairs",
+        "Deep Learning employing multi-layered neural network architectures"
       ],
       correctAnswer: "3",
-      messageForCorrectAnswer: "Correct! Supervised learning uses labeled data to learn the relationship between input and output.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Supervised Learning.",
-      explanation: "Supervised learning is one of the main types of ML.",
+      messageForCorrectAnswer: "Correct! Supervised Learning trains models with input-output example pairs.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Supervised Learning training models with input-output example pairs.",
+      explanation: "Supervised learning uses labeled examples to learn input-output relationships.",
       point: "10"
     },
     {
@@ -186,15 +186,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Automating repetitive, data-intensive tasks",
-        "Simple rule-based logic",
-        "Manual paperwork",
-        "Tasks with no data"
+        "Automating repetitive data-intensive tasks with pattern recognition requirements",
+        "Implementing deterministic rule-based logic for standardized workflow processes",
+        "Digitizing manual paperwork through optical character recognition systems",
+        "Managing tasks requiring minimal data input and human judgment"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! AI/ML excels at automating repetitive, data-intensive tasks and uncovering patterns in large datasets.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Automating repetitive, data-intensive tasks.",
-      explanation: "AI/ML is best for tasks with lots of data and repetitive patterns.",
+      messageForCorrectAnswer: "Correct! AI/ML excels at automating repetitive data-intensive tasks with pattern recognition.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Automating repetitive data-intensive tasks with pattern recognition requirements.",
+      explanation: "AI/ML is most valuable for tasks involving large datasets and complex patterns.",
       point: "10"
     },
     {
@@ -202,15 +202,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Rekognition",
-        "Amazon SageMaker",
-        "AWS Lambda",
-        "Amazon Polly"
+        "Amazon Rekognition for computer vision and image analysis workflows",
+        "Amazon SageMaker for end-to-end machine learning model development",
+        "AWS Lambda for serverless computing and event-driven processing",
+        "Amazon Polly for text-to-speech synthesis and voice applications"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! SageMaker is AWS's managed service for end-to-end ML workflows.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon SageMaker.",
-      explanation: "SageMaker provides tools for the entire ML lifecycle.",
+      messageForCorrectAnswer: "Correct! SageMaker provides end-to-end machine learning model development.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon SageMaker for end-to-end machine learning model development.",
+      explanation: "SageMaker provides comprehensive tools for the entire ML lifecycle.",
       point: "10"
     },
     {
@@ -218,15 +218,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Compressing images",
-        "Representing text or data as vectors for similarity and search",
-        "Encrypting data",
-        "Generating random numbers"
+        "Compressing multimedia content for efficient storage and transmission",
+        "Converting text and data into numerical vectors for similarity analysis",
+        "Encrypting sensitive information using advanced cryptographic algorithms",
+        "Generating pseudo-random sequences for statistical sampling methods"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Embeddings turn words, sentences, or images into vectors for efficient comparison and retrieval.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Representing text or data as vectors for similarity and search.",
-      explanation: "Embeddings enable semantic search and similarity matching.",
+      messageForCorrectAnswer: "Correct! Embeddings convert text and data into numerical vectors for similarity analysis.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Converting text and data into numerical vectors for similarity analysis.",
+      explanation: "Embeddings enable semantic search and similarity matching in vector space.",
       point: "10"
     },
     {
@@ -234,15 +234,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "A CSV file with labeled columns",
-        "An image file",
-        "A SQL database table",
-        "A spreadsheet with formulas"
+        "A CSV file containing structured records with predefined column headers",
+        "An image file containing visual information without predefined schema",
+        "A SQL database table with normalized relational data structure",
+        "A spreadsheet containing organized data with calculated formula fields"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Images, text, and audio are examples of unstructured data.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: An image file.",
-      explanation: "Unstructured data doesn't have a predefined format or schema.",
+      messageForCorrectAnswer: "Correct! Image files contain visual information without predefined schema.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: An image file containing visual information without predefined schema.",
+      explanation: "Unstructured data lacks predefined format or organizational schema.",
       point: "10"
     },
     {
@@ -250,15 +250,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Find patterns in unlabeled data",
-        "Learn from labeled data to predict outcomes",
-        "Generate synthetic data",
-        "Reduce computation costs"
+        "Discovering hidden patterns and structures in unlabeled dataset collections",
+        "Training predictive models using labeled input-output example pairs",
+        "Creating synthetic data samples through generative modeling techniques",
+        "Optimizing computational efficiency and reducing processing resource requirements"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Supervised learning uses labeled data to train models for prediction.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Learn from labeled data to predict outcomes.",
-      explanation: "Supervised learning maps inputs to known outputs.",
+      messageForCorrectAnswer: "Correct! Supervised learning trains predictive models using labeled input-output pairs.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Training predictive models using labeled input-output example pairs.",
+      explanation: "Supervised learning uses labeled examples to learn input-output mappings.",
       point: "10"
     },
     {
@@ -266,15 +266,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon EC2",
-        "Amazon Rekognition",
-        "Amazon SageMaker",
-        "AWS Bedrock"
+        "Amazon EC2 for scalable cloud computing and virtual server instances",
+        "Amazon Rekognition for specialized computer vision and image analysis tasks",
+        "Amazon SageMaker for custom machine learning model development workflows",
+        "AWS Bedrock for accessing pre-trained foundation models across multiple domains"
       ],
       correctAnswer: "4",
-      messageForCorrectAnswer: "Correct! AWS Bedrock provides access to pre-trained foundation models for various AI tasks.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: AWS Bedrock.",
-      explanation: "Bedrock offers foundation models from various providers.",
+      messageForCorrectAnswer: "Correct! AWS Bedrock provides access to pre-trained foundation models across domains.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: AWS Bedrock for accessing pre-trained foundation models across multiple domains.",
+      explanation: "Bedrock offers foundation models from various providers for diverse AI tasks.",
       point: "10"
     },
     {
@@ -282,15 +282,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Learning from labeled data",
-        "Learning by trial and error, receiving rewards or penalties",
-        "Learning from unlabeled data",
-        "Learning by copying other models"
+        "Training models using pre-labeled datasets with known correct outputs",
+        "Learning optimal actions through trial-and-error with reward-penalty feedback",
+        "Discovering patterns in datasets without any supervision or guidance",
+        "Transferring knowledge by replicating behaviors from existing trained models"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Reinforcement learning is based on agents learning optimal actions through rewards and penalties.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Learning by trial and error, receiving rewards or penalties.",
-      explanation: "RL agents learn through interaction with an environment.",
+      messageForCorrectAnswer: "Correct! Reinforcement learning uses trial-and-error with reward-penalty feedback.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Learning optimal actions through trial-and-error with reward-penalty feedback.",
+      explanation: "RL agents learn through environmental interaction and feedback signals.",
       point: "10"
     },
     {
@@ -298,15 +298,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Always-on compute",
-        "No need to manage servers, pay only for usage",
-        "Requires manual scaling",
-        "Only works for batch jobs"
+        "Guaranteed always-on compute resources with consistent performance baselines",
+        "Automatic infrastructure management with usage-based pricing models",
+        "Manual scaling controls for precise resource allocation management",
+        "Specialized optimization for high-throughput batch processing workloads"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Serverless inference handles scaling automatically and charges only for compute used.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: No need to manage servers, pay only for usage.",
-      explanation: "Serverless inference scales to zero when not in use.",
+      messageForCorrectAnswer: "Correct! Serverless inference provides automatic infrastructure management with usage-based pricing.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Automatic infrastructure management with usage-based pricing models.",
+      explanation: "Serverless inference scales automatically and charges only for actual usage.",
       point: "10"
     },
     {
@@ -314,15 +314,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Image generation",
-        "Text summarization",
-        "Predicting stock prices using historical data",
-        "Audio synthesis"
+        "Creating synthetic images and visual content from textual descriptions",
+        "Generating concise summaries from lengthy documents and articles",
+        "Predicting future stock prices using historical market data patterns",
+        "Synthesizing realistic audio and speech from text input"
       ],
       correctAnswer: "3",
-      messageForCorrectAnswer: "Correct! Predicting stock prices is a classic ML regression task, not generative AI.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Predicting stock prices using historical data.",
-      explanation: "Stock price prediction is predictive analytics, not content generation.",
+      messageForCorrectAnswer: "Correct! Stock price prediction is predictive analytics, not generative content creation.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Predicting future stock prices using historical market data patterns.",
+      explanation: "Stock price prediction is regression analysis, not content generation.",
       point: "10"
     },
     {
@@ -330,15 +330,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Speech synthesis",
-        "Natural language processing (NLP) tasks like sentiment analysis and entity recognition",
-        "Image recognition",
-        "Data storage"
+        "Converting text into lifelike speech using advanced voice synthesis",
+        "Analyzing text for sentiment, entities, and language understanding tasks",
+        "Processing visual content for object detection and facial recognition",
+        "Managing large-scale data storage and retrieval operations efficiently"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Comprehend is used for NLP tasks such as extracting sentiment and entities from text.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Natural language processing (NLP) tasks like sentiment analysis and entity recognition.",
-      explanation: "Comprehend analyzes text to extract insights and meaning.",
+      messageForCorrectAnswer: "Correct! Amazon Comprehend analyzes text for sentiment, entities, and language understanding.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Analyzing text for sentiment, entities, and language understanding tasks.",
+      explanation: "Comprehend provides natural language processing capabilities for text analysis.",
       point: "10"
     },
     {
@@ -346,14 +346,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Writing code for data pipelines",
-        "Crafting effective input instructions for GenAI models to achieve desired outputs",
-        "Training neural networks",
-        "Encrypting model parameters"
+        "Developing automated code generation pipelines for software development workflows",
+        "Designing effective input instructions to guide AI models toward desired outputs",
+        "Optimizing neural network architectures through systematic hyperparameter tuning",
+        "Implementing security protocols for protecting sensitive model parameters"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Prompt engineering is about designing inputs to guide GenAI models.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Crafting effective input instructions for GenAI models to achieve desired outputs.",
+      messageForCorrectAnswer: "Correct! Prompt engineering designs effective input instructions to guide AI models.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Designing effective input instructions to guide AI models toward desired outputs.",
       explanation: "Prompt engineering optimizes how we communicate with AI models.",
       point: "10"
     },
@@ -362,15 +362,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "A security credential",
-        "The smallest unit of text that a model processes",
-        "A type of neural network",
-        "A data storage format"
+        "An authentication credential for accessing protected AI model endpoints",
+        "The fundamental text unit that language models process and analyze",
+        "A specialized neural network architecture for sequence processing tasks",
+        "A standardized data format for storing model training information"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Tokens are the basic units of text that language models process.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: The smallest unit of text that a model processes.",
-      explanation: "Tokens can be words, subwords, or characters depending on the tokenization method.",
+      messageForCorrectAnswer: "Correct! Tokens are the fundamental text units that language models process.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: The fundamental text unit that language models process and analyze.",
+      explanation: "Tokens can be words, subwords, or characters depending on tokenization method.",
       point: "10"
     },
     {
@@ -378,14 +378,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Dividing large documents into smaller, manageable pieces for processing",
-        "Combining multiple models",
-        "Encrypting data",
-        "Compressing images"
+        "Segmenting large documents into smaller pieces for efficient retrieval processing",
+        "Integrating multiple foundation models into unified ensemble architectures",
+        "Applying advanced encryption techniques to protect sensitive data content",
+        "Compressing visual media files to optimize storage and bandwidth usage"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Chunking breaks down large documents into smaller pieces for better retrieval and processing.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Dividing large documents into smaller, manageable pieces for processing.",
+      messageForCorrectAnswer: "Correct! Chunking segments large documents into smaller pieces for efficient retrieval.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Segmenting large documents into smaller pieces for efficient retrieval processing.",
       explanation: "Chunking enables efficient search and retrieval in RAG systems.",
       point: "10"
     },
@@ -394,14 +394,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Rekognition",
-        "Amazon Textract",
-        "Amazon Polly",
-        "Amazon Transcribe"
+        "Amazon Rekognition for analyzing visual content and facial recognition",
+        "Amazon Textract for extracting text and data from documents",
+        "Amazon Polly for converting written text into natural speech",
+        "Amazon Transcribe for converting speech audio into written text"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Textract extracts text and data from documents.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Textract.",
+      messageForCorrectAnswer: "Correct! Amazon Textract specializes in extracting text and data from documents.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Textract for extracting text and data from documents.",
       explanation: "Textract can extract text, forms, and tables from various document formats.",
       point: "10"
     },
@@ -410,14 +410,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce model size",
-        "To adapt the model to specific tasks or domains",
-        "To increase training speed",
-        "To reduce costs"
+        "Optimizing model architecture to reduce memory footprint and storage requirements",
+        "Adapting pre-trained models to perform specialized tasks in specific domains",
+        "Accelerating training processes through improved computational efficiency techniques",
+        "Minimizing operational expenses and infrastructure costs for model deployment"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Fine-tuning adapts pre-trained models to specific use cases.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To adapt the model to specific tasks or domains.",
+      messageForCorrectAnswer: "Correct! Fine-tuning adapts pre-trained models to perform specialized tasks.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Adapting pre-trained models to perform specialized tasks in specific domains.",
       explanation: "Fine-tuning leverages pre-trained knowledge for specialized applications.",
       point: "10"
     },
@@ -426,15 +426,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "Reinforcement Learning",
-        "Deep Learning"
+        "Supervised Learning using labeled datasets with known target outcomes",
+        "Unsupervised Learning discovering hidden structures in unlabeled data",
+        "Reinforcement Learning optimizing actions through environmental feedback signals",
+        "Deep Learning employing multi-layered neural networks for feature extraction"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Unsupervised learning discovers patterns in unlabeled data.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Unsupervised Learning.",
-      explanation: "Unsupervised learning includes clustering and dimensionality reduction.",
+      messageForCorrectAnswer: "Correct! Unsupervised Learning discovers hidden structures in unlabeled data.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Unsupervised Learning discovering hidden structures in unlabeled data.",
+      explanation: "Unsupervised learning includes clustering and dimensionality reduction techniques.",
       point: "10"
     },
     {
@@ -442,15 +442,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "They are always more accurate",
-        "They reduce training time and computational resources",
-        "They are free to use",
-        "They work for all use cases"
+        "Guaranteed superior accuracy across all possible application domains",
+        "Significant reduction in training time and computational resource requirements",
+        "Universal availability without licensing fees or usage restrictions",
+        "Seamless compatibility with every conceivable machine learning use case"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Pre-trained models save time and resources by leveraging existing knowledge.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: They reduce training time and computational resources.",
-      explanation: "Pre-trained models provide a head start with learned features.",
+      messageForCorrectAnswer: "Correct! Pre-trained models significantly reduce training time and computational requirements.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Significant reduction in training time and computational resource requirements.",
+      explanation: "Pre-trained models provide a foundation with learned features and patterns.",
       point: "10"
     },
     {
@@ -458,15 +458,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Polly",
-        "Amazon Transcribe",
-        "Amazon Lex",
-        "Amazon Comprehend"
+        "Amazon Polly for converting written text into natural-sounding speech",
+        "Amazon Transcribe for converting spoken audio into written text",
+        "Amazon Lex for building conversational interfaces and chatbots",
+        "Amazon Comprehend for analyzing text sentiment and entity extraction"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Transcribe converts speech to text.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Transcribe.",
-      explanation: "Transcribe provides automatic speech recognition capabilities.",
+      messageForCorrectAnswer: "Correct! Amazon Transcribe converts spoken audio into written text.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Transcribe for converting spoken audio into written text.",
+      explanation: "Transcribe provides automatic speech recognition capabilities for audio processing.",
       point: "10"
     },
     {
@@ -474,15 +474,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "High computational costs",
-        "Models generating false or misleading information",
-        "Slow processing speed",
-        "Large model size"
+        "Excessive computational resource consumption leading to infrastructure strain",
+        "Generation of false or misleading information that appears credible",
+        "Significant latency issues affecting real-time application performance",
+        "Oversized model architectures requiring extensive storage capacity"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Hallucinations refer to AI models generating false or misleading information.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Models generating false or misleading information.",
-      explanation: "Hallucinations can lead to misinformation and unreliable outputs.",
+      messageForCorrectAnswer: "Correct! Hallucinations involve generating false or misleading information that appears credible.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Generation of false or misleading information that appears credible.",
+      explanation: "Hallucinations can lead to misinformation and undermine trust in AI systems.",
       point: "10"
     },
     {
@@ -490,14 +490,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Maximizing profits",
-        "Ensuring fairness and avoiding bias",
-        "Using the largest possible models",
-        "Minimizing human oversight"
+        "Optimizing financial returns and maximizing shareholder value through AI",
+        "Ensuring fairness, transparency, and mitigation of algorithmic bias",
+        "Deploying the most sophisticated and complex models available",
+        "Reducing human involvement to achieve fully autonomous decision-making"
       ],
       correctAnswer: "2",
       messageForCorrectAnswer: "Correct! Responsible AI emphasizes fairness, transparency, and bias mitigation.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Ensuring fairness and avoiding bias.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Ensuring fairness, transparency, and mitigation of algorithmic bias.",
       explanation: "Responsible AI focuses on ethical and fair AI development and deployment.",
       point: "10"
     },
@@ -506,15 +506,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Storing traditional relational data",
-        "Storing and searching high-dimensional vectors efficiently",
-        "Compressing images",
-        "Managing user authentication"
+        "Managing large-scale image and multimedia content repositories efficiently",
+        "Storing and querying high-dimensional vector embeddings for similarity search",
+        "Securing user authentication credentials and access control permissions",
+        "Maintaining application configuration files and deployment parameters"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Vector databases are optimized for storing and searching embeddings.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Storing and searching high-dimensional vectors efficiently.",
-      explanation: "Vector databases enable semantic search and similarity matching.",
+      messageForCorrectAnswer: "Correct! Vector databases store and query high-dimensional vector embeddings for similarity search.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Storing and querying high-dimensional vector embeddings for similarity search.",
+      explanation: "Vector databases enable efficient similarity search for AI applications like RAG.",
       point: "10"
     },
     {
@@ -522,15 +522,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Transcribe",
-        "Amazon Polly",
-        "Amazon Lex",
-        "Amazon Comprehend"
+        "Amazon Transcribe for converting spoken audio into written text",
+        "Amazon Polly for converting written text into natural speech",
+        "Amazon Lex for building conversational interfaces and chatbots",
+        "Amazon Comprehend for analyzing text sentiment and entity extraction"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Polly converts text to lifelike speech.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Polly.",
-      explanation: "Polly offers various voices and languages for speech synthesis.",
+      messageForCorrectAnswer: "Correct! Amazon Polly converts written text into natural speech.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Polly for converting written text into natural speech.",
+      explanation: "Polly offers various voices and languages for speech synthesis applications.",
       point: "10"
     },
     {
@@ -538,14 +538,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Reducing model size",
-        "Combining retrieval of relevant information with text generation",
-        "Increasing training speed",
-        "Eliminating the need for prompts"
+        "Optimizing model architecture to reduce memory footprint and storage requirements",
+        "Combining external knowledge retrieval with generative text production capabilities",
+        "Accelerating model training processes through improved computational efficiency",
+        "Removing dependency on user prompts for autonomous content generation"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! RAG combines information retrieval with generation for more accurate responses.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Combining retrieval of relevant information with text generation.",
+      messageForCorrectAnswer: "Correct! RAG combines external knowledge retrieval with generative capabilities.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Combining external knowledge retrieval with generative text production capabilities.",
       explanation: "RAG helps models access up-to-date information and reduce hallucinations.",
       point: "10"
     },
@@ -554,14 +554,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Comprehend",
-        "Amazon Rekognition",
-        "Amazon Textract",
-        "Amazon Polly"
+        "Amazon Comprehend for analyzing text sentiment and entity extraction",
+        "Amazon Rekognition for analyzing visual content and facial recognition",
+        "Amazon Textract for extracting text and data from documents",
+        "Amazon Polly for converting written text into natural speech"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Rekognition provides image and video analysis capabilities.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Rekognition.",
+      messageForCorrectAnswer: "Correct! Amazon Rekognition analyzes visual content and provides facial recognition.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Rekognition for analyzing visual content and facial recognition.",
       explanation: "Rekognition can detect objects, faces, text, and activities in images and videos.",
       point: "10"
     },
@@ -570,15 +570,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "A preference for certain outcomes or groups over others",
-        "A type of neural network architecture",
-        "A method for data compression",
-        "A security vulnerability"
+        "Systematic unfair preference for certain outcomes or demographic groups",
+        "Specialized neural network architecture for processing sequential data",
+        "Advanced algorithm for reducing data storage and transmission requirements",
+        "Critical security flaw that exposes sensitive model parameters"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Bias in AI refers to unfair preferences or discrimination in model outputs.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: A preference for certain outcomes or groups over others.",
-      explanation: "AI bias can lead to unfair treatment of different groups or individuals.",
+      messageForCorrectAnswer: "Correct! Bias refers to systematic unfair preference for certain outcomes or groups.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Systematic unfair preference for certain outcomes or demographic groups.",
+      explanation: "AI bias can lead to unfair treatment and discrimination in automated decisions.",
       point: "10"
     },
     {
@@ -586,14 +586,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Few-shot learning with examples",
-        "Increasing model parameters",
-        "Reducing training data",
-        "Using smaller models"
+        "Providing contextual examples to demonstrate desired response patterns",
+        "Expanding neural network architecture with additional parameter layers",
+        "Minimizing training dataset size to improve computational efficiency",
+        "Deploying lightweight model variants for resource-constrained environments"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Few-shot learning provides examples in prompts to guide model behavior.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Few-shot learning with examples.",
+      messageForCorrectAnswer: "Correct! Providing contextual examples demonstrates desired response patterns.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Providing contextual examples to demonstrate desired response patterns.",
       explanation: "Few-shot prompting helps models understand the desired output format and style.",
       point: "10"
     },
@@ -602,14 +602,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Image recognition",
-        "Building conversational interfaces (chatbots)",
-        "Text-to-speech conversion",
-        "Document analysis"
+        "Processing visual content for object detection and facial recognition",
+        "Building conversational interfaces and intelligent chatbot applications",
+        "Converting written text into natural-sounding speech output",
+        "Extracting text and structured data from document formats"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Lex is used for building conversational interfaces and chatbots.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Building conversational interfaces (chatbots).",
+      messageForCorrectAnswer: "Correct! Amazon Lex builds conversational interfaces and intelligent chatbot applications.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Building conversational interfaces and intelligent chatbot applications.",
       explanation: "Lex provides automatic speech recognition and natural language understanding.",
       point: "10"
     },
@@ -618,14 +618,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "The ability to understand how a model makes decisions",
-        "The speed of model training",
-        "The size of the model",
-        "The accuracy of predictions"
+        "Understanding how models arrive at specific decisions and predictions",
+        "Optimizing computational efficiency during model training processes",
+        "Measuring memory footprint and storage requirements of model architectures",
+        "Evaluating prediction accuracy and performance metrics across datasets"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Explainability refers to understanding how AI models make their decisions.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: The ability to understand how a model makes decisions.",
+      messageForCorrectAnswer: "Correct! Explainability means understanding how models arrive at decisions.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Understanding how models arrive at specific decisions and predictions.",
       explanation: "Explainable AI helps build trust and enables better decision-making.",
       point: "10"
     },
@@ -634,14 +634,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Static images",
-        "Data points collected over time with timestamps",
-        "Categorical labels",
-        "Text documents"
+        "Fixed visual content captured at specific moments without temporal context",
+        "Sequential data points collected chronologically with timestamp information",
+        "Discrete classification labels organized into predefined category groups",
+        "Unstructured textual content from various documents and sources"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Time-series data consists of data points indexed by time.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Data points collected over time with timestamps.",
+      messageForCorrectAnswer: "Correct! Time-series uses sequential data points collected chronologically.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Sequential data points collected chronologically with timestamp information.",
       explanation: "Time-series analysis is used for forecasting and trend analysis.",
       point: "10"
     },
@@ -650,14 +650,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Reducing computational costs",
-        "Ensuring data quality, security, and compliance",
-        "Increasing model accuracy",
-        "Speeding up training"
+        "Optimizing infrastructure expenses and minimizing computational resource usage",
+        "Establishing data quality standards, security protocols, and regulatory compliance",
+        "Enhancing predictive performance and improving model accuracy metrics",
+        "Accelerating training workflows and reducing development cycle times"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Data governance ensures proper management, quality, and compliance of data.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Ensuring data quality, security, and compliance.",
+      messageForCorrectAnswer: "Correct! Data governance establishes quality standards, security, and compliance.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Establishing data quality standards, security protocols, and regulatory compliance.",
       explanation: "Good data governance is essential for reliable and ethical AI systems.",
       point: "10"
     },
@@ -666,14 +666,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Personalize",
-        "Amazon Fraud Detector",
-        "Amazon Kendra",
-        "Amazon Forecast"
+        "Amazon Personalize for creating customized recommendation engines",
+        "Amazon Fraud Detector for identifying suspicious and fraudulent activities",
+        "Amazon Kendra for intelligent enterprise search and knowledge discovery",
+        "Amazon Forecast for generating accurate time-series predictions"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Fraud Detector uses ML to identify potentially fraudulent activities.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Fraud Detector.",
+      messageForCorrectAnswer: "Correct! Amazon Fraud Detector identifies suspicious and fraudulent activities.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Fraud Detector for identifying suspicious and fraudulent activities.",
       explanation: "Fraud Detector can detect online fraud, fake accounts, and suspicious activities.",
       point: "10"
     },
@@ -682,14 +682,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Classification predicts categories, regression predicts continuous values",
-        "Classification is faster than regression",
-        "Classification uses more data than regression",
-        "Classification is only for text data"
+        "Classification predicts discrete categories while regression predicts continuous numerical values",
+        "Classification algorithms execute faster than regression models during training phases",
+        "Classification requires larger datasets than regression for achieving optimal performance",
+        "Classification exclusively processes textual data while regression handles numerical inputs"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Classification predicts discrete categories while regression predicts continuous numerical values.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Classification predicts categories, regression predicts continuous values.",
+      messageForCorrectAnswer: "Correct! Classification predicts discrete categories while regression predicts continuous values.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Classification predicts discrete categories while regression predicts continuous numerical values.",
       explanation: "Classification outputs discrete labels, regression outputs numerical predictions.",
       point: "10"
     },
@@ -698,14 +698,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "They are always free to use",
-        "They provide a strong starting point for various tasks through pre-training",
-        "They require no fine-tuning",
-        "They work only for text generation"
+        "Universal availability without licensing fees or commercial usage restrictions",
+        "Comprehensive pre-training providing strong foundations for diverse task adaptation",
+        "Elimination of fine-tuning requirements for all downstream applications",
+        "Exclusive specialization in text generation tasks and natural language processing"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Foundation models are pre-trained on large datasets and can be adapted for various tasks.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: They provide a strong starting point for various tasks through pre-training.",
+      messageForCorrectAnswer: "Correct! Foundation models provide comprehensive pre-training for diverse task adaptation.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Comprehensive pre-training providing strong foundations for diverse task adaptation.",
       explanation: "Foundation models leverage large-scale pre-training for transfer learning.",
       point: "10"
     },
@@ -714,14 +714,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Mean Squared Error",
-        "Accuracy",
-        "Root Mean Square Error",
-        "Mean Absolute Error"
+        "Mean Squared Error measuring average squared differences between predictions",
+        "Accuracy calculating the percentage of correctly classified instances",
+        "Root Mean Square Error quantifying prediction deviation magnitudes",
+        "Mean Absolute Error computing average absolute prediction differences"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Accuracy measures the percentage of correct predictions in classification.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Accuracy.",
+      messageForCorrectAnswer: "Correct! Accuracy calculates the percentage of correctly classified instances.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Accuracy calculating the percentage of correctly classified instances.",
       explanation: "Accuracy is the ratio of correct predictions to total predictions.",
       point: "10"
     },
@@ -730,15 +730,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Image recognition",
-        "Intelligent search service",
-        "Speech synthesis",
-        "Fraud detection"
+        "Processing visual content for object detection and facial recognition",
+        "Providing intelligent enterprise search and knowledge discovery capabilities",
+        "Converting written text into natural-sounding speech output",
+        "Identifying suspicious activities and fraudulent transaction patterns"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Kendra is an intelligent search service powered by machine learning.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Intelligent search service.",
-      explanation: "Kendra provides accurate and relevant search results from various data sources.",
+      messageForCorrectAnswer: "Correct! Amazon Kendra provides intelligent enterprise search and knowledge discovery.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Providing intelligent enterprise search and knowledge discovery capabilities.",
+      explanation: "Kendra provides intelligent search capabilities for enterprise documents.",
       point: "10"
     },
     {
@@ -746,14 +746,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Personalize",
-        "Amazon Forecast",
-        "Amazon Comprehend",
-        "Amazon Textract"
+        "Amazon Personalize for creating customized recommendation engines",
+        "Amazon Forecast for generating accurate time-series predictions",
+        "Amazon Comprehend for analyzing text sentiment and entity extraction",
+        "Amazon Textract for extracting text and data from documents"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Amazon Personalize creates personalized recommendations for users.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Personalize.",
+      messageForCorrectAnswer: "Correct! Amazon Personalize creates customized recommendation engines.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Personalize for creating customized recommendation engines.",
       explanation: "Personalize uses ML to deliver individualized recommendations in real-time.",
       point: "10"
     },
@@ -762,14 +762,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Model size",
-        "Data privacy and protection",
-        "Training speed",
-        "User interface design"
+        "Optimizing model architecture size to reduce memory footprint requirements",
+        "Ensuring comprehensive data privacy protection and regulatory compliance",
+        "Maximizing computational efficiency during model training processes",
+        "Designing intuitive user interfaces for seamless interaction experiences"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Data privacy and protection are critical security considerations for AI deployments.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Data privacy and protection.",
+      messageForCorrectAnswer: "Correct! Ensuring comprehensive data privacy protection and regulatory compliance is critical.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Ensuring comprehensive data privacy protection and regulatory compliance.",
       explanation: "AI systems must protect sensitive data and comply with privacy regulations.",
       point: "10"
     },
@@ -778,14 +778,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Reduced computational costs",
-        "Better user trust and adoption",
-        "Faster training times",
-        "Smaller model sizes"
+        "Significant reduction in computational expenses and infrastructure costs",
+        "Enhanced user trust and improved adoption rates across organizations",
+        "Accelerated model training processes and reduced development timelines",
+        "Optimized model architectures with reduced memory and storage requirements"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Human-centered design improves user trust and adoption of AI systems.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Better user trust and adoption.",
+      messageForCorrectAnswer: "Correct! Human-centered design enhances user trust and improves adoption rates.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Enhanced user trust and improved adoption rates across organizations.",
       explanation: "Human-centered design focuses on user needs and builds more trustworthy AI systems.",
       point: "10"
     },
@@ -794,14 +794,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce storage costs",
-        "To detect performance degradation and data drift",
-        "To increase model size",
-        "To speed up inference"
+        "Optimizing storage infrastructure costs and reducing data retention expenses",
+        "Detecting performance degradation and identifying data distribution drift",
+        "Expanding model architecture complexity to improve prediction capabilities",
+        "Accelerating inference processing speed and reducing response latency"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Model monitoring helps detect when model performance degrades or data changes.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To detect performance degradation and data drift.",
+      messageForCorrectAnswer: "Correct! Model monitoring detects performance degradation and data distribution drift.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Detecting performance degradation and identifying data distribution drift.",
       explanation: "Monitoring ensures models continue to perform well over time.",
       point: "10"
     },
@@ -810,15 +810,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Comprehend",
-        "Amazon Translate",
-        "Amazon Polly",
-        "Amazon Lex"
+        "Amazon Comprehend for analyzing text sentiment and entity extraction",
+        "Amazon Translate for neural machine translation between languages",
+        "Amazon Polly for converting written text into natural speech",
+        "Amazon Lex for building conversational interfaces and chatbots"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Translate provides neural machine translation services.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Translate.",
-      explanation: "Translate supports real-time and batch translation across many languages.",
+      messageForCorrectAnswer: "Correct! Amazon Translate provides neural machine translation between languages.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Translate for neural machine translation between languages.",
+      explanation: "Translate supports real-time and batch translation between multiple languages.",
       point: "10"
     },
     {
@@ -826,14 +826,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "The size of the dataset",
-        "Tracking the origin and flow of data through systems",
-        "The speed of data processing",
-        "The format of data storage"
+        "Measuring total dataset volume and storage capacity requirements",
+        "Documenting data origin, transformation, and flow through systems",
+        "Optimizing computational speed for data processing workflows",
+        "Standardizing data storage formats and encoding specifications"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Data lineage tracks how data moves and transforms through systems.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Tracking the origin and flow of data through systems.",
+      messageForCorrectAnswer: "Correct! Data lineage documents data origin, transformation, and flow through systems.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Documenting data origin, transformation, and flow through systems.",
       explanation: "Data lineage is essential for compliance, debugging, and understanding data quality.",
       point: "10"
     },
@@ -842,15 +842,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Model accuracy only",
-        "Cost savings and revenue generation",
-        "Number of parameters",
-        "Training time"
+        "Exclusive focus on predictive accuracy and model performance metrics",
+        "Quantifiable cost savings and measurable revenue generation outcomes",
+        "Total model parameter count and architectural complexity measures",
+        "Training duration and computational resource consumption statistics"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Business value is measured through cost savings, revenue generation, and efficiency gains.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Cost savings and revenue generation.",
-      explanation: "AI ROI should be measured in business terms, not just technical metrics.",
+      messageForCorrectAnswer: "Correct! AI ROI measures quantifiable cost savings and revenue generation outcomes.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Quantifiable cost savings and measurable revenue generation outcomes.",
+      explanation: "Business metrics focus on financial impact rather than technical metrics.",
       point: "10"
     },
     {
@@ -858,14 +858,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce model size",
-        "To compare the performance of different models or approaches",
-        "To increase training speed",
-        "To compress data"
+        "Optimizing model architecture size to reduce memory footprint requirements",
+        "Comparing performance of different models or approaches in controlled experiments",
+        "Accelerating training processes through improved computational efficiency techniques",
+        "Implementing advanced data compression algorithms for storage optimization"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! A/B testing compares different models or approaches to determine which performs better.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To compare the performance of different models or approaches.",
+      messageForCorrectAnswer: "Correct! A/B testing compares performance of different models in controlled experiments.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Comparing performance of different models or approaches in controlled experiments.",
       explanation: "A/B testing helps make data-driven decisions about model deployment.",
       point: "10"
     },
@@ -874,14 +874,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Model drift and performance degradation over time",
-        "Models being too accurate",
-        "Having too much training data",
-        "Models being too fast"
+        "Model drift and gradual performance degradation in production environments",
+        "Excessive prediction accuracy causing overly confident decision-making",
+        "Overwhelming abundance of high-quality training data requiring management",
+        "Excessively fast inference speeds creating infrastructure bottlenecks"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Model drift occurs when real-world data changes from training data, causing performance degradation.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Model drift and performance degradation over time.",
+      messageForCorrectAnswer: "Correct! Model drift and gradual performance degradation are common deployment challenges.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Model drift and gradual performance degradation in production environments.",
       explanation: "Model drift is a common challenge requiring ongoing monitoring and retraining.",
       point: "10"
     },
@@ -890,15 +890,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Reducing training time",
-        "Improving prediction accuracy by combining multiple models",
-        "Reducing data requirements",
-        "Simplifying model interpretation"
+        "Accelerating model training processes through parallel computation techniques",
+        "Enhancing prediction accuracy by strategically combining multiple model outputs",
+        "Minimizing dataset size requirements for achieving optimal performance",
+        "Simplifying model interpretability and explainability for stakeholders"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Ensemble methods combine multiple models to achieve better performance than individual models.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Improving prediction accuracy by combining multiple models.",
-      explanation: "Ensemble methods like random forests and boosting often outperform single models.",
+      messageForCorrectAnswer: "Correct! Ensemble methods enhance prediction accuracy by combining multiple model outputs.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Enhancing prediction accuracy by strategically combining multiple model outputs.",
+      explanation: "Ensemble methods leverage the wisdom of crowds principle in machine learning.",
       point: "10"
     },
     {
@@ -906,14 +906,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "HIPAA",
-        "GDPR",
-        "SOX",
-        "PCI DSS"
+        "HIPAA governing healthcare information privacy and security standards",
+        "GDPR regulating personal data protection and privacy rights",
+        "SOX ensuring corporate financial reporting accuracy and transparency",
+        "PCI DSS securing payment card industry data handling processes"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! GDPR (General Data Protection Regulation) governs personal data processing in Europe.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: GDPR.",
+      messageForCorrectAnswer: "Correct! GDPR regulates personal data protection and privacy rights in Europe.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: GDPR regulating personal data protection and privacy rights.",
       explanation: "GDPR has specific requirements for automated decision-making and AI systems.",
       point: "10"
     },
@@ -922,15 +922,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Precision measures true positives/predicted positives, recall measures true positives/actual positives",
-        "Precision is for regression, recall is for classification",
-        "Precision measures speed, recall measures accuracy",
-        "They are the same metric"
+        "Precision calculates true positives over predicted positives; recall calculates true positives over actual positives",
+        "Precision applies to regression problems; recall applies exclusively to classification tasks",
+        "Precision measures computational speed; recall measures overall prediction accuracy",
+        "Precision and recall represent identical metrics with different naming conventions"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Precision focuses on the accuracy of positive predictions, while recall focuses on finding all actual positives.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Precision measures true positives/predicted positives, recall measures true positives/actual positives.",
-      explanation: "Precision and recall provide different perspectives on model performance.",
+      messageForCorrectAnswer: "Correct! Precision is TP/(TP+FP) and recall is TP/(TP+FN).",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Precision calculates true positives over predicted positives; recall calculates true positives over actual positives.",
+      explanation: "Precision focuses on the accuracy of positive predictions, while recall focuses on capturing all actual positives.",
       point: "10"
     },
     {
@@ -938,14 +938,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Maximizing model complexity",
-        "Ensuring transparency and accountability",
-        "Using the most data possible",
-        "Minimizing human involvement"
+        "Optimizing model architecture complexity to achieve maximum performance capabilities",
+        "Establishing transparency, accountability, and fairness in AI system design",
+        "Collecting comprehensive datasets to maximize training data volume",
+        "Reducing human oversight to enable fully autonomous decision-making"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Ethical AI requires transparency, accountability, and consideration of societal impact.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Ensuring transparency and accountability.",
+      messageForCorrectAnswer: "Correct! Ethical AI establishes transparency, accountability, and fairness in system design.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Establishing transparency, accountability, and fairness in AI system design.",
       explanation: "Ethical AI development prioritizes fairness, transparency, and responsible use.",
       point: "10"
     },
@@ -954,14 +954,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce model size",
-        "To create or select the most relevant input variables for the model",
-        "To increase training speed",
-        "To visualize data"
+        "Optimizing model architecture size to reduce memory footprint requirements",
+        "Creating and selecting the most informative input variables for model training",
+        "Accelerating computational processes to improve training efficiency and speed",
+        "Developing comprehensive data visualization tools for exploratory analysis"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Feature engineering involves creating and selecting the most informative input variables.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To create or select the most relevant input variables for the model.",
+      messageForCorrectAnswer: "Correct! Feature engineering creates and selects the most informative input variables.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Creating and selecting the most informative input variables for model training.",
       explanation: "Good features are crucial for model performance and interpretability.",
       point: "10"
     },
@@ -970,15 +970,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Amazon Personalize",
-        "Amazon Forecast",
-        "Amazon Comprehend",
-        "Amazon Rekognition"
+        "Amazon Personalize for creating customized recommendation engines",
+        "Amazon Forecast for generating accurate time-series predictions",
+        "Amazon Comprehend for analyzing text sentiment and entity extraction",
+        "Amazon Rekognition for analyzing visual content and facial recognition"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Amazon Forecast is specifically designed for time-series forecasting.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Forecast.",
-      explanation: "Forecast uses ML to generate accurate predictions for time-series data.",
+      messageForCorrectAnswer: "Correct! Amazon Forecast generates accurate time-series predictions.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Amazon Forecast for generating accurate time-series predictions.",
+      explanation: "Forecast uses machine learning to generate accurate predictions from time-series data.",
       point: "10"
     },
     {
@@ -986,14 +986,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce data size",
-        "To protect individual privacy while preserving data utility",
-        "To improve model accuracy",
-        "To speed up processing"
+        "Optimizing dataset storage requirements to reduce infrastructure costs",
+        "Protecting individual privacy while preserving analytical data utility",
+        "Enhancing model prediction accuracy through improved data quality",
+        "Accelerating data processing workflows and computational efficiency"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Data anonymization removes or obscures personally identifiable information while maintaining data usefulness.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To protect individual privacy while preserving data utility.",
+      messageForCorrectAnswer: "Correct! Data anonymization protects individual privacy while preserving analytical utility.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Protecting individual privacy while preserving analytical data utility.",
       explanation: "Anonymization helps comply with privacy regulations while enabling AI development.",
       point: "10"
     },
@@ -1002,15 +1002,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "A method to reduce prompt length",
-        "A technique that encourages models to show their reasoning process step-by-step",
-        "A way to encrypt prompts",
-        "A method to speed up inference"
+        "Optimizing prompt structure to minimize input token consumption",
+        "Encouraging models to demonstrate step-by-step reasoning processes",
+        "Implementing security protocols to encrypt sensitive prompt content",
+        "Accelerating inference speed through streamlined prompt processing"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Chain-of-thought prompting helps models break down complex problems into reasoning steps.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: A technique that encourages models to show their reasoning process step-by-step.",
-      explanation: "Chain-of-thought prompting improves performance on complex reasoning tasks.",
+      messageForCorrectAnswer: "Correct! Chain-of-thought prompting encourages step-by-step reasoning processes.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Encouraging models to demonstrate step-by-step reasoning processes.",
+      explanation: "This technique improves model performance on complex reasoning tasks.",
       point: "10"
     },
     {
@@ -1018,14 +1018,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "When a model performs well on training data but poorly on new data",
-        "When a model trains too quickly",
-        "When a model uses too little data",
-        "When a model is too simple"
+        "Model performs excellently on training data but poorly on unseen test data",
+        "Model completes training processes excessively quickly without proper convergence",
+        "Model utilizes insufficient training data leading to inadequate learning",
+        "Model architecture lacks complexity to capture underlying data patterns"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! Overfitting occurs when a model memorizes training data but fails to generalize.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: When a model performs well on training data but poorly on new data.",
+      messageForCorrectAnswer: "Correct! Overfitting means excellent training performance but poor test performance.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Model performs excellently on training data but poorly on unseen test data.",
       explanation: "Overfitting is a common problem that reduces model generalization.",
       point: "10"
     },
@@ -1034,14 +1034,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To increase training speed",
-        "To assess model performance and reduce overfitting",
-        "To reduce data requirements",
-        "To compress models"
+        "Accelerating model training processes through optimized computational workflows",
+        "Evaluating model performance reliability and detecting overfitting tendencies",
+        "Minimizing dataset size requirements for achieving optimal training results",
+        "Compressing model architectures to reduce memory and storage demands"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Cross-validation helps evaluate model performance and detect overfitting.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To assess model performance and reduce overfitting.",
+      messageForCorrectAnswer: "Correct! Cross-validation evaluates model performance reliability and detects overfitting.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Evaluating model performance reliability and detecting overfitting tendencies.",
       explanation: "Cross-validation provides more reliable estimates of model performance.",
       point: "10"
     },
@@ -1050,15 +1050,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Large dataset size",
-        "Missing values and inconsistent formats",
-        "High dimensionality",
-        "Multiple data sources"
+        "Extensive dataset volume providing comprehensive coverage of problem domain",
+        "Prevalent missing values and inconsistent formatting across data fields",
+        "High-dimensional feature space requiring advanced dimensionality reduction techniques",
+        "Multiple heterogeneous data sources requiring integration and harmonization"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Missing values and inconsistent formats indicate poor data quality.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Missing values and inconsistent formats.",
-      explanation: "Data quality issues can significantly impact model performance.",
+      messageForCorrectAnswer: "Correct! Prevalent missing values and inconsistent formatting indicate poor data quality.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Prevalent missing values and inconsistent formatting across data fields.",
+      explanation: "Data quality issues can significantly impact model performance and reliability.",
       point: "10"
     },
     {
@@ -1066,14 +1066,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Higher accuracy",
-        "Reduced latency and improved privacy",
-        "Larger model capacity",
-        "Better training performance"
+        "Enhanced prediction accuracy through improved computational algorithms",
+        "Significantly reduced latency and enhanced data privacy protection",
+        "Expanded model capacity enabling more complex neural network architectures",
+        "Optimized training performance through distributed computational resources"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Edge computing reduces latency and keeps data local for privacy.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Reduced latency and improved privacy.",
+      messageForCorrectAnswer: "Correct! Edge computing provides reduced latency and enhanced data privacy protection.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Significantly reduced latency and enhanced data privacy protection.",
       explanation: "Edge computing brings AI processing closer to data sources.",
       point: "10"
     },
@@ -1082,14 +1082,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "When a model is too complex",
-        "When a model is too simple to capture underlying patterns",
-        "When training takes too long",
-        "When data is too large"
+        "Model architecture exhibits excessive complexity leading to computational inefficiency",
+        "Model lacks sufficient complexity to capture underlying data patterns effectively",
+        "Training process requires extended duration causing development delays",
+        "Dataset volume exceeds computational capacity creating processing bottlenecks"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Underfitting occurs when a model is too simple to learn the data patterns.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: When a model is too simple to capture underlying patterns.",
+      messageForCorrectAnswer: "Correct! Underfitting means the model lacks sufficient complexity to capture patterns.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Model lacks sufficient complexity to capture underlying data patterns effectively.",
       explanation: "Underfitting results in poor performance on both training and test data.",
       point: "10"
     },
@@ -1098,14 +1098,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Increasing model complexity",
-        "SMOTE (Synthetic Minority Oversampling Technique)",
-        "Reducing training time",
-        "Using larger models"
+        "Expanding model architecture complexity to improve pattern recognition capabilities",
+        "SMOTE generating synthetic minority class samples for balanced training",
+        "Optimizing training duration to reduce computational overhead and costs",
+        "Deploying larger model architectures with increased parameter counts"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! SMOTE generates synthetic examples to balance class distributions.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: SMOTE (Synthetic Minority Oversampling Technique).",
+      messageForCorrectAnswer: "Correct! SMOTE generates synthetic minority class samples for balanced training.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: SMOTE generating synthetic minority class samples for balanced training.",
       explanation: "SMOTE helps address class imbalance by creating synthetic minority class examples.",
       point: "10"
     },
@@ -1114,15 +1114,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To increase data size",
-        "To clean and prepare data for model training",
-        "To reduce model complexity",
-        "To speed up inference"
+        "Expanding dataset volume through data augmentation and synthetic generation techniques",
+        "Cleaning and transforming raw data into suitable formats for model training",
+        "Simplifying model architecture complexity to reduce computational requirements",
+        "Optimizing inference processing speed for real-time application deployment"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Data preprocessing cleans and transforms data for optimal model performance.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To clean and prepare data for model training.",
-      explanation: "Good preprocessing is essential for successful machine learning projects.",
+      messageForCorrectAnswer: "Correct! Data preprocessing cleans and transforms raw data into suitable training formats.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Cleaning and transforming raw data into suitable formats for model training.",
+      explanation: "Preprocessing is essential for ensuring data quality and model performance.",
       point: "10"
     },
     {
@@ -1130,14 +1130,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Text-only chatbot",
-        "Image captioning that combines vision and language",
-        "Audio-only speech recognition",
-        "Numerical data analysis"
+        "Text-based conversational interface processing only natural language inputs",
+        "Image captioning system integrating computer vision with language generation",
+        "Audio-focused speech recognition system processing only acoustic signals",
+        "Numerical data analysis platform handling structured tabular datasets"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Image captioning combines computer vision and natural language processing.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Image captioning that combines vision and language.",
+      messageForCorrectAnswer: "Correct! Image captioning integrates computer vision with language generation.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Image captioning system integrating computer vision with language generation.",
       explanation: "Multi-modal AI processes multiple types of data simultaneously.",
       point: "10"
     },
@@ -1146,15 +1146,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Reducing model size",
-        "Leveraging knowledge from pre-trained models for new tasks",
-        "Increasing training speed only",
-        "Eliminating the need for data"
+        "Optimizing model architecture size to reduce memory footprint requirements",
+        "Leveraging pre-trained model knowledge to accelerate learning on new tasks",
+        "Exclusively focusing on computational speed improvements during training phases",
+        "Completely eliminating data collection requirements for all machine learning projects"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Transfer learning applies knowledge from one domain to improve performance in another.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Leveraging knowledge from pre-trained models for new tasks.",
-      explanation: "Transfer learning is especially useful when training data is limited.",
+      messageForCorrectAnswer: "Correct! Transfer learning leverages pre-trained knowledge to accelerate learning on new tasks.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Leveraging pre-trained model knowledge to accelerate learning on new tasks.",
+      explanation: "Transfer learning reduces training time and data requirements for new tasks.",
       point: "10"
     },
     {
@@ -1162,14 +1162,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Accuracy",
-        "Mean Squared Error (MSE)",
-        "Precision",
-        "F1-score"
+        "Accuracy measuring the percentage of correctly classified discrete instances",
+        "Mean Squared Error quantifying average squared prediction deviations",
+        "Precision calculating true positives over total predicted positive cases",
+        "F1-score harmonically combining precision and recall for classification tasks"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! MSE measures the average squared difference between predicted and actual values.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Mean Squared Error (MSE).",
+      messageForCorrectAnswer: "Correct! Mean Squared Error quantifies average squared prediction deviations.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Mean Squared Error quantifying average squared prediction deviations.",
       explanation: "MSE is a common metric for continuous prediction tasks.",
       point: "10"
     },
@@ -1178,15 +1178,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To increase model complexity",
-        "To prevent overfitting by adding penalties to model parameters",
-        "To speed up training",
-        "To reduce data requirements"
+        "Expanding model architecture complexity to capture intricate data patterns",
+        "Preventing overfitting by applying penalties to model parameter values",
+        "Accelerating training processes through optimized computational algorithms",
+        "Minimizing dataset size requirements for achieving optimal model performance"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Regularization adds penalties to prevent overfitting.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To prevent overfitting by adding penalties to model parameters.",
-      explanation: "Regularization techniques like L1 and L2 help models generalize better.",
+      messageForCorrectAnswer: "Correct! Regularization prevents overfitting by applying penalties to model parameters.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Preventing overfitting by applying penalties to model parameter values.",
+      explanation: "Regularization techniques like L1 and L2 help control model complexity.",
       point: "10"
     },
     {
@@ -1194,14 +1194,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "High computational costs",
-        "Liability for discriminatory or harmful AI decisions",
-        "Slow inference speed",
-        "Large model size"
+        "Excessive computational expenses leading to unsustainable operational costs",
+        "Legal liability for discriminatory or harmful automated decision-making outcomes",
+        "Suboptimal inference processing speed affecting real-time application performance",
+        "Oversized model architectures requiring extensive storage and memory resources"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Organizations can be held liable for discriminatory or harmful AI decisions.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Liability for discriminatory or harmful AI decisions.",
+      messageForCorrectAnswer: "Correct! Legal liability for discriminatory or harmful automated decisions is a major risk.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Legal liability for discriminatory or harmful automated decision-making outcomes.",
       explanation: "Legal risks include discrimination, privacy violations, and safety concerns.",
       point: "10"
     },
@@ -1210,15 +1210,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "The harmonic mean of precision and recall",
-        "The arithmetic mean of accuracy and speed",
-        "The ratio of true positives to false positives",
-        "The total number of correct predictions"
+        "Harmonic mean of precision and recall metrics for balanced evaluation",
+        "Arithmetic mean of accuracy and computational speed performance measures",
+        "Mathematical ratio of true positive predictions to false positive outcomes",
+        "Aggregate count of all correctly classified instances across all classes"
       ],
       correctAnswer: "1",
-      messageForCorrectAnswer: "Correct! F1-score balances precision and recall using their harmonic mean.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: The harmonic mean of precision and recall.",
-      explanation: "F1-score is useful when you need to balance precision and recall.",
+      messageForCorrectAnswer: "Correct! F1-score is the harmonic mean of precision and recall metrics.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Harmonic mean of precision and recall metrics for balanced evaluation.",
+      explanation: "F1-score provides a single metric that balances both precision and recall.",
       point: "10"
     },
     {
@@ -1226,14 +1226,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Using smaller learning rates",
-        "Batch normalization",
-        "Reducing model depth",
-        "Using fewer parameters"
+        "Implementing smaller learning rates to control gradient update magnitudes",
+        "Applying batch normalization to stabilize layer inputs and gradients",
+        "Reducing network depth to minimize gradient propagation distance",
+        "Decreasing parameter counts to simplify model architecture complexity"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Batch normalization helps stabilize training and prevent gradient vanishing.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Batch normalization.",
+      messageForCorrectAnswer: "Correct! Batch normalization stabilizes layer inputs and gradients effectively.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Applying batch normalization to stabilize layer inputs and gradients.",
       explanation: "Batch normalization normalizes inputs to each layer, improving training stability.",
       point: "10"
     },
@@ -1242,15 +1242,15 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce training time",
-        "To optimize model performance by finding the best configuration",
-        "To reduce model size",
-        "To eliminate the need for validation data"
+        "Minimizing computational training duration to accelerate development workflows",
+        "Optimizing model performance through systematic configuration parameter adjustment",
+        "Reducing model architecture size to decrease memory and storage requirements",
+        "Eliminating validation dataset dependencies for streamlined model evaluation processes"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Hyperparameter tuning optimizes model configuration for best performance.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To optimize model performance by finding the best configuration.",
-      explanation: "Hyperparameters control the learning process and significantly impact performance.",
+      messageForCorrectAnswer: "Correct! Hyperparameter tuning optimizes performance through systematic parameter adjustment.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Optimizing model performance through systematic configuration parameter adjustment.",
+      explanation: "Hyperparameter tuning systematically searches for the best model settings.",
       point: "10"
     },
     {
@@ -1258,14 +1258,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Email text",
-        "Database table with rows and columns",
-        "Social media posts",
-        "Audio recordings"
+        "Natural language email content with variable formatting and unstructured text",
+        "Relational database tables with predefined schemas, rows, and columns",
+        "User-generated social media posts with diverse content and multimedia elements",
+        "Digital audio recordings with temporal waveforms and frequency characteristics"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Database tables with defined schemas are structured data.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Database table with rows and columns.",
+      messageForCorrectAnswer: "Correct! Relational database tables with predefined schemas represent structured data.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Relational database tables with predefined schemas, rows, and columns.",
       explanation: "Structured data has a predefined format and schema.",
       point: "10"
     },
@@ -1274,14 +1274,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "They are too accurate",
-        "High computational requirements and costs",
-        "They train too quickly",
-        "They require no maintenance"
+        "Excessive prediction accuracy leading to overconfidence in automated decision-making",
+        "Substantial computational resource requirements and associated infrastructure costs",
+        "Accelerated training convergence causing insufficient model validation and testing",
+        "Self-maintaining architectures eliminating the need for ongoing operational oversight"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Large language models require significant computational resources and infrastructure.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: High computational requirements and costs.",
+      messageForCorrectAnswer: "Correct! Large language models require substantial computational resources and infrastructure.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Substantial computational resource requirements and associated infrastructure costs.",
       explanation: "LLMs need substantial compute power for both training and inference.",
       point: "10"
     },
@@ -1306,14 +1306,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce data size",
-        "To artificially increase dataset size and diversity",
-        "To compress data",
-        "To remove noise from data"
+        "Optimizing storage efficiency through advanced data compression and dimensionality reduction",
+        "Artificially expanding dataset size and diversity through synthetic sample generation",
+        "Implementing lossless compression algorithms for efficient data storage and retrieval",
+        "Eliminating statistical noise and outliers through sophisticated filtering techniques"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Data augmentation creates variations of existing data to increase dataset size.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To artificially increase dataset size and diversity.",
+      messageForCorrectAnswer: "Correct! Data augmentation expands dataset size and diversity through synthetic generation.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Artificially expanding dataset size and diversity through synthetic sample generation.",
       explanation: "Data augmentation helps improve model generalization and reduces overfitting.",
       point: "10"
     },
@@ -1322,14 +1322,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Model size only",
-        "Understanding how the model makes decisions",
-        "Training speed only",
-        "Data storage requirements"
+        "Optimizing model parameter count and architectural complexity for deployment efficiency",
+        "Understanding decision-making processes and feature importance in model predictions",
+        "Minimizing computational training duration through accelerated optimization algorithms",
+        "Managing data storage infrastructure requirements for large-scale model artifacts"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Interpretability focuses on understanding model decision-making processes.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Understanding how the model makes decisions.",
+      messageForCorrectAnswer: "Correct! Interpretability focuses on understanding decision-making processes and feature importance.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Understanding decision-making processes and feature importance in model predictions.",
       explanation: "Interpretable models help build trust and enable better decision-making.",
       point: "10"
     },
@@ -1338,14 +1338,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To increase model complexity",
-        "To reduce the number of features while preserving important information",
-        "To increase training time",
-        "To add more data"
+        "Enhancing model architectural complexity through advanced feature interaction mechanisms",
+        "Reducing feature dimensionality while preserving essential information and variance patterns",
+        "Extending computational training duration for improved convergence and stability",
+        "Augmenting dataset size through synthetic feature generation and data expansion"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Dimensionality reduction simplifies data while retaining key information.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To reduce the number of features while preserving important information.",
+      messageForCorrectAnswer: "Correct! Dimensionality reduction reduces features while preserving essential information.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Reducing feature dimensionality while preserving essential information and variance patterns.",
       explanation: "Techniques like PCA help combat the curse of dimensionality.",
       point: "10"
     },
@@ -1354,14 +1354,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Learning with no data",
-        "Performing tasks without specific training examples for those tasks",
-        "Training with zero parameters",
-        "Learning in zero time"
+        "Training machine learning models without any input datasets or labeled examples",
+        "Performing novel tasks without specific training examples by leveraging general knowledge",
+        "Implementing neural networks with zero learnable parameters for computational efficiency",
+        "Achieving instantaneous model convergence through optimized training algorithms"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Zero-shot learning enables models to perform tasks they weren't explicitly trained on.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Performing tasks without specific training examples for those tasks.",
+      messageForCorrectAnswer: "Correct! Zero-shot learning performs novel tasks by leveraging general knowledge.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Performing novel tasks without specific training examples by leveraging general knowledge.",
       explanation: "Zero-shot learning leverages general knowledge to handle new tasks.",
       point: "10"
     },
@@ -1370,14 +1370,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Increased model accuracy",
-        "Consistent deployment across different environments",
-        "Reduced training time",
-        "Automatic hyperparameter tuning"
+        "Enhanced model prediction accuracy through optimized runtime performance configurations",
+        "Consistent deployment environments with packaged dependencies across infrastructure platforms",
+        "Accelerated training workflows through parallelized computational resource allocation",
+        "Automated hyperparameter optimization using containerized experimentation frameworks"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Containerization ensures consistent deployment across different environments.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Consistent deployment across different environments.",
+      messageForCorrectAnswer: "Correct! Containerization ensures consistent deployment with packaged dependencies.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Consistent deployment environments with packaged dependencies across infrastructure platforms.",
       explanation: "Containers package applications with their dependencies for reliable deployment.",
       point: "10"
     },
@@ -1386,14 +1386,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Accuracy only",
-        "Area Under the ROC Curve (AUC-ROC)",
-        "Training time",
-        "Model size"
+        "Overall classification accuracy as the primary performance indicator for model evaluation",
+        "Area Under the ROC Curve (AUC-ROC) for threshold-independent performance assessment",
+        "Training duration and computational efficiency metrics for resource optimization",
+        "Model parameter count and memory footprint for deployment feasibility analysis"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! AUC-ROC is less sensitive to class imbalance than accuracy.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Area Under the ROC Curve (AUC-ROC).",
+      messageForCorrectAnswer: "Correct! AUC-ROC provides threshold-independent evaluation less sensitive to class imbalance.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Area Under the ROC Curve (AUC-ROC) for threshold-independent performance assessment.",
       explanation: "AUC-ROC evaluates model performance across all classification thresholds.",
       point: "10"
     },
@@ -1402,14 +1402,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To reduce storage costs",
-        "To track and manage different versions of models over time",
-        "To speed up training",
-        "To reduce model complexity"
+        "Optimizing storage infrastructure costs through efficient artifact compression and deduplication",
+        "Tracking and managing different model iterations to enable reproducibility and rollbacks",
+        "Accelerating training workflows through parallelized computational resource allocation",
+        "Simplifying model architectures by reducing feature dimensionality and parameter complexity"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Model versioning helps track changes and enables rollbacks when needed.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To track and manage different versions of models over time.",
+      messageForCorrectAnswer: "Correct! Model versioning enables tracking iterations for reproducibility and rollbacks.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Tracking and managing different model iterations to enable reproducibility and rollbacks.",
       explanation: "Versioning is essential for reproducibility and model governance.",
       point: "10"
     },
@@ -1418,14 +1418,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Centralizing all data in one location",
-        "Training models across decentralized data sources without sharing raw data",
-        "Using only cloud-based training",
-        "Requiring high-speed internet connections"
+        "Aggregating all training datasets into centralized repositories for unified model development",
+        "Training models across decentralized data sources while preserving local data privacy",
+        "Utilizing exclusively cloud-based infrastructure for distributed computational processing",
+        "Maintaining high-bandwidth network connectivity for real-time data synchronization"
       ],
       correctAnswer: "2",
       messageForCorrectAnswer: "Correct! Federated learning trains models on distributed data while preserving privacy.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Training models across decentralized data sources without sharing raw data.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Training models across decentralized data sources while preserving local data privacy.",
       explanation: "Federated learning enables collaborative training while maintaining data privacy.",
       point: "10"
     },
@@ -1434,14 +1434,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "To eliminate human involvement entirely",
-        "To automate the machine learning pipeline and make ML accessible to non-experts",
-        "To reduce computational costs only",
-        "To increase model complexity"
+        "Completely eliminating human oversight and intervention from machine learning workflows",
+        "Automating machine learning pipelines to democratize ML accessibility for non-experts",
+        "Optimizing computational resource utilization to minimize infrastructure costs and expenses",
+        "Enhancing model architectural complexity through advanced feature engineering techniques"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! AutoML automates ML workflows to make them more accessible and efficient.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: To automate the machine learning pipeline and make ML accessible to non-experts.",
+      messageForCorrectAnswer: "Correct! AutoML automates ML pipelines to democratize accessibility for non-experts.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Automating machine learning pipelines to democratize ML accessibility for non-experts.",
       explanation: "AutoML democratizes machine learning by automating complex processes.",
       point: "10"
     },
@@ -1450,14 +1450,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Simple rule-based systems",
-        "AI systems that can plan, reason, and execute complex multi-step workflows",
-        "Basic chatbots",
-        "Data storage systems"
+        "Deterministic rule-based systems with predefined decision trees and conditional logic",
+        "Autonomous AI systems that can plan, reason, and execute complex multi-step workflows",
+        "Conversational interfaces with natural language processing and response generation capabilities",
+        "Distributed data management systems with automated storage and retrieval mechanisms"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! AI agents can autonomously plan and execute complex tasks requiring multiple steps.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: AI systems that can plan, reason, and execute complex multi-step workflows.",
+      messageForCorrectAnswer: "Correct! AI agents are autonomous systems that can plan, reason, and execute complex workflows.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Autonomous AI systems that can plan, reason, and execute complex multi-step workflows.",
       explanation: "AI agents combine reasoning, planning, and execution capabilities for complex tasks.",
       point: "10"
     },
@@ -1466,14 +1466,14 @@ export const quiz = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "Always cheaper",
-        "Scalability, managed infrastructure, and reduced operational overhead",
-        "Better security always",
-        "Faster training always"
+        "Guaranteed cost reduction through optimized resource allocation and pricing models",
+        "Enhanced scalability, managed infrastructure, and reduced operational overhead",
+        "Superior security protocols with advanced encryption and compliance frameworks",
+        "Accelerated training performance through specialized hardware and optimized algorithms"
       ],
       correctAnswer: "2",
-      messageForCorrectAnswer: "Correct! Cloud services offer scalability and reduce the burden of infrastructure management.",
-      messageForIncorrectAnswer: "Incorrect. The correct answer is: Scalability, managed infrastructure, and reduced operational overhead.",
+      messageForCorrectAnswer: "Correct! Cloud services provide enhanced scalability and reduce infrastructure management burden.",
+      messageForIncorrectAnswer: "Incorrect. The correct answer is: Enhanced scalability, managed infrastructure, and reduced operational overhead.",
       explanation: "Cloud AI services provide flexibility and reduce the complexity of managing AI infrastructure.",
       point: "10"
     }
