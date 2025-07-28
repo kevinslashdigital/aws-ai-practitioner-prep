@@ -5,7 +5,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  
   title: "✨ Welcome to AWS AI Practitioner Exam Review Guide 📘",
   tagline:
     "Confidently prepare for the AWS Certified AI Practitioner exam with our community-powered study hub.",
@@ -40,33 +39,42 @@ const config: Config = {
   themes: ["@docusaurus/theme-mermaid"],
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.ts'),
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve("./sidebars.ts"),
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
         sitemap: {
-          changefreq: 'weekly',
+          lastmod: "date",
+          changefreq: "weekly",
           priority: 0.5,
-          filename: 'sitemap.xml',
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+          createSitemapItems: async (params) => {
+            const { defaultCreateSitemapItems, ...rest } = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes("/page/"));
+          },
         },
         gtag: {
-          trackingID: 'G-L2NNHVH4G6',
+          trackingID: "G-L2NNHVH4G6",
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
@@ -75,20 +83,47 @@ const config: Config = {
 
   themeConfig: {
     metadata: [
-      { name: 'description', content: 'A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam. Access curated resources, quizzes, and guides to boost your cloud AI knowledge.' },
-      { name: 'keywords', content: 'aws, ai, artificial intelligence, practitioner, exam, certification, study guide, cloud, machine learning, quiz, resources, aws certification' },
-      { name: 'author', content: 'AWS AI Practitioner Community' },
+      {
+        name: "description",
+        content:
+          "A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam. Access curated resources, quizzes, and guides to boost your cloud AI knowledge.",
+      },
+      {
+        name: "keywords",
+        content:
+          "aws, ai, artificial intelligence, practitioner, exam, certification, study guide, cloud, machine learning, quiz, resources, aws certification",
+      },
+      { name: "author", content: "AWS AI Practitioner Community" },
       // Open Graph
-      { property: 'og:title', content: 'Confidently Prepare for the AWS Certified AI Practitioner Exam' },
-      { property: 'og:description', content: 'A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam.' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://aws-ai-practitioner-prep.vercel.app' },
-      { property: 'og:image', content: '/img/og-image.png' },
+      {
+        property: "og:title",
+        content:
+          "Confidently Prepare for the AWS Certified AI Practitioner Exam",
+      },
+      {
+        property: "og:description",
+        content:
+          "A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam.",
+      },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:url",
+        content: "https://aws-ai-practitioner-prep.vercel.app",
+      },
+      { property: "og:image", content: "/img/og-image.png" },
       // Twitter Card
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Confidently Prepare for the AWS Certified AI Practitioner Exam' },
-      { name: 'twitter:description', content: 'A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam.' },
-      { name: 'twitter:image', content: '/img/og-image.png' },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "twitter:title",
+        content:
+          "Confidently Prepare for the AWS Certified AI Practitioner Exam",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "A comprehensive, community-powered study hub to help you master the AWS Certified AI Practitioner exam.",
+      },
+      { name: "twitter:image", content: "/img/og-image.png" },
       // { name: 'twitter:site', content: '@your_twitter_handle' }, // Uncomment and set if available
     ],
     // Replace with your project's social card
@@ -106,7 +141,7 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        {to: '/quiz', label: 'Quiz', position: 'left'},
+        { to: "/quiz", label: "Quiz", position: "left" },
         {
           label: "About Slash",
           to: "/slash",
