@@ -37,6 +37,11 @@ const config: Config = {
   },
 
   themes: ["@docusaurus/theme-mermaid"],
+  
+  clientModules: [
+    require.resolve('./src/client/vercel-analytics.ts'),
+  ],
+  
   presets: [
     [
       "@docusaurus/preset-classic",
