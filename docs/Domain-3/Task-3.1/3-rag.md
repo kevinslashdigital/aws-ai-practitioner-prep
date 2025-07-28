@@ -39,6 +39,7 @@ LLMs can hallucinate—generate factually incorrect but confident-sounding answe
 ## 🧠 How RAG Works (Step-by-Step)
 
 ![Retrieval-Augmented Generation (RAG)](./img/rag.png)
+<p align="center"><em>Source: AWS Documentation</em></p>
 
 1. A user inputs a **prompt** (question or instruction).
 2. The prompt is **embedded** using a query encoder into a vector.

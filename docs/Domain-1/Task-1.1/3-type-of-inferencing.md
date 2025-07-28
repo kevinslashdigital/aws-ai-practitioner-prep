@@ -71,10 +71,12 @@ You can also use batch transform for **pre-processing datasets**.
 
 ## SageMaker Inference
 
-![Choosing Model Deployment Options](./img/sagemaker-inference.png)
+![SageMaker Inference Overview](./img/sagemaker-inference.png)
+<p align="center"><em>Source: AWS Documentation</em></p>
 
 ## Choosing Model Deployment Options
 
 ![Choosing Model Deployment Options](./img/choosing-model-deployment-options.png)
+<p align="center"><em>Source: AWS Documentation</em></p>
 
 ---
