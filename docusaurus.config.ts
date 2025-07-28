@@ -11,7 +11,7 @@ const config: Config = {
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
-  url: "https://aws-ai-practitioner-prep.vercel.app/",
+  url: "https://genai.practitioner.help/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -37,11 +37,9 @@ const config: Config = {
   },
 
   themes: ["@docusaurus/theme-mermaid"],
-  
-  clientModules: [
-    require.resolve('./src/client/vercel-analytics.ts'),
-  ],
-  
+
+  clientModules: [require.resolve("./src/client/vercel-analytics.ts")],
+
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -113,7 +111,7 @@ const config: Config = {
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://aws-ai-practitioner-prep.vercel.app",
+        content: "https://genai.practitioner.help",
       },
       { property: "og:image", content: "/img/og-image.png" },
       // Twitter Card

@@ -44,4 +44,4 @@ Let’s dive into **these 5 domains**.
 
 ### Review Exam Guide
 - [AWS Certified AI Practitioner Exam Guide (PDF)](https://d1.awsstatic.com/training-and-certification/docs-ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
-- [Complete Exam Review](https://aws-api-practitioner-prep.vercel.app/)
+- [Complete Exam Review](https://genai.practitioner.help/)
