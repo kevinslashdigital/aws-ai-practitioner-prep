@@ -1,5 +1,5 @@
 # robots.txt for AWS AI Practitioner Exam Review Guide
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://genai.practitioner.help/sitemap.xml
