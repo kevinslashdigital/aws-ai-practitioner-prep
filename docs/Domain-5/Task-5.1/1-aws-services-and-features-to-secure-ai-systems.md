@@ -24,9 +24,6 @@ A core principle that defines **who secures what** in the cloud.
 **Why it matters for AI:**  
 When deploying AI models, you must handle your **application-level security** (e.g., patch models, secure training data) while AWS protects the underlying infrastructure.
 
-![AWS Shared Responsibility Model](./img/aws-share-responsbility-model.png)
-<p align="center"><em>Source: AWS Documentation</em></p>
-
 ---
 
 ## IAM (Identity and Access Management)

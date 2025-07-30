@@ -15,9 +15,6 @@ sidebar_position: 1
 
 # 🧠 Key Elements of Training a Foundation Model
 
-![Choosing Model Deployment Options](./img/training-process.png)
-<p align="center"><em>Source: AWS Documentation</em></p>
-
 Training a foundation model involves three main stages:
 
 ## 1. Pre-training
