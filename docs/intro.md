@@ -45,3 +45,12 @@ Let’s dive into **these 5 domains**.
 ### Review Exam Guide
 - [AWS Certified AI Practitioner Exam Guide (PDF)](https://d1.awsstatic.com/training-and-certification/docs-ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
 - [Complete Exam Review](https://genai.practitioner.help/)
+
+---
+
+## Disclaimer
+
+:::info
+This project is inspired by **AWS** concepts and services. `AWS` and the `AWS logo` are trademarks of Amazon Web Services, Inc.
+:::
+

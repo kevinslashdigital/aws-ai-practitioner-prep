@@ -67,3 +67,7 @@ Want to be on this list? [Join us](#) and start contributing!
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+## Disclaimer
+
+This project is inspired by **AWS** concepts and services. `AWS` and the `AWS logo` are trademarks of Amazon Web Services, Inc.
