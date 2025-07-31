@@ -21,9 +21,6 @@ Machine learning problems are typically categorized as supervised (classificatio
 - If **Yes** → Use **Supervised Learning**
 - If **No** → Use **Unsupervised Learning**
 
-![Choosing Model Deployment Options](./img/ml-problem.png)
-<p align="center"><em>Source: AWS Documentation</em></p>
-
 ---
 
 ### Supervised Learning
