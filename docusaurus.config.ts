@@ -70,7 +70,7 @@ const config: Config = {
           changefreq: "weekly",
           priority: 0.5,
           ignorePatterns: ["/tags/**"],
-          filename: "sitemap.xml",
+          filename: "sitemap2.xml",
           createSitemapItems: async (params) => {
             const { defaultCreateSitemapItems, ...rest } = params;
             const items = await defaultCreateSitemapItems(rest);
